@@ -1,6 +1,6 @@
 
 
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String,Text,JSON
 from backend.database import Base,engine
 
 
@@ -22,6 +22,10 @@ class Document(Base):
     filename = Column(String(255), nullable=False, index=True)
     filepath = Column(String(500), nullable=False)
     filehash = Column(String(64), nullable=False, unique=True, index=True)
+
+# Extracted data columns
+    extracted_text = Column(Text, nullable=True)
+    tables_json = Column(JSON, nullable=True, default=list)  # Stores extracted tables as JSON
 
     def __repr__(self):
         return f"<Document id={self.id} filename={self.filename}>"

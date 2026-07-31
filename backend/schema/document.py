@@ -17,6 +17,8 @@ class DocumentResponse(BaseModel):
     filehash: str
     status: str           # "processing", "chunked", or "embedded"
     vector_count: Optional[int] = 0  # Number of vectors in ChromaDB
+    extracted_text: Optional[str] = None
+    tables_json: Optional[List[Any]] = []
 
     # Allows creating this model directly from SQLAlchemy ORM objects
     model_config = ConfigDict(from_attributes=True)

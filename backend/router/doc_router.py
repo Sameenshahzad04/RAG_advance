@@ -26,6 +26,7 @@ from backend.handler.doc_handler import (
     delete_document,
     extract_and_chunk_doc,
     embed_document,
+    process_document
 )
 
 router = APIRouter(prefix="/api/documents", tags=["Documents"])
@@ -36,12 +37,14 @@ router = APIRouter(prefix="/api/documents", tags=["Documents"])
 async def upload_document(
     file: UploadFile = File(...),
     db: Session = Depends(get_db),
+    background_tasks: BackgroundTasks = None
 ) -> UploadResult:
     """
     Upload a PDF, DOCX, or TXT file.
     Blocks duplicate content; renames if filename collides.
     """
     contents = await file.read()
+    
     if not contents:
         raise HTTPException(status_code=400, detail="File is empty.")
 
@@ -53,6 +56,9 @@ async def upload_document(
     # Build response
     doc_resp = None
     if doc is not None:
+
+        # 3. Schedule background processing (Extract text & tables into Postgres)
+        background_tasks.add_task(process_document, doc_id=doc.id, db=db)
         # pyrefly: ignore [bad-argument-type]
         st, vc = get_document_status(db, doc.id)
         doc_resp = DocumentResponse(
@@ -62,7 +68,10 @@ async def upload_document(
             filehash=doc.filehash,
             status=st,
             vector_count=vc,
+            extracted_text=doc.extracted_text,
+            tables_json=doc.tables_json or [],
         )
+
 
     return UploadResult(message=message, status=status_code, document=doc_resp)
 

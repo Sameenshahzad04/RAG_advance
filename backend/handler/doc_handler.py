@@ -68,6 +68,7 @@ def process_upload(
         filename=final_filename,
         filepath=filepath,
         filehash=file_hash,
+
     )
     db.add(doc)
     db.commit()
@@ -75,6 +76,32 @@ def process_upload(
 
     return ("uploaded", f"Successfully uploaded as '{final_filename}'.", doc)
 
+def process_document(doc_id: int, db: Session) -> Document:
+    """
+    Extracts text and tables from the file on disk and updates PostgreSQL.
+    Can be called directly or run as a FastAPI BackgroundTask.
+    """
+    doc = db.query(Document).filter(Document.id == doc_id).first()
+    if not doc or not os.path.exists(doc.filepath):
+        raise ValueError(f"Document with ID {doc_id} not found.")
+
+    # Extract elements from disk file
+    elements = extract_content(doc.filepath)
+
+    # Separate text and table content
+    all_text = [el["content"] for el in elements if el.get("type") == "text"]
+    all_tables = [
+        {"content": el["content"], "type": "table"}
+        for el in elements if el.get("type") == "table"
+    ]
+
+    # Save extraction results into PostgreSQL
+    doc.extracted_text = "\n\n".join(all_text)
+    doc.tables_json = all_tables
+    db.commit()
+    db.refresh(doc)
+
+    return doc
 
 # ----- 2. DOCUMENT STATUS DETECTION -----
 
@@ -167,8 +194,24 @@ def extract_and_chunk_doc(db: Session, doc_id: int) -> Dict[str, Any]:
     if doc is None or not os.path.exists(str(doc.filepath)):
         raise ValueError(f"Document ID {doc_id} not found on disk.")
 
+
+
+
     # Extract text and tables from the file
     elements = extract_content(str(doc.filepath))
+
+    # 2. Separate text and table content
+    all_text = [el["content"] for el in elements if el.get("type") == "text"]
+    all_tables = [
+        {"content": el["content"], "type": "table"}
+        for el in elements if el.get("type") == "table"
+    ]
+
+    # 3. 🔴 SAVE TO POSTGRESQL HERE
+    doc.extracted_text = "\n\n".join(all_text)
+    doc.tables_json = all_tables
+    db.commit()
+    db.refresh(doc)
 
     # Split into chunks (tables stay whole, text gets split)
     chunks = chunk_extracted_elements(elements)
