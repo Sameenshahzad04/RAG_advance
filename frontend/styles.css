@@ -1,0 +1,99 @@
+/* Custom Dark Theme Styles for Streamlit App */
+
+:root {
+    --bg-dark: #0e1117;
+    --card-bg: #1a1f2c;
+    --card-border: #2e364f;
+    --text-main: #f0f2f6;
+    --text-muted: #8b949e;
+    --accent-blue: #38bdf8;
+    
+    --red-status: #ef4444;
+    --red-bg: rgba(239, 68, 68, 0.15);
+    
+    --yellow-status: #f59e0b;
+    --yellow-bg: rgba(245, 158, 11, 0.15);
+    
+    --green-status: #10b981;
+    --green-bg: rgba(16, 185, 129, 0.15);
+}
+
+.stApp {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Card Container */
+.doc-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+.doc-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-blue);
+    box-shadow: 0 10px 15px -3px rgba(56, 189, 248, 0.1);
+}
+
+/* Status Badges */
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge-red {
+    background-color: var(--red-bg);
+    color: var(--red-status);
+    border: 1px solid var(--red-status);
+}
+
+.badge-yellow {
+    background-color: var(--yellow-bg);
+    color: var(--yellow-status);
+    border: 1px solid var(--yellow-status);
+}
+
+.badge-green {
+    background-color: var(--green-bg);
+    color: var(--green-status);
+    border: 1px solid var(--green-status);
+}
+
+/* Metadata Text */
+.doc-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 8px;
+    word-break: break-all;
+}
+
+.doc-hash {
+    font-family: 'Courier New', monospace;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+/* Chunk Box in Detail View */
+.chunk-box {
+    background-color: #121620;
+    border-left: 4px solid var(--accent-blue);
+    border-radius: 6px;
+    padding: 14px;
+    margin-bottom: 12px;
+}
+
+.chunk-box-table {
+    border-left: 4px solid var(--yellow-status);
+}

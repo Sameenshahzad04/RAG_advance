@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-ingestion-pipeline"
+version = "0.1.0"
+description = "RAG Data Ingestion Pipeline with Streamlit, FastAPI, Postgres, and ChromaDB"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.13.0",
+    "torchvision>=0.28.0",
+]
+
+[tool.pyright]
+extraPaths = ["."]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[tool.setuptools.packages.find]
+include = ["backend*", "models*", "frontend*"]
