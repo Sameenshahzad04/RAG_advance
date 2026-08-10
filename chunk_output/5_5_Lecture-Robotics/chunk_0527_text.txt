@@ -1,0 +1,13 @@
+[Page 197]
+Introduction to Robotics, Marc Toussaint 197
+• Rapidly Exploring Random Trees (RRTs)
+– Algorithm
+– Goal-directed & bi-directional extensions
+• Non-holonomic Systems
+– Definition of non-holonomicity. Be able to give example
+– Path finding: control-based sampling
+– RRT extension for control-based exploration
+– Roughly: Intricacies with metrics for non-holonomic systems
+13.4 Mobile Robotics
+• Probability Basics
+– Definitions of random variable, probability distribution, joint, marginal,

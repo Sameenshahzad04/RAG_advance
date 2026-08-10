@@ -1,0 +1,11 @@
+[Page 179]
+Introduction to Robotics, Marc Toussaint 179
+b) What 2nd-order optimization methods (querying f(x),∇f(x),∇2f(x) in each it-
+eration) do you know?
+c) What is backtracking line search?
+12.2 Exercise 2
+12.2.1 Geometry
+a) Read the notes on basic 3D geometry at http://ipvs.informatik.uni-stuttgart.
+de/mlr/marc/notes/3d-geometry.pdf at least until section 2. Prepare questions for
+the exercises if you have any.
+b) You have a book (coordinate frame B) lying on the table (world frame W). Ini-

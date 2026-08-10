@@ -1,0 +1,11 @@
+(presumes foot is a rigid body, and non-compliant control)
+• Locomotion is dynamically stable if the ZMP remains within the foot-print poly-
+gons.
+(↔ the support can always apply some momentum, if necessary)
+• ComputingtheZMPinpractise:
+– either exact robot model
+– or foot pressure sensors
+11:11
+Zero Moment Point – example
+• combine ZMP with 3D linear inverted pendulum model and model-predictive
+control

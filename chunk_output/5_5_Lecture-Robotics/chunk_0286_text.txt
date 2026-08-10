@@ -1,0 +1,16 @@
+[Page 114]
+114 Introduction to Robotics, Marc Toussaint
+7:21
+Particle Filter := Bayesian Filtering with Particles
+(cid:82)
+(Bayes Filter: p (x ) ∝ P(y |x ) P(x |u ,x ) p (x ) dx )
+t t t t xt-1 t t-1 t-1 t-1 t-1 t-1
+1. Start with N particles {(xi ,wi )}N
+t-1 t-1 i=1
+2. Resample particles to get N weight-1-particles: {xˆi }N
+t-1 i=1
+3. Use motion model to get new “predictive” particles {xi}N
+t i=1
+each xi ∼ P(x |u ,xˆi )
+t t t-1 t-1
+4. Use observation model to assign new weights wi ∝ P(y |xi)

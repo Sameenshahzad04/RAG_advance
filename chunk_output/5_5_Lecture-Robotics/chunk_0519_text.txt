@@ -1,0 +1,11 @@
+estimate the robot position (localization) and the landmarks position (mapping).
+a) Concerning P(y |x ,θ ) we assume
+t t 1:N
+P(y |x ,θ ) = N(y |D(x )θ + d(x ),σ )
+t t 1:N t t t observation
+where D(x ) = ∂y is the observation Jacobian w.r.t. the unknown landmarks, and
+t ∂θ
+θ ∈ R2N is the same as θ written as a 2N-dim vector.
+1:N
+Write a pseudo-code for Kalman SLAM. (There is much freedom in how to orga-
+nize the code, choices of notation and variables, etc. Try to write it as concise as

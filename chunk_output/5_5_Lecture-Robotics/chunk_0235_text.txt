@@ -1,0 +1,14 @@
+Outline
+• Basic definitions
+– Random variables
+– joint, conditional, marginal distribution
+– Bayes’ theorem
+• Probability distributions:
+– Gauss
+– Dirak & Particles
+These are generic slides on probabilities I use throughout my lecture. Only parts are
+relevant for this course.
+6:2
+Probability: Frequentist and Bayesian
+• Frequentist probabilities are defined in the limit of an infinite number of trials
+Example: “The probability of a particular coin landing heads up is 0.43”

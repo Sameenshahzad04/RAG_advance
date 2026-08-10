@@ -1,0 +1,11 @@
+10:7
+Traditional research into force closure
+• Theorem (Mishra, Schwartz and Sharir, 1987):
+For any bounded shape that is not a surface of revolution, a force closure (or first order
+form closure) grasp exists.
+• Guaranteed synthesis:
+1) put fingers “everywhere”
+2) while redundant finger exists delete any redundant finger
+(A finger is redundant if it can be deleted without reducing the positive linear
+span.)
+Theorem (Mishra, Schwartz, and Sharir, 1987):

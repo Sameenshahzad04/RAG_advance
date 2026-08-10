@@ -1,0 +1,16 @@
+[Page 31]
+Introduction to Robotics, Marc Toussaint 31
+• We learnt how to “puppeteer a robot”
+• We can handle many task variables (but
+specifying their precisions (cid:37) becomes
+i
+cumbersome...)
+• In the remainder:
+RightHand A. Classical limit of “hierarchical IK” and
+position
+nullspace motion
+LeftHand
+position B. What are interesting task variables?
+2:49
+Hierarchical IK & nullspace motion
+• In the classical view, tasks should be executed exactly, which means taking the limit

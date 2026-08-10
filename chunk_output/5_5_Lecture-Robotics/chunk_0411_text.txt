@@ -1,0 +1,13 @@
+[Page 157]
+Introduction to Robotics, Marc Toussaint 157
+10 SKIPPED THIS TERM – Grasping (brief intro)
+Grasping
+• The most elementary type of interaction with (manipulation of) the environ-
+ment.
+– Basis for intelligent behavior.
+• In industrial settings with high precision sensors and actuators: very fast and
+precise.
+• In general real world with uncertain actuators and perception, still a great re-
+search challenge, despite all the theory that has been developed.
+10:1
+Pick-and-place in industry

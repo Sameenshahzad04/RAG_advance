@@ -1,0 +1,5 @@
+CoG = center of gravity of all body masses
+support polygon = hull of foot contact points
+• Try yourself: Move as slow as you can but make normal length steps...
+11:7
+Zero Moment Point

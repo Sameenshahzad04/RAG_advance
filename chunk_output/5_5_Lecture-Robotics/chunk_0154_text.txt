@@ -1,0 +1,15 @@
+t t p t t d t t
+illustrationfromO.Brock’slecture
+• Operational space control: Let the system behave as if we could directly “apply a 1D
+point mass behavior” to the endeffector
+3:34
+Multiple tasks
+• Recall trick last time: we defined a “big kinematic map” Φ(q) such that
+q∗ = argmin||q − q ||2 + ||Φ(q)||2
+0 W
+q
+• Works analogously in the dynamic case:
+u∗ = argmin||u||2 + ||Φ(q)||2
+H
+u
+3:35

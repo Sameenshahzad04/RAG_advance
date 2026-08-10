@@ -1,0 +1,15 @@
+[Page 183]
+Introduction to Robotics, Marc Toussaint 183
+void multiTask(){
+Simulator S("man.ors");
+arr q,q_home,y_target,y,J,W,Phi,PhiJ;
+uint n = S.getJointDimension();
+S.getJointAngles(q);
+W.setDiag(1.,n); //we define W as identity matrix
+q_home = q; //we store the initial posture as q_home
+for(uint i=0;i<10000;i++){
+Phi.clear();
+PhiJ.clear();
+//1st task: track with right hand
+y_target = ARR(-0.2, -0.4, 1.1);
+y_target += .2 * ARR(cos((double)i/20), 0, sin((double)i/20));

@@ -1,0 +1,7 @@
+[Table - Page 34]
+| Centerofgravityofthewholekinematicstructure |  |
+| --- | --- |
+| dimension | d=3 |
+| parameters | (none) |
+| kin.map | φcog(q)= (cid:80) mass φpos i i ici |
+| Jacobian | Jcog(q)= (cid:80) mass Jpos i i ici |

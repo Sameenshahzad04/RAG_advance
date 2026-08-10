@@ -1,0 +1,9 @@
+routines to compute these for any q. The problem is to express other kinematic
+maps and their Jacobians in terms of these knowns. In the following you’re asked
+to define more involved kinematics maps (a.k.a. task maps) φ(q) to solve certain
+motion problems. Please formulate all these maps such that the overall optimiza-
+tion problem is
+f(q) = ||q − q ||2 + ||φ(q)||2
+0 W
+that is, the motion aims to minimize φ(q) to zero (absorb the y∗ in the definition of
+phi.)

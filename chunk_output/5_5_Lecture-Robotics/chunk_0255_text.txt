@@ -1,0 +1,8 @@
+represent and update beliefs
+– The belief space becomes discrete: The parameter α of the prior is continuous, but
+the posterior updates live on a discrete “grid” (adding counts to α)
+– We can in principle do belief planning using this
+• Reinforcement Learning:
+– Assumeweknowthattheworldisafinite-stateMDP,butdonotknowitstransition
+probability P(s(cid:48) |s,a). For each (s,a), P(s(cid:48) |s,a) is a distribution over the integer
+s(cid:48)

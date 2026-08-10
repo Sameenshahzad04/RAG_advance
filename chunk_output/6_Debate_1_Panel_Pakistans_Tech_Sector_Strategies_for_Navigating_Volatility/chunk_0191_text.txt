@@ -1,0 +1,5 @@
+with a major logistics firm in the EU. Everything was perfect—our product, the technical fit, the support
+plan. Then their accounts payable department red-flagged the deal. Why? Because wiring money to
+Pakistan was a high-friction, multi-step process requiring manual approvals, and they couldn't use their
+standard corporate card or ACH system via Stripe, which they use for 90% of their SaaS vendors. We
+spent three weeks—three weeks of my CTO's and my time—on calls with bankers instead of

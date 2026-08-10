@@ -1,0 +1,11 @@
+[Page 159]
+Introduction to Robotics, Marc Toussaint 159
+Defining “tight grip”: Assume fingers (vectors) have no friction – but can exert
+arbitrary normal forces. Can we generate (or counter-act) arbitrary forces on the
+object?
+10:5
+Force Closure – more rigorously
+• Assume that each “finger” is a point that can apply forces on the object as
+decribed by the friction cone
+• Each finger is described by a point p and a force f ∈ F in the fingers friction
+i i i

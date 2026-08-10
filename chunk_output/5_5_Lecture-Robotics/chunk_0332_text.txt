@@ -1,0 +1,17 @@
+(cid:104) (cid:105)
+− ∂ V (x,t) = min c(x,u) + ∂V f(x,u)
+∂t u ∂x
+(cid:104) (cid:105)
+The argmin gives the optimal control signal: π∗(x) = argmin ···
+u
+Derivation: Applythediscrete-timeBellmanequationforVt andV t+dt:
+(cid:104)(cid:90) t+dt (cid:105)
+V(x,t) = min c(x,u)dt+V(x(t+dt),t+dt)
+u t
+(cid:104)(cid:90) t+dt (cid:90) t+dt dV(x,t) (cid:105)
+= min c(x,u)dt+V(x,t)+ dt
+u t t dt
+(cid:104)(cid:90) t+dt ∂V ∂V (cid:105)
+0 = min c(x,u)+ + x˙ dt
+u t ∂t ∂x
+(cid:104) ∂V ∂V (cid:105)

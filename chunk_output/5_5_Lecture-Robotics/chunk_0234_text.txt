@@ -1,0 +1,17 @@
+[Page 92]
+92 Introduction to Robotics, Marc Toussaint
+6 Probabilities
+Probability Theory
+• Why do we need probabilities?
+– Obvious: to express inherent (objective) stochasticity of the world
+• But beyond this: (also in a “deterministic world”):
+– lack of knowledge!
+– hidden (latent) variables
+– expressing uncertainty
+– expressing information (and lack of information)
+– Subjective Probability
+• Probability Theory: an information calculus
+6:1
+Outline
+• Basic definitions
+– Random variables

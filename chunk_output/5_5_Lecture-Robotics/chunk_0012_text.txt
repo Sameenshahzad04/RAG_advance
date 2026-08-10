@@ -1,0 +1,6 @@
+(8:11) Infinite horizon case (8:12) Linear-Quadratic Optimal Control (8:15) Riccati
+differentialeq=HJBeqinLQcase(8:17)AlgebraicRiccatiequation(ARE)forinfinite
+horizion (8:19) Riccati equations (also discrete time) (8:19)
+8.2 Controllability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 135
+Definition of controllability (8:27)
+8.3 Stability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 137

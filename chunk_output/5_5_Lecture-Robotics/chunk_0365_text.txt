@@ -1,0 +1,19 @@
+For K2 − 4mK negative, the real(λ) = −K /2m
+d p d
+⇒ Positive derivative gain K makes the system stable.
+d
+8:37
+Side note: Stability for discrete time systems
+• Given a discrete time linear system
+x = Ax
+t+1 t
+Let λ be the eigenvalues of A
+i
+– The system is asymptotically stable ⇐⇒ ∀ : |λ | < 1
+i i
+– The system is unstable stable ⇐⇒ ∃ : |λ | > 1
+i i
+– The system is marginally stable ⇐⇒ ∀ : |λ | ≤ 1
+i i
+8:38
+Linear Stability Analysis comments

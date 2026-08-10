@@ -1,0 +1,8 @@
+[Page 3]
+The Tech Exporter's Resilience Playbook: An
+Implementation Plan
+This is an actionable plan for your business, sequenced by priority.
+Phase 1: The First 90 Days (Fortify the Core)
+1. Conduct a Risk Audit (Days 1-15): As per the DG's R1 advice, calculate your client, country,
+and payment-channel concentration. Assess your true cash runway.
+2. Establish a Two-Bank System (Days 15-45): Open and activate a full corporate account with

@@ -1,0 +1,11 @@
+• Tax/compliance deadlines.
+This dashboard should be simple enough to update in under 60 minutes per week. That 60-minute
+threshold is an unverified operating recommendation.
+90-Day Practical Plan
+Days 1-15: Risk Audit
+• Identify top 10 clients by revenue.
+• Calculate client concentration.
+• Calculate country concentration.
+• Calculate payment-channel concentration.
+• Calculate current runway.
+• List all unpaid invoices and days overdue.

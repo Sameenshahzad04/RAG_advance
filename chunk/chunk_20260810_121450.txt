@@ -1,0 +1,48 @@
+=== RETRIEVED CHUNKS LOG ===
+Timestamp: 20260810_121450
+Query: what is hr policy
+Total Chunks: 8
+============================================================
+
+--- CHUNK 1 ---
+Submit requests through the HR portal:
+
+--- CHUNK 2 ---
+Questions about accrual balances can be checked anytime on the HR Portal.
+
+--- CHUNK 3 ---
+Unpaid leave (requires HRBP sign-off)
+
+--- CHUNK 4 ---
+* See blackout policy for excluded date ranges.
+
+--- CHUNK 5 ---
+hcraeS
+yciloP
+gninraeL
+noitatimI
+CO
+esrevnI
+experience data demonstration data
+D = {(x t ,u t ,c t )}T t=0 D = {(x 0:T ,u 0:T )d}n d=1
+learn model learn value fct. optimize policy learn policy learn latent costs
+P(x(cid:48)|u,x) V(x) π(x) π(x) c(x)
+c(x,u)
+dynamic prog. policy dynamic prog.
+V t (x) π(x) V t
+policy policy
+π t (x) π(x)
+9:7
+
+--- CHUNK 6 ---
+3. Policy Debate: Tax Credits vs. Carbon Pricing
+
+--- CHUNK 7 ---
+Research Notes: Grid-Scale Renewable Deployment and Policy Tradeoffs
+
+--- CHUNK 8 ---
+• Multi-factor authentication on email, code repositories, cloud consoles, and finance tools.
+• Password manager for all staff.
+• Device policy for company and contractor machines.
+• Access control review every month.
+

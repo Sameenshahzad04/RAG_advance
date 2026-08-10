@@ -1,0 +1,8 @@
+from the tree and display it.
+d) (Bonus) Propose a simple method to make the found path smoother (while keep-
+ing it collision free). You’re free to try anything.
+12.7.2 A distance measure in phase space
+Consider the 1D point mass with mass m = 1 state x = (q,q˙). The 2D space of (q,q˙)
+combining position and velocity is also called phase space. In RRT’s (in line 4 on
+slide 04:39) we need to find the nearest configuration q to a q . But what does
+near target

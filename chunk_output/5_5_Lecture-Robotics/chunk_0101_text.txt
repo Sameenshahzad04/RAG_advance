@@ -1,0 +1,12 @@
+[Page 33]
+Introduction to Robotics, Marc Toussaint 33
+Relative position
+Position of a point on link i relative to point on link j
+dimension d = 3
+parameters link indices i,j, point offset v in i and w in j
+kin. map φpos (q) = R-1(φpos − φpos)
+iv|jw j iv jw
+Jacobian Jpos (q) = R-1[Jpos − Jpos − A × (φpos − φpos)]
+iv|jw j iv jw j iv jw
+Derivation:
+For y = Rp the derivative w.r.t. a rotation around axis a is y(cid:48) = Rp(cid:48) + R(cid:48)p = Rp(cid:48) + a × Rp.

@@ -1,0 +1,11 @@
+0:T 0:T
+Given the task trajectory y 0:T, compute a corresponding joint trajectory q 0:T using in-
+verse kinematics
+q = q + J(cid:93)(y − φ(q ))
+t+1 t t+1 t
+(As steps are small, we should be ok with just using this local linearization.)
+2:42
+peg-in-a-hole demo
+2:43
+2.4 Multiple tasks
+2:44

@@ -1,0 +1,4 @@
+i
+endeffector position p = φpos (q) and attached vector a = φvec (q) change.
+eff eff,v eff eff,v
+2:21

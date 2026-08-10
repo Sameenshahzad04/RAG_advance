@@ -1,0 +1,18 @@
+straint x˙ = f(x,u). λ(t) are the Langrange multipliers. It turns out that ∂ V (x,t) =
+∂x
+λ(t). (See Stengel.)
+8:22
+Relation to other topics
+• Optimal Control:
+(cid:90) T
+min Jπ = c(x(t),u(t)) dt + φ(x(T))
+π
+0
+• Inverse Kinematics:
+min f(q) = ||q − q ||2 + ||φ(q) − y∗||2
+0 W C
+q
+• Operational space control:
+min f(u) = ||u||2 + ||φ¨(q) − y¨∗||2
+H C
+u

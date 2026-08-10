@@ -1,0 +1,6 @@
+[Table]
+| Request Length | Notice Given | Notice Given | Approver |
+| --- | --- | --- | --- |
+| 1–2 days | ≥ 3 business days | < 3 business days | Direct manager |
+| 1–2 days | Same-week request (any notice) | Same-week request (any notice) | Manager + HRBP |
+| 3+ days | ≥ 10 business days notice, outside blackout* | ≥ 10 business days notice, outside blackout* | Direct manager |

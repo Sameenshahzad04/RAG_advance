@@ -1,0 +1,16 @@
+3
+(cid:48)
+• Gimbal Lock
+• Euler angles have severe problem:
+– if two axes align: blocks 1 DoF of rotation!!
+– “singularity” of Euler angles
+– Example: 3-1-3 and second rotation 0 or π
+2:8
+Rotation vector
+• vector w ∈ R3
+– length |w| = θ is rotation angle (in radians)
+– direction of w = rotation axis (w = w/θ)
+• Application on a vector v (Rodrigues’ formula):
+w · v = cosθ v + sinθ (w × v) + (1 − cosθ) w(w(cid:62)v)
+• Conversion to matrix:
+R(w) = exp(wˆ)

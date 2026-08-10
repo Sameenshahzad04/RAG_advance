@@ -1,0 +1,9 @@
+abilistic Inference. (RSS 2006)
+Ru¨diger Dillmann: Teaching and learning of robot tasks via observation of human performance
+(Robotics and Autonomous Systems, 2004)
+9:9
+Imitation Learning
+• There a many ways to imitate/copy the oberved policy:
+Learn a density model P(a |s )P(s ) (e.g., with mixture of Gaussians) from the
+t t t
+observed data and use it as policy (Billard et al.)

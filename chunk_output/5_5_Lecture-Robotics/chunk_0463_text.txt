@@ -1,0 +1,6 @@
+simulator—we will use only this header and some generic matrix functionalities. In
+share/examples/Core/array you find many examples on how to use the arr
+for working with vectors and matrices (many conventions are similar to Matlab).
+Considertheexampleinteaching/RoboticsCourse/01-kinematics(rename
+main.problem.cpp to main.cpp). The goal is to reach the coordinates y∗ =
+(−0.2,−0.4,1.1) with the right hand of the robot. Assume W = I and σ = .01.

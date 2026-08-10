@@ -1,0 +1,13 @@
+[Page 23]
+Introduction to Robotics, Marc Toussaint 23
+• The formulation of IK as an optimization problem is very powerful and has
+many nice properties
+• We will be able to take the limit C → ∞, enforcing exact φ(q) = y∗ if possible
+• Non-zero C-1 and W corresponds to a regularization that ensures numeric sta-
+bility
+• Classical concepts can be derived as special cases:
+– Null-space motion
+– regularization; singularity robutness
+– multiple tasks
+– hierarchical tasks
+2:27

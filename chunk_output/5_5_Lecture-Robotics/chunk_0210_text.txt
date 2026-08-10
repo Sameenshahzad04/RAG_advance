@@ -1,0 +1,9 @@
+• To keep in mind (shared with PRMs):
+– The metric (for nearest neighbor selection) is sometimes critical
+– The local planner may be non-trivial
+4:43
+References
+Steven M. LaValle: Planning Algorithms, http://planning.cs.uiuc.edu/.
+Choset et. al.: Principles of Motion Planning, MIT Press.
+Latombe’s “motion planning” lecture, http://robotics.stanford.edu/
+˜latombe/cs326/2007/schedule.htm

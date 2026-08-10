@@ -1,0 +1,13 @@
+at least T = 1q˙(cid:62)Mq˙
+2
+– Be able to apply on minimalistic system (e.g. pendulum, point mass)
+• Robot dynamics & joint/operational space control
+– General form of the dynamics equation
+– Joint space control: given desired q¨∗, choose u∗ = M(q) q¨∗ + F(q,q˙)
+– Operational space control: given desired y¨∗, choose u∗ = T(cid:93)(y¨∗ − J˙q˙ + TF)
+(5:31, 32, 34)
+– Following a reference trajectory qref in joint space by imposing PD behavior
+0:T
+around it
+13.3 Path planning
+• Basics

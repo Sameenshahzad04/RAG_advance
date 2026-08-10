@@ -1,0 +1,19 @@
+s0 s1 s2
+r0 r1 r2
+P(s ,a ,r ;π) = P(s )
+(cid:81)T
+P(a |s ;π) P(r |s ,a ) P(s |s ,a )
+0:T+1 0:T 0:T 0 t=0 t t t t t t+1 t t
+– world’s initial state distribution P(s )
+0
+– world’s transition probabilities P(s |s ,a )
+t+1 t t
+– world’s reward probabilities P(r |s ,a )
+t t t
+– agent’s policy π(a |s ) = P(a |s ;π) (or deterministic a = π(s ))
+t t 0 0 t t
+• Stationary MDP:
+– We assume P(s(cid:48) |s,a) and P(r|s,a) independent of time
+(cid:82)
+– We also define R(s,a) := E{r|s,a} = r P(r|s,a) dr
+9:4

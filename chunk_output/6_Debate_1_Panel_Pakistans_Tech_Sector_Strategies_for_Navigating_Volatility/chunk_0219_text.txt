@@ -1,0 +1,6 @@
+• Assumption 6: Skills supply is misaligned with market demand. Status: Partially verified.
+Employers report gaps in senior engineering, product management, cybersecurity, cloud
+architecture, sales, and international client management. However, there is no single national
+real-time skills observatory integrating universities, private training providers, exporters, and job
+placement data.
+• Assumption 7: Foreign clients increasingly evaluate Pakistani vendors on compliance,

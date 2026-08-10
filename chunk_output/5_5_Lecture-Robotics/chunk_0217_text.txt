@@ -1,0 +1,11 @@
+[Page 84]
+84 Introduction to Robotics, Marc Toussaint
+The path respects differential constraints.
+Each step in the path corresponds to setting certain controls.
+4:51
+Control-based sampling to grow a tree
+• Control-based sampling: fulfils none of the nice exploration properties of RRTs,
+but fulfils the differential constraints:
+1) Select a q ∈ T from tree of current configurations
+2) Pick control vector u at random
+3) Integrate equation of motion over short duration (picked at random or not)

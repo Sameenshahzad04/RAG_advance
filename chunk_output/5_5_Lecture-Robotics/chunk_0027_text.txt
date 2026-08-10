@@ -1,0 +1,5 @@
+multaneoustasks,specialtaskvariables,trajectoryinterpolation,motionprofiles;1Dpointmass,damping&oscillation,PID,general
+dynamicsystems,Newton-Euler,jointspacecontrol,referencetrajectoryfollowing,optimaloperationalspacecontrol
+• Planning & optimization
+goal: planning around obstacles, optimizing trajectories
+Pathfindingvs.trajectoryoptimization,localvs.global,Dijkstra,ProbabilisticRoadmaps,RapidlyExploringRandomTrees,differen-

@@ -1,0 +1,6 @@
+[Page 60]
+2. Payment gateway facilitation as a co-equal
+immediate priority, not a symbolic promise
+I accept that payment-gateway access must be treated as a first-tier operational issue because the SaaS
+founder demonstrated in Round 2 that payment friction affects the ability to get revenue in the door
+before any tax reconciliation or export certification can occur. This moves me from treating payment

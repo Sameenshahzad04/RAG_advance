@@ -1,0 +1,6 @@
+I would revise the founder's red line as follows:
+• SBP should publish a full payment service provider and international gateway facilitation
+framework within 6-9 months.
+• The government should commit to processing compliant gateway applications within 60-90 days.
+• Pakistan should pursue Stripe, PayPal, Adyen, Checkout.com, Wise Business, Payoneer, and
+regional bank-led acquiring options rather than relying on one provider.

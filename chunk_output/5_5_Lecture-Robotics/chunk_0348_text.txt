@@ -1,0 +1,11 @@
+or dare in Octave)
+8:21
+Optimal control comments
+• HJB or Bellman equation are very powerful concepts
+• Even if we can solve the HJB eq. and have the optimal control, we still don’t
+know how the system really behaves?
+– Will it actually reach a “desired state”?
+– Will it be stable?
+– It is actually “controllable” at all?
+• Last note on optimal control:
+Formulate as a constrainted optimization problem with objective function Jπ and con-

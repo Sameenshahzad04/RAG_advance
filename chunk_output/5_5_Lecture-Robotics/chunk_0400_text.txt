@@ -1,0 +1,10 @@
+9:26
+Stochastic Search
+• The general recipe:
+– The algorithm maintains a probability distribution p (x)
+θ
+– In each iteration it takes n samples {x }n ∼ p (x)
+i i=1 θ
+– Each x is evaluated → data {(x ,f(x ))}n
+i i i i=1
+– That data is used to update θ

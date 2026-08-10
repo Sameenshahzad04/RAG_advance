@@ -1,0 +1,10 @@
+[Page 190]
+190 Introduction to Robotics, Marc Toussaint
+b) Consider the following T-maze:
+rewards: 4 0 2 3
+We distinguish 7 states s ,..,s in the maze. The first 3 states are the T-junctions;
+1 7
+the last 4 states receive rewards (4,0,2,3). At each T-junction we have two possible
+actions: left, right. Everything is deterministic. Assume a discounting γ = 0.5.
+Compute (by hand) the value function V π over all states when π is the random policy
+(50/50 left/right at each junction).

@@ -1,0 +1,11 @@
+analytic expression for this distance.) Given a set (tree) of states x and you pick
+1:n
+the closest to x , how would you “grow” the tree from this closest point towards
+target
+x ?
+target
+12.8 Exercise 8
+12.8.1 Bayes Basics
+a) Box 1 contains 8 apples and 4 oranges. Box 2 contains 10 apples and 2 oranges.
+Boxes are chosen with equal probability. What is the probability of choosing an
+apple? If an apple is chosen, what is the probability that it came from box 1?

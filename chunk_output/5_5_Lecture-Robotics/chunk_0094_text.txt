@@ -1,0 +1,16 @@
+regularization?)
+– The general solution allows for arbitrary blending of tasks
+2:51
+Reference: interesting task variables
+The following slides will define 10 different types of task variables.
+This is meant as a reference and to give an idea of possibilities...
+2:52
+Position
+Position of some point attached to link i
+dimension d = 3
+parameters link index i, point offset v
+kin. map φpos(q) = T v
+iv W→i
+Jacobian Jpos(q) = [k ≺ i] a × (φpos(q) − p )
+iv ·k k iv k
+Notation:

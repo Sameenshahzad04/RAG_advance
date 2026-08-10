@@ -1,0 +1,12 @@
+K and K to get oscillatory, overdamped and critical damped behaviors. Plot the
+p d
+point trajectory (e.g. using the routine gnuplot(arr& q); MT::wait(); .)
+b) Repeat for time horizon t = 2sec and t = 5sec. How should the values of K and
+p
+K change when we have more time?
+d
+c) Implement a PID controller (including the integral (stationary error) term). How
+does the solution behave with only K turned on (K = K = 0); how with K and
+i p d i
+K non-zero?
+d

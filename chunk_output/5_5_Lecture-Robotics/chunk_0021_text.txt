@@ -1,0 +1,6 @@
+[Page 6]
+6 Introduction to Robotics, Marc Toussaint
+http://www.saintpatrick.org/index.aspx/Health_Services/da_Vinci_Surgery
+1:3
+(robot “wife” aico)
+1:4

@@ -1,0 +1,11 @@
+[Page 184]
+184 Introduction to Robotics, Marc Toussaint
+putes x given x and u in each iteration, where x = (q ,q˙ ).
+t+1 t t t t t
+There is no need for the robot simulator code—implement it directly in plain C++
+or another language.
+Assumeasteptimeofτ = 0.01sec. Generateatrajectoryfromthestartpositionq =
+0
+0 and velocity q˙ = 0 that approaches the goal position q∗ = 1 with high precision
+0
+within about 1 second using PD force control. Find 3 different parameter sets for

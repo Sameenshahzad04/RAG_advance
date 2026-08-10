@@ -1,0 +1,13 @@
+c) Generate a nice trajectory composed of T = 100 time steps. Interpolate the target
+linearly yˆ ← y + (t/T)(y∗ − y ) in each time step.
+0 0
+d)Generateatrajectorythatmovestherighthandinacirclecenteredat(−0.2,−0.4,1.1),
+aligned with the xz-plane, with radius 0.2.
+12.4 Exercise 4
+12.4.1 Verify some things from the lecture
+a) On slide 02:46 it says that
+argmin||q − q ||2 + ||Φ(q)||2
+0 W
+q
+≈ q − (J(cid:62)J + W)-1J(cid:62)Φ(q ) = q − J#Φ(q )
+0 0 0 0

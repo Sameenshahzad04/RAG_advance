@@ -1,0 +1,16 @@
+[Page 70]
+70 Introduction to Robotics, Marc Toussaint
+Probabilistic Road Map
+• generates a graph G = (V,E) of configurations
+– such that configurations along each edges are ∈ Q
+free
+4:29
+Probabilistic Road Maps
+Given the graph, use (e.g.) Dijkstra to find path from q to q .
+start goal
+4:30
+Probabilistic Road Maps – generation
+Input: number n of samples, number k number of nearest neighbors
+Output: PRM G = (V,E)
+1: initialize V = ∅, E = ∅
+2: while |V| < n do // find n collision free points qi

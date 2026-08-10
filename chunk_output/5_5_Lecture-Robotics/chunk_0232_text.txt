@@ -1,0 +1,22 @@
+[Page 91]
+Introduction to Robotics, Marc Toussaint 91
+or in some arbitrary task spaces
+k = 0 f t (x t ) = φ(x t ) − y∗ penalize offset in
+some task space
+k = 1 f (x ,x ) = φx − φx
+t t-1 t t t-1
+k = 2 f (x ,..,x ) = φx − 2φx + φx
+t t-2 t t t-1 t-2
+k = 3 f (x ,..,x ) = φx − 3φx + 3φx − φx
+t t-3 t t t-1 t-2 t-3
+• And terms f t can be stacked arbitrarily
+5:4
+Choice of optimizer
+T
+(cid:88)
+min f (x )(cid:62)f (x )
+t t−k:t t t−k:t
+x0:T
+t=0
+s.t. ∀ : g (x ) ≤ 0 , h (x ) = 0 .
+t t t−k:t t t−k:t

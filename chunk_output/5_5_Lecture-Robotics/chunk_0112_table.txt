@@ -1,0 +1,3 @@
+[Table - Page 35]
+| d | nearest istance Left pos | Hand ition |
+| --- | --- | --- |

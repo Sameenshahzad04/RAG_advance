@@ -1,0 +1,4 @@
+Dijkstra (4:18), Infinite horizon case (8:12),
+Discrete time finite horizon definition Inverse and forward dynamics (3:29),
+(8:7),
+199

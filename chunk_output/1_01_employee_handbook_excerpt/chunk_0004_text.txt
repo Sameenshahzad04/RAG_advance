@@ -1,0 +1,1 @@
+Approval authority depends on request length and notice given, per the matrix below. Cells spanning multiple columns indicate a single approver covers both cases.

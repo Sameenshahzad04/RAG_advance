@@ -1,0 +1,16 @@
+[Page 117]
+Introduction to Robotics, Marc Toussaint 117
+7:27
+Extended Kalman filter (EKF) and Unscented Transform
+(cid:82)
+Bayes Filter: p (x ) ∝ P(y |x ) P(x |u ,x ) p (x ) dx
+t t t t xt-1 t t-1 t-1 t-1 t-1 t-1
+• Can be computed analytically for linear-Gaussian observations and transitions:
+P(y |x ) = N(y |Cx + c,W)
+t t t t
+P(x |u ,x ) = N(x |A(u )x + a(u ),Q)
+t t-1 t-1 t t-1 t-1 t-1
+• If P(y |x ) or P(x |u ,x ) are not linear:
+t t t t-1 t-1
+P(y |x ) = N(y |g(x ),W)
+t t t t

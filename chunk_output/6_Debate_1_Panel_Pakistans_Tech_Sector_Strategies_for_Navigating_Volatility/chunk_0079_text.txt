@@ -1,0 +1,3 @@
+• List all unpaid invoices and days overdue.
+• Confirm latest SBP/bank rules on foreign currency retention and export documentation.
+• Create a standard contract and invoice pack.

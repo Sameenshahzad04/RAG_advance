@@ -1,0 +1,5 @@
+Your most implausible claim is that an offshore entity is a magic bullet for payment processing. It isn't.
+It solves client-side payments but creates a massive new problem: getting that money back into
+Pakistan legally and efficiently to pay salaries. The SBP watches these inter-company transfers like a
+hawk. This isn't a simple fix; it's trading one set of complex problems for another.
+And this brings me to your red line: rejecting companies with an FX mismatch over 15% runway. This is

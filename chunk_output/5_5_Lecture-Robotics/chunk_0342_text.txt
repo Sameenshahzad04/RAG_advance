@@ -1,0 +1,12 @@
+Note: If the state is dynamic (e.g., x = (q,q˙)) this control is linear in the posi-
+tions and linear in the velocities and is an instance of PD control
+The matrix K = R-1B(cid:62)P is therefore also called gain matrix
+For instance, if x(t) = (q(t) − r(t),q˙(t) − r˙(t)) for a reference r(t) and K = [K K ]
+p d
+then
+u∗ = K (r(t) − q(t)) + K (r˙(t) − q˙(t))
+p d
+8:18
+Riccati equations
+• Finite horizon continuous time
+Riccati differential equation

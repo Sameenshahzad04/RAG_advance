@@ -1,0 +1,8 @@
+[Page 4]
+4 Introduction to Robotics, Marc Toussaint
+11 SKIPPED THIS TERM – Legged Locomotion (brief intro) 163
+Statically stable walk (11:7) Zero moment point (ZMP) (11:8) Human locomotion
+(11:14) Passive dynamic walking: Compass Gait (11:19) Impact models (11:22)
+12 Exercises 178
+12.1 Exercise 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 178
+12.2 Exercise 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 179

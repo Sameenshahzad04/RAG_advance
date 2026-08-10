@@ -1,0 +1,8 @@
+[Page 59]
+Introduction to Robotics, Marc Toussaint 59
+Total Potential Function
+U(q) = U (q) +U (q)
+att rep
+F(q) = −∇U(q)
++ =
+4:15

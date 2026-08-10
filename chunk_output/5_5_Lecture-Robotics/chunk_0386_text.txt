@@ -1,0 +1,15 @@
+[Page 148]
+148 Introduction to Robotics, Marc Toussaint
+Inverse RL (Apprenticeship Learning)
+• Given: demonstrations D = {xd }n
+0:T d=1
+• Try to find a reward function that discriminates demonstrations from other
+policies
+– Assume the reward function is linear in some features R(x) = w(cid:62)φ(x)
+– Iterate:
+1. Given a set of candidate policies {π ,π ,..}
+0 1
+2. Find weights w that maximize the value margin between teacher and all
+other candidates
+max ξ
+w,ξ

@@ -1,0 +1,12 @@
+[Page 13]
+Introduction to Robotics, Marc Toussaint 13
+2 Kinematics
+• Two “types of robotics”:
+1) Mobile robotics – is all about localization & mapping
+2) Manipulation – is all about interacting with the world
+0) Kinematic/Dynamic Motion Control: same as 2) without ever making it to
+interaction..
+• Typical manipulation robots (and animals) are kinematic trees
+Their pose/state is described by all joint angles
+2:1
+Basic motion generation problem

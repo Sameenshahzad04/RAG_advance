@@ -1,0 +1,10 @@
+[Page 187]
+Introduction to Robotics, Marc Toussaint 187
+Consider a current state x = (0,1) (at position 0 with velocity 1). Pick any random
+0
+phase state x ∈ R2. How would you connect x with x in a way that
+target 0 target
+fulfils the differential constraints of the point mass dynamics? Given this trajectory
+connecting x with x , how would you quantify/meassure the distance? (If
+0 target
+you defined the connecting trajectory appropriately, you should be able to give an

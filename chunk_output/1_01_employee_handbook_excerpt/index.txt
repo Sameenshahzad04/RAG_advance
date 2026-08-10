@@ -1,0 +1,36 @@
+Document: 01_employee_handbook_excerpt.docx (doc_id=1)
+Generated: 2026-08-10 10:34:25
+Total chunks: 32
+============================================================
+[0000] text  | 24 chars | chunk_0000_text.txt
+[0001] text  | 200 chars | chunk_0001_text.txt
+[0002] text  | 17 chars | chunk_0002_text.txt
+[0003] text  | 19 chars | chunk_0003_text.txt
+[0004] text  | 162 chars | chunk_0004_text.txt
+[0005] text  | 47 chars | chunk_0005_text.txt
+[0006] text  | 22 chars | chunk_0006_text.txt
+[0007] text  | 38 chars | chunk_0007_text.txt
+[0008] text  | 45 chars | chunk_0008_text.txt
+[0009] text  | 30 chars | chunk_0009_text.txt
+[0010] text  | 8 chars | chunk_0010_text.txt
+[0011] text  | 14 chars | chunk_0011_text.txt
+[0012] text  | 29 chars | chunk_0012_text.txt
+[0013] text  | 37 chars | chunk_0013_text.txt
+[0014] text  | 76 chars | chunk_0014_text.txt
+[0015] text  | 47 chars | chunk_0015_text.txt
+[0016] text  | 73 chars | chunk_0016_text.txt
+[0017] text  | 44 chars | chunk_0017_text.txt
+[0018] text  | 227 chars | chunk_0018_text.txt
+[0019] text  | 25 chars | chunk_0019_text.txt
+[0020] text  | 49 chars | chunk_0020_text.txt
+[0021] text  | 78 chars | chunk_0021_text.txt
+[0022] text  | 59 chars | chunk_0022_text.txt
+[0023] text  | 79 chars | chunk_0023_text.txt
+[0024] text  | 33 chars | chunk_0024_text.txt
+[0025] text  | 41 chars | chunk_0025_text.txt
+[0026] text  | 60 chars | chunk_0026_text.txt
+[0027] text  | 69 chars | chunk_0027_text.txt
+[0028] text  | 33 chars | chunk_0028_text.txt
+[0029] text  | 304 chars | chunk_0029_text.txt
+[0030] table | 197 chars | chunk_0030_table.txt
+[0031] table | 382 chars | chunk_0031_table.txt

@@ -1,0 +1,4 @@
+projection
+• The benefit of this hierarchical way to write the solution is that one can take
+the hierarchical limit (cid:37) → ∞ and retrieve classical hierarchical IK
+i

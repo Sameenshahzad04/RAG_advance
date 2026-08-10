@@ -1,0 +1,17 @@
+[Page 101]
+Introduction to Robotics, Marc Toussaint 101
+(cid:82)
+Dirac or δ (“point particle”) δ(x) = 0 except at x = 0, δ(x) dx = 1
+δ(x) = ∂ H(x) where H(x) = [x ≥ 0] = Heavyside step function
+∂x
+6:26
+Gaussian distribution
+N(x|µ,σ2)
+2σ
+• 1-dim: N(x|µ,σ2) = |2πσ 1 2|1/2 e−1 2 (x−µ)2/σ2 µ x
+• n-dim Gaussian in normal form:
+1 1
+N(x|µ,Σ) = exp{− (x − µ)(cid:62)Σ-1 (x − µ)}
+|2πΣ|1/2 2
+with mean µ and covariance matrix Σ. In canonical form:
+exp{−1a(cid:62)A-1a} 1

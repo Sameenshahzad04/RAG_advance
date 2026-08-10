@@ -1,0 +1,17 @@
+[Page 41]
+Introduction to Robotics, Marc Toussaint 41
+1D point mass – derivative feedback
+Alternative parameterization:
+Instead of the gains K and K it is sometimes more intuitive to set the
+p d
+• wave length λ = 1 = √ 1 , K = m/λ2
+ω0 Kp/m p
+• damping ratio ξ = √ 4 K m d Kp = λ 2 K m d , K d = 2mξ/λ
+ξ > 1: over-damped
+ξ = 1: critically dampled
+ξ < 1: oscillatory-damped
+√
+q(t) = q∗ + be−ξ t/λ ei 1−ξ2 t/λ
+3:14
+1D point mass – integral feedback
+• Idea 3

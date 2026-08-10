@@ -1,0 +1,17 @@
+Landmark map
+K.Murphy(1999): Bayesianmaplearning
+indynamicenvironments.
+Grisetti,Tipaldi,Stachniss,Burgard,Nardi:
+FastandAccurateSLAMwith
+Rao-BlackwellizedParticleFilters
+Laser scan map
+Victoria Park data set
+M. Montemerlo, S. Thrun, D. Koller, & B. Wegbreit
+(2003): FastSLAM 2.0: An improved particle filter-
+ingalgorithmforsimultaneouslocalizationandmapping
+thatprovablyconverges. IJCAI,1151–1156.
+7:33
+Simultaneous Localization and Mapping Problem
+• Notation:
+x = state (location) at time t
+t

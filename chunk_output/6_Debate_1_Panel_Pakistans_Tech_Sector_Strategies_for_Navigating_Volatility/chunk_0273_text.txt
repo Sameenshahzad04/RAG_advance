@@ -1,0 +1,3 @@
+that puts the cart miles before the horse. It demands we formalize, document, and report our income
+using systems that are fundamentally broken, and then promises to maybe, eventually, make them
+better.

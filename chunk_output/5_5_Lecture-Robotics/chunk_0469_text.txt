@@ -1,0 +1,7 @@
+[Page 182]
+182 Introduction to Robotics, Marc Toussaint
+of the configuration q to a natural posture q . Realize this by adding a respective
+home
+task to the code given on the next page.
+b)Maketherobotsimultaneouslypointupwardwiththelefthand. UsekinematicsVec
+and jacobianVec for this.

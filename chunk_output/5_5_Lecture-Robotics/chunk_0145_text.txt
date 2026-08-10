@@ -1,0 +1,2 @@
+(Poor solution: Apply very high gains separately in each joint ↔ make joints stiff,
+as with gears.)

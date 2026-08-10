@@ -1,0 +1,11 @@
+t t-1 t-1
+(from Robust Monte Carlo localization for mobile robots Sebastian Thrun, Dieter
+Fox, Wolfram Burgard, Frank Dellaert)
+7:16
+Odometry (“Dead Reckoning”): Filtering without observations
+• The predictive distributions pˆ (x ) without integrating observations (removing
+t t
+the P(y |x ) part from the Bayesian filter)
+t t
+(from Robust Monte Carlo localization for mobile robots Sebastian Thrun, Dieter
+Fox, Wolfram Burgard, Frank Dellaert)

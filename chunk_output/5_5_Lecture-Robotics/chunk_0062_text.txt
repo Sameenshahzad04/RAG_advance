@@ -1,0 +1,15 @@
+– multiple tasks
+– hierarchical tasks
+2:27
+Solving Inverse Kinematics
+• The obvious choice of optimization method for this problem is Gauss-Newton,
+using the Jacobian of φ
+• We first describe just one step of this, which leads to the classical equations for
+inverse kinematics using the local Jacobian...
+2:28
+Solution using the local linearization
+• When using the local linearization of φ at q ,
+0
+φ(q) ≈ y + J (q − q ) , y = φ(q )
+0 0 0 0
+• We can derive the optimum as

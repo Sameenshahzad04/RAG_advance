@@ -1,0 +1,5 @@
+• Mobile robots
+goal: localize and map yourself
+Stateestimation,Bayesfilter,odometry,particlefilter,Kalmanfilter,Bayessmoothing,SLAM,jointBayesfilter,EKFSLAM,particle
+SLAM,graph-basedSLAM
+1:11

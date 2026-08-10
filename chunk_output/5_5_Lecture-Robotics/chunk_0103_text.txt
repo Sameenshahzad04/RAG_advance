@@ -1,0 +1,15 @@
+dimension d = 1
+parameters link index i, attached vector v, world reference v∗
+kin. map φalign(q) = v∗(cid:62)φvec
+iv iv
+Jacobian Jalign(q) = v∗(cid:62)Jvec
+iv iv
+Note: φalign = 1 ↔align φalign = −1 ↔anti-align φalign = 0 ↔orthog.
+2:57
+Relative Alignment
+Alignment a vector attached to link i with vector attached to j
+dimension d = 1
+parameters link indices i,j, attached vectors v,w
+kin. map φalign (q) = (φvec)(cid:62)φvec
+iv|jw jw iv
+Jacobian Jalign (q) = (φvec)(cid:62)Jvec + φvec(cid:62)Jvec

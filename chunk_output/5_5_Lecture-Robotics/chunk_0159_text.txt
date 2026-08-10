@@ -1,0 +1,8 @@
+– Dijkstra
+• Sample-based Path Finding
+– Probabilistic Roadmaps
+– Rapidly Exploring Random Trees
+• Non-holonomic systems
+4:6
+4.1 Background
+4:7

@@ -1,0 +1,11 @@
+conditional distribution, independence
+– Bayes’ Theorem
+– Continuous distributions, Gaussian, particles
+• State Estimation
+– Formalization of the state estimation problem
+– The Bayes Filter as the general analytic solution
+– Gaussians and particles to approximate the Bayes filter and make it compu-
+tationally feasible:
+– Details of a Particle Filter
+– Kalman filter (esp. assumptions made, not eq. or derivation)
+– Extended KF (assumptions made)

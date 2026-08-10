@@ -1,0 +1,9 @@
+ZMP
+(cid:80) r × f + I w˙ + w × I w = ! (0, 0, )(cid:62)
+i i i i i i i i *
+See also: Popovic, Goswami & Herr: Ground Reference Points in Legged Locomotion: Definitions, Bio-
+logical Trajectories and Control Implications. International Journal of Robotics Research 24(12), 2005.
+http://www.cs.cmu.edu/˜cga/legs/Popovic_Goswami_Herr_IJRR_Dec_2005.pdf
+11:10
+Zero Moment Point
+• If the ZMP is outside the support polygon → foot rolls over the edge

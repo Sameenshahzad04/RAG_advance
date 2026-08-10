@@ -1,0 +1,14 @@
+[Page 121]
+Introduction to Robotics, Marc Toussaint 121
+• As for the Localization Problem use particles to represent the pose belief p (x )
+t t
+Note: Each particle actually “has a history xi ” – a whole trajectory!
+0:t
+• For each particle separately, estimate the map belief pi(m) conditioned on the
+t
+particle history xi .
+0:t
+The conditional beliefs pi(m) may be factorized over grid points or landmarks
+t
+of the map
+K. Murphy (1999): Bayesian map learning in dynamic environments.

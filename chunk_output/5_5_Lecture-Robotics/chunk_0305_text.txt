@@ -1,0 +1,11 @@
+(→ particle SLAM)
+3) Frame everything as a graph optimization problem (→ graph SLAM)
+7:35
+Joint Bayesian Filter over x and m
+• A (formally) straight-forward approach is the joint Bayesian filter
+(cid:82)
+p (x ,m) ∝ P(y |x ,m) P(x |u ,x ) p (x ,m) dx
+t t t t xt-1 t t-1 t-1 t-1 t-1 t-1
+But: How represent a belief over high-dimensional x ,m?
+t
+7:36

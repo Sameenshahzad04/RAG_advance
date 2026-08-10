@@ -1,0 +1,10 @@
+[Page 193]
+Introduction to Robotics, Marc Toussaint 193
+In this exercise the goal is to find a policy
+π : φ(y) (cid:55)→ u = φ(u)(cid:62)w
+that maps some features of the (history of the) direct sensor signals y to the control
+policy.
+Use black-box optimization to find parameters w that robustly balance the racer.
+Some notes:
+• Features: In the lecture I suggested that a range of interesting features is:
+(cid:16) (cid:17)

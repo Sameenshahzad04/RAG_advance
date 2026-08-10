@@ -1,0 +1,6 @@
+7:45
+Loop Closing Problem
+(Doesn’t explicitly exist in Particle Filter methods: If particles cover the belief,
+then “data association” solves the “loop closing problem”)
+7:46
+Graph-based SLAM

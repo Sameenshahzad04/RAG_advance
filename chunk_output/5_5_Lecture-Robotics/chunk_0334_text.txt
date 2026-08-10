@@ -1,0 +1,14 @@
+[Page 130]
+130 Introduction to Robotics, Marc Toussaint
+Infinite horizon case
+(cid:90) ∞
+Jπ = c(x(t),u(t)) dt
+0
+• This cost function is stationary (time-invariant)!
+→ the optimal value function is stationary (V (x,t) = V (x))
+→ the optimal control signal depends on x but not on t
+→ the optimal controller π∗ is stationary
+• The HBJ and Bellman equations remain “the same” but with the same (station-
+ary) value function independent of t:
+(cid:104) ∂V (cid:105)
+0 = min c(x,u) + f(x,u) (cont. time)

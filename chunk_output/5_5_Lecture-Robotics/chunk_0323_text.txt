@@ -1,0 +1,11 @@
+• Controller design
+Find a controller with desired stability and/or transfer function properties
+• Optimal control*
+Define a cost function on the system behavior. Optimize a controller to minimize costs
+8:3
+Control Theory references
+• Robert F. Stengel: Optimal control and estimation
+Onlinelectures: http://www.princeton.edu/˜stengel/MAE546Lectures.
+html (esp. lectures 3,4 and 7-9)
+• From robotics lectures:
+Stefan Schaal’s lecture Introduction to Robotics: http://www-clmc.usc.

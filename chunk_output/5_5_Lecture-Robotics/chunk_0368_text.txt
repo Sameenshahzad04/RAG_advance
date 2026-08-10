@@ -1,0 +1,9 @@
+• If there exists a D and a Lyapunov function ⇒ the system is asymtotically stable
+If D is the whole state space, the system is globally stable
+8:40
+Lyapunov function method
+• The Lyapunov function method is very general. V (x) could be “anything”
+(energy, cost-to-go, whatever). Whenever one finds some V (x) that decreases,
+this proves stability
+• The problem though is to think of some V (x) given a dynamics!
+(In that sense, the Lyapunov function method is rather a method of proof than

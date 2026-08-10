@@ -1,0 +1,10 @@
+[Page 44]
+44 Introduction to Robotics, Marc Toussaint
+• Second, formulate the kinetic energy
+T = (cid:88) 1 m v2 + 1 w(cid:62)I w = (cid:88) 1 q˙(cid:62)M q˙ , M =  J i (cid:62)m i I 3 0  J i 
+2 i i 2 i i i 2 i i J i w  0 I i J i w
+i i
+where I i = R i I¯ i R(cid:62) i and I¯ i the inertia tensor in link coordinates
+• Third, formulate the potential energies (typically independent of q˙)
+U = gm iheight(i)
+• Fourth, compute the partial derivatives analytically to get something like

@@ -1,0 +1,14 @@
+[Page 200]
+200 Introduction to Robotics, Marc Toussaint
+Inversekinematicsasoptimizationprob- Other PRM sampling strategies (4:35),
+lem (2:26),
+Inverse kinematics for all tasks (2:48),
+P gain (3:7),
+Particle Filter = Bayes Filter with Par-
+Inverse kinematics solution (2:29),
+ticles (7:22),
+Inverse RL (9:12),
+Particle SLAM (7:39),
+Jacobian (2:20), Particles carry their own history, their
+Joint Bayes Filter over state and map own map (7:39),
+(Kalman SLAM) (7:36), Passivedynamicwalking: CompassGait

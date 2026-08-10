@@ -1,4 +1,3 @@
-
 #   1. Upload with deduplication (hash check + filename rename)
 #   2. Document status detection (RED/YELLOW/GREEN)
 #   3. Text extraction & chunking
@@ -6,10 +5,13 @@
 #   5. Document deletion (DB + disk + ChromaDB cleanup)
 
 import os
+import re
 import logging
+from pathlib import Path
+from datetime import datetime
 from typing import List, Dict, Any, Tuple, Optional
 
-from sqlalchemy.orm import Session  
+from sqlalchemy.orm import Session
 from backend.config import config
 from backend.models.documents import Document
 from backend.util.hashing import compute_sha256
@@ -18,13 +20,73 @@ from backend.handler.extractor import extract_content
 from backend.handler.chunker import chunk_extracted_elements
 from backend.handler.vector_store import vector_store
 
+logger = logging.getLogger(__name__)
 
+# Root folder where per-document chunk dumps are written, one
+# subfolder per document, BEFORE embedding happens. Lets you
+# inspect exactly what text is about to be turned into vectors.
+
+# Create 'chunk_output' directory at the root level of your project
+ROOT_DIR = Path(__file__).resolve().parent.parent.parent
+CHUNK_DIR = ROOT_DIR / "chunk_output"
+CHUNK_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def _safe_folder_name(filename: str) -> str:
+    """Turn a filename like 'HR Policy (1).pdf' into a safe folder name."""
+    stem = Path(filename).stem
+    return re.sub(r"[^A-Za-z0-9_-]+", "_", stem).strip("_") or "document"
+
+
+def save_chunks_to_folder(doc_id: int, filename: str, chunks: List[Dict[str, Any]]) -> Path:
+    """
+    Write every chunk for this document to its own folder on disk,
+    BEFORE embedding. One file per chunk, plus a summary index file.
+
+    Layout:
+        chunk_output/
+            <doc_id>_<safe_filename>/
+                index.txt                (summary of all chunks)
+                chunk_0000_text.txt
+                chunk_0001_table.txt
+                ...
+    """
+    folder_name = f"{doc_id}_{_safe_folder_name(filename)}"
+    doc_folder = CHUNK_DIR / folder_name
+    doc_folder.mkdir(parents=True, exist_ok=True)
+
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    index_lines = [
+        f"Document: {filename} (doc_id={doc_id})",
+        f"Generated: {timestamp}",
+        f"Total chunks: {len(chunks)}",
+        "=" * 60,
+    ]
+
+    for c in chunks:
+        kind = "table" if c["is_table"] else "text"
+        chunk_filename = f"chunk_{c['chunk_index']:04d}_{kind}.txt"
+        chunk_path = doc_folder / chunk_filename
+        with open(chunk_path, "w", encoding="utf-8") as f:
+            f.write(c["content"])
+
+        index_lines.append(
+            f"[{c['chunk_index']:04d}] {kind:5s} | {len(c['content'])} chars | {chunk_filename}"
+        )
+
+    index_path = doc_folder / "index.txt"
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(index_lines))
+
+    logger.info(f"📁 Saved {len(chunks)} chunks for doc_id={doc_id} to {doc_folder}")
+    return doc_folder
 
 
 def check_duplicate(file_hash: str, db: Session) -> bool:
     """Check if file with same content exists."""
     existing = db.query(Document).filter(Document.file_hash == file_hash).first()
     return existing is not None
+
 
 # ----- 1. UPLOAD WITH DEDUPLICATION -----
 
@@ -68,13 +130,13 @@ def process_upload(
         filename=final_filename,
         filepath=filepath,
         filehash=file_hash,
-
     )
     db.add(doc)
     db.commit()
     db.refresh(doc)  # Reload to get the auto-generated ID
 
     return ("uploaded", f"Successfully uploaded as '{final_filename}'.", doc)
+
 
 def process_document(doc_id: int, db: Session) -> Document:
     """
@@ -102,6 +164,7 @@ def process_document(doc_id: int, db: Session) -> Document:
     db.refresh(doc)
 
     return doc
+
 
 # ----- 2. DOCUMENT STATUS DETECTION -----
 
@@ -151,8 +214,6 @@ def get_all_documents_with_status(db: Session) -> List[Dict[str, Any]]:
 
     return result
 
-    
-
 
 # ----- 4. DELETE DOCUMENT -----
 
@@ -194,9 +255,6 @@ def extract_and_chunk_doc(db: Session, doc_id: int) -> Dict[str, Any]:
     if doc is None or not os.path.exists(str(doc.filepath)):
         raise ValueError(f"Document ID {doc_id} not found on disk.")
 
-
-
-
     # Extract text and tables from the file
     elements = extract_content(str(doc.filepath))
 
@@ -207,7 +265,7 @@ def extract_and_chunk_doc(db: Session, doc_id: int) -> Dict[str, Any]:
         for el in elements if el.get("type") == "table"
     ]
 
-    # 3. 🔴 SAVE TO POSTGRESQL HERE
+    # 3. Save to PostgreSQL
     doc.extracted_text = "\n\n".join(all_text)
     doc.tables_json = all_tables
     db.commit()
@@ -250,6 +308,14 @@ def embed_document(db: Session, doc_id: int) -> Dict[str, Any]:
 
     # Extract and chunk the document
     extracted = extract_and_chunk_doc(db, doc_id)
+
+    # Save every chunk to disk BEFORE embedding, so you can inspect
+    # exactly what text is about to be vectorized.
+    save_chunks_to_folder(
+        doc_id=doc.id,
+        filename=doc.filename,
+        chunks=extracted["raw_chunks"],
+    )
 
     # Generate embeddings and store in ChromaDB
     vectors_stored = vector_store.add_document_chunks(

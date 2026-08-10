@@ -1,0 +1,4 @@
+(Exercise 3.2d).
+a) We’ve seen that the solution does track the circle nicely, but the trajectory “gets
+lost” in joint space, leading to very strange postures. We can fix this by adding
+more tasks, esp. a task that permanently tries to (moderatly) minimize the distance

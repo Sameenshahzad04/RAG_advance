@@ -1,0 +1,13 @@
+exp{−1a(cid:62)A-1a} 1
+N[x|a,A] = 2 exp{− x(cid:62)A x + x(cid:62)a} (2)
+|2πA-1 |1/2 2
+with precision matrix A = Σ-1 and coefficient a = Σ-1µ (and mean µ = A-1a).
+• Gaussian identities: see http://ipvs.informatik.uni-stuttgart.de/mlr/marc/
+notes/gaussians.pdf
+6:27
+Gaussian identities
+Symmetry: N(x|a,A) = N(a|x,A) = N(x − a|0,A)
+Product:
+N(x|a,A)N(x|b,B) = N[x|A-1a+B-1b,A-1+B-1]N(a|b,A+B)N[x|a,A]N[x|b,B] =
+N[x|a + b,A + B] N(A-1a|B-1b,A-1 + B-1)
+“Propagation”:

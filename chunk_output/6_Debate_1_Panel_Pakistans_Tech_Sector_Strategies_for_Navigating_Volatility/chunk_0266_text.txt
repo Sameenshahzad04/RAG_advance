@@ -1,0 +1,5 @@
+Red Line Status: Unaddressed and Hardened
+My red line from Round 1 was simple: an operational framework for Stripe or a full-service PayPal
+within 12 months. This has not been addressed. In fact, it's been sidestepped with proposals that treat
+the symptoms—repatriation friction and messy documentation—while ignoring the disease. The
+disease is that we are commercially un-bankable by default in the eyes of the global digital economy.

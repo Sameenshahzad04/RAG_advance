@@ -1,0 +1,8 @@
+[Page 62]
+62 Introduction to Robotics, Marc Toussaint
+The Wavefront in Action (Part 1)
+• Starting with the goal, set all adjacent cells with
+“0” to the current cell + 1
+– 4-Point Connectivity or 8-Point Connectivity?
+– Your Choice. We’ll use 8-Point Connectivity in our example
+4:19

@@ -1,0 +1,9 @@
+• Examples:
+– An air plane flying: You cannot command it to hold still in the air, or to move
+straight up.
+– A car: you cannot command it to move side-wards.
+– Yourarm: youcannotcommandittothrowaballwitharbitraryspeed(forcelimits).
+– A torque controlled robot: You cannot command it to instantly change velocity (infi-
+nite acceleration/torque).
+• What all examples have in comment:
+– One can set controls u t (air plane’s control stick, car’s steering wheel, your muscles

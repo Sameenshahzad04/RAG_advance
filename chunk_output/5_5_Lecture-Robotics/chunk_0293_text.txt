@@ -1,0 +1,14 @@
+P(xt|ut-1,xt-1) = N(xt|Axt-1 +a,Q)
+(cid:90)
+pt(xt) ∝ P(yt|xt) P(xt|ut-1,xt-1)pt-1(xt-1)dxt-1
+xt-1
+(cid:90)
+= N(yt|Cxt +c,W) N(xt|Axt-1 +a,Q)N(xt-1|st-1,St-1)dxt-1
+xt-1
+= N(yt|Cxt +c,W)N(xt| Ast-1 +a, Q+ASt-1A(cid:62))
+(cid:124) (cid:123)(cid:122) (cid:125) (cid:124) (cid:123)(cid:122) (cid:125)
+=:sˆt =:Sˆ
+t
+= N(Cxt +c|yt,W)N(xt|sˆt,Sˆ t)
+= N[xt|C(cid:62)W-1(yt −c), C(cid:62)W-1C]N(xt|sˆt,Sˆ t)
+= N(xt|st,St)·(cid:104)termsindep. ofxt(cid:105)

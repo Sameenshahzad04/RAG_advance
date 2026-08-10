@@ -1,0 +1,24 @@
+[Page 39]
+Introduction to Robotics, Marc Toussaint 39
+1D point mass – proportional feedback
+m q¨= u = K (q∗ − q)
+p
+√
+q(t) = q∗ + b ei Kp/m t
+(cid:112)
+Oscillation around q∗ with amplitude b = q(0) − q∗ and frequency K /m
+p
+1 cos(x)
+0.5
+0
+-0.5
+-1
+0 2 4 6 8 10 12 14
+3:9
+1D point mass – derivative feedback
+• Idea 2
+“Pull less, when we’re heading the right direction already:”
+“Damp the system:”
+u = K (q∗ − q) + K (q˙∗ − q˙)
+p d
+q˙∗ is a desired goal velocity

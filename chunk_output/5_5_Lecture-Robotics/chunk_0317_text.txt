@@ -1,0 +1,11 @@
+[Page 124]
+124 Introduction to Robotics, Marc Toussaint
+• Represent the previous trajectory as a graph
+– nodes = estimated positions & observations
+– edges = transition & step estimation based on scan matching
+• Loop Closing: check if some nodes might coincide → new edges
+• Classical Optimization:
+The whole graph defines an optimization problem: Find poses that minimize
+sum of edge & node errors
+7:45
+Loop Closing Problem

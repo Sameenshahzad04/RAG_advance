@@ -1,0 +1,8 @@
+pkg load control and help are in octave to ensure everything is installed,
+use P=are(A,B*inverse(R)*B’,Q) to solve the ARE. Output K = −R-1B(cid:62)P
+and compare to b).
+(I found the solution K = (1.0000,3.8271,48.3070,17.615).)
+d) Implement the optimal Linear Quadratic Regulator u∗ = −R-1B(cid:62)Px on the cart
+pole simulator. In the Robotics code base, path 07-cartPole there is some code
+– but the main.problem.cpp was outdated. Please use the one from the website or
+email.

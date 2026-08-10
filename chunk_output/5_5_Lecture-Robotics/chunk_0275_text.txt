@@ -1,0 +1,5 @@
+P(X|Y ) =
+P(Y )
+posterior = likelihood · prior
+(normalization)
+7:11

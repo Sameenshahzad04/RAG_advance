@@ -1,0 +1,10 @@
+Q(s,a) ≈ w
+∂β
+– Then the natural gradient (∂V(β) multiplied with inv. Fisher metric) updates
+∂β
+βnew = β + αw
+• Another is PoWER: Use the stochastic policy π(a|s), let a t = φ(s t )(cid:62)(β + (cid:15) t ) where
+(cid:15) t ∼ N(0,Σ) is the sampled noise, then ∂V ∂β (β) = 0 implies
+β ← β + E ξ|β { (cid:80)H t=0 (cid:15) t Qπ(s t ,a t ,t)}
+E ξ|β { (cid:80)H t=0 Qπ(s t ,a t ,t)}
+9:17

@@ -1,0 +1,14 @@
+θ = (xˆ,σ,C,p ,p ) , p (x) = N(x|xˆ,σ2C)
+σ C θ
+where C is the covariance matrix of the search distribution
+• The θ maintains two more pieces of information: p and p capture the “path”
+σ C
+(motion) of the mean xˆ in recent iterations
+• Rough outline of the θ-update:
+– Let D(cid:48) = bestOf (D) be the set of selected points
+µ
+– Compute the new mean xˆ from D(cid:48)
+– Update p and p proportional to xˆ − xˆ
+σ C k+1 k
+– Update σ depending on |p |
+σ

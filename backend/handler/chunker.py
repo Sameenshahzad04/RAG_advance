@@ -9,7 +9,7 @@
 # =============================================================
 
 from typing import List, Dict, Any
-from langchain_text_splitters import RecursiveCharacterTextSplitter  # type: ignore
+from langchain_text_splitters import RecursiveCharacterTextSplitter  
 
 
 def chunk_extracted_elements(

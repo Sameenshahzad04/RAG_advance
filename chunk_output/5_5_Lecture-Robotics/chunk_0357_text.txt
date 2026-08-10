@@ -1,0 +1,11 @@
+• The Algebraic Riccati Equation will always return an “optimal” controller – but
+controllability tells us whether such a controller even has a chance to control x
+• “Intelligence means to gain maximal controllability over all degrees of freedom over the
+environment.”
+– real environments are non-linear
+– “to have the ability to gain controllability over the environment’s DoFs”
+8:30
+8.3 Stability
+8:31
+Stability
+• One of the most central topics in control theory

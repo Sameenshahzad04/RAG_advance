@@ -1,0 +1,7 @@
+[Table - Page 33]
+| Alignmentofavectorattachedtolinkiwithareferencev∗ |  |
+| --- | --- |
+| dimension | d=1 |
+| parameters | linkindexi,attachedvectorv,worldreferencev∗ |
+| kin.map | φalign(q)=v∗(cid:62)φvec iv iv |
+| Jacobian | Jalign(q)=v∗(cid:62)Jvec iv iv |

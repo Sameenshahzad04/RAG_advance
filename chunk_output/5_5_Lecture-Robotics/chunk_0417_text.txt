@@ -1,0 +1,11 @@
+[Page 160]
+160 Introduction to Robotics, Marc Toussaint
+• Force closure: The contacts can apply an arbitrary wrench (=force-torque) to
+the object.
+• Form closure: The object is at an isolated point in configuration space. Note:
+form closure ⇐⇒ frictionless force closure
+• Caging: The object is not fixated, but cannot escape
+• Equilibrium: The contact forces can balance the object’s weight and other ex-
+ternal forces.
+10:7
+Traditional research into force closure

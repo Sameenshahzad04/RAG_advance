@@ -1,0 +1,5 @@
+• Pros:
+– Algorithmically very simple
+– Highly explorative
+– Allows probabilistic performance guarantees
+– Good to answer many queries in an unchanged environment

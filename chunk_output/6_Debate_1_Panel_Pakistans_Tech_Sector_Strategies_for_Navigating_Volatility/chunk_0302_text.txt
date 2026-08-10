@@ -1,0 +1,6 @@
+corporate card, or ACH
+This figure is not verified and is likely implausible for large EU corporate procurement. Many European
+enterprises pay SaaS vendors through bank transfer, SEPA, procurement portals, or invoice-based
+payment terms rather than Stripe alone. Stripe is highly relevant for self-serve SaaS and SMEs, but the
+claim that 90 percent of SaaS vendors are paid through Stripe-style flows requires evidence from the
+buyer's accounts payable system or industry benchmarks.

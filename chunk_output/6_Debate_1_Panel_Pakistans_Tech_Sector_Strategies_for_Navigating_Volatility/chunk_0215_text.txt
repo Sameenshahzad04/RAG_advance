@@ -1,0 +1,5 @@
+Status: Verified with classification caveat. Pakistan's ICT export remittances were reported at
+approximately USD 3.2 billion in FY2023-24; source: State Bank of Pakistan services export data and
+public reporting by the Ministry of IT and Telecommunication/PSEB. Caveat: SBP classifications
+include computer, telecom, and information services, and figures may be revised.
+• Assumption 3: A material share of Pakistani digital work is not fully captured through formal

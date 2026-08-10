@@ -1,0 +1,29 @@
+are, the remaining decisions must constitute an optimal policy with regard to the state
+resulting from the first decision.
+1 1
+1 3
+3
+7 15 1 Goal
+Start 5 8 20
+3
+3 3 10
+1
+1
+5 3
+“V (state) = min [c(edge) + V (next-state)]”
+edge
+8:8
+Bellman equation (discrete time)
+• Define the value function or optimal cost-to-go function
+T
+(cid:104)(cid:88) (cid:105)
+V (x) = min c(x ,u ) + φ(x )
+t s s T
+π
+s=t
+xt=x
+• Bellman equation
+(cid:104) (cid:105)
+V (x) = min c(x,u) + V (f(x,u))
+t u t+1
+(cid:104) (cid:105)

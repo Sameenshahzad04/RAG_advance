@@ -1,0 +1,30 @@
+i=1
+µxi(1 − µ)1−xi
+n n
+(cid:88) 1 (cid:88)
+argmax logP(D|µ) = argmax x logµ + (1 − x )log(1 − µ) = x
+i i n i
+µ µ
+i=1 i=1
+• The Binomial distribution is the distribution over the count m =
+(cid:80)n
+x
+i=1 i
+Bin(m|n,µ) =
+n
+µm(1 − µ)n−m ,
+n
+=
+n!
+ m
+
+ m
+ (n − m)! m!
+6:14
+Beta
+How to express uncertainty over a Bernoulli parameter µ
+• The Beta distribution is over the interval [0,1], typically the parameter µ of a
+Bernoulli:
+1
+Beta(µ|a,b) = µa−1(1 − µ)b−1
+B(a,b)

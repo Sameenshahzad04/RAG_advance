@@ -1,0 +1,8 @@
+with industry, civil society, and security institutions.
+• Cybercrime enforcement should distinguish between malicious activity and good-faith security
+research.
+• Government should create template compliance toolkits for small and medium-sized software
+exporters.
+Governance impact:
+• Stronger data governance improves trust with foreign clients and investors.
+• Overly broad or unpredictable enforcement could discourage innovation and security testing.

@@ -1,0 +1,27 @@
+0:T t
+• Consider the cost function
+T T
+(cid:88) (cid:88)
+f(q ) = ||q − q ||2 + ||Φ (q )||2
+0:T t-1 t W t t
+t=0 t=0
+(where(q -1 isagivenprefix)
+• ||q − q ||2 represents control costs
+t-1 t W
+Φ (q ) represents task costs
+t t
+5:2
+General k-order cost terms
+[Notation: xt insteadofqt representsjointstate]
+T
+(cid:88)
+min f (x )(cid:62)f (x )
+t t−k:t t t−k:t
+x0:T
+t=0
+s.t. ∀ : g (x ) ≤ 0 , h (x ) = 0 .
+t t t−k:t t t−k:t
+5:3
+Cost terms
+• The f (x ) terms can penalize various things:
+t t−k:t

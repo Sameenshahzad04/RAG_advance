@@ -1,0 +1,13 @@
+[Page 133]
+Introduction to Robotics, Marc Toussaint 133
+• Infinite horizon continuous time
+Algebraic Riccati equation (ARE)
+0 = A(cid:62)P + PA − PBR-1B(cid:62)P + Q
+• Finite horizon discrete time (Jπ = (cid:80)T ||x ||2 + ||u ||2 + ||x ||2 )
+t=0 t Q t R T F
+P = Q + A(cid:62)[P − P B(R + B(cid:62)P B)-1B(cid:62)P ]A , P = F
+t-1 t t t t T
+• Infinite horizon discrete time (Jπ = (cid:80)∞ ||x ||2 + ||u ||2 )
+t=0 t Q t R
+P = Q + A(cid:62)[P − PB(R + B(cid:62)PB)-1B(cid:62)P]A
+8:19

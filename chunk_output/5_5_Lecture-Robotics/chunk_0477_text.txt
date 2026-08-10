@@ -1,0 +1,7 @@
+q∗(t) = cos(t)
+How can one use a PD controller to let the point mass robustly and precisely follow
+this reference trajectory?
+Simulate the problem as above, but at every full second apply a randomized impuls
+(=instantaneous change in velocity) on the point mass. That is, simply set q˙ ←
+q˙ + ξ for ξ ∼ N(0,.1). (In code: double xi = 0.1 * rnd.gauss();) Generate
+oscillatory, overdamped and critical recovery behaviors.

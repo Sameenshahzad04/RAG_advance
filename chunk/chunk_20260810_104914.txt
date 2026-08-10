@@ -1,0 +1,152 @@
+=== RETRIEVED CHUNKS LOG ===
+Timestamp: 20260810_104914
+Query: what is hr policy
+Total Chunks: 16
+============================================================
+
+--- CHUNK 1 ---
+Submit requests through the HR portal:
+
+--- CHUNK 2 ---
+Questions about accrual balances can be checked anytime on the HR Portal.
+
+--- CHUNK 3 ---
+Unpaid leave (requires HRBP sign-off)
+
+--- CHUNK 4 ---
+* See blackout policy for excluded date ranges.
+
+--- CHUNK 5 ---
+hcraeS
+yciloP
+gninraeL
+noitatimI
+CO
+esrevnI
+experience data demonstration data
+D = {(x t ,u t ,c t )}T t=0 D = {(x 0:T ,u 0:T )d}n d=1
+learn model learn value fct. optimize policy learn policy learn latent costs
+P(x(cid:48)|u,x) V(x) π(x) π(x) c(x)
+c(x,u)
+dynamic prog. policy dynamic prog.
+V t (x) π(x) V t
+policy policy
+π t (x) π(x)
+9:7
+
+--- CHUNK 6 ---
+3. Policy Debate: Tax Credits vs. Carbon Pricing
+
+--- CHUNK 7 ---
+Research Notes: Grid-Scale Renewable Deployment and Policy Tradeoffs
+
+--- CHUNK 8 ---
+Section 4: Paid Time Off
+
+--- CHUNK 9 ---
+abilistic Inference. (RSS 2006)
+Ru¨diger Dillmann: Teaching and learning of robot tasks via observation of human performance
+(Robotics and Autonomous Systems, 2004)
+9:9
+Imitation Learning
+• There a many ways to imitate/copy the oberved policy:
+Learn a density model P(a |s )P(s ) (e.g., with mixture of Gaussians) from the
+t t t
+observed data and use it as policy (Billard et al.)
+
+--- CHUNK 10 ---
+[Page 146]
+146 Introduction to Robotics, Marc Toussaint
+Five approaches to RL
+desab−ledoM
+eerf−ledoM
+hcraeS
+yciloP
+gninraeL
+noitatimI
+LR
+esrevnI
+experience data demonstration data
+D = {(s t ,a t ,r t )}T t=0 D = {(s 0:T ,a 0:T )d}n d=1
+learn model learn value fct. optimize policy learn policy learn latent costs
+P(s(cid:48)|s,a) V(s) π(s) π(s) R(s,a)
+R(s,a)
+dynamic prog. policy dynamic prog.
+V(s) π(s) V(s)
+policy policy
+π(s) π(s)
+9:8
+Imitation Learning
+D = {(s ,a )d}n learn → /copy π(s)
+
+--- CHUNK 11 ---
+[Table]
+| Request Length | Notice Given | Notice Given | Approver |
+| --- | --- | --- | --- |
+| 1–2 days | ≥ 3 business days | < 3 business days | Direct manager |
+| 1–2 days | Same-week request (any notice) | Same-week request (any notice) | Manager + HRBP |
+| 3+ days | ≥ 10 business days notice, outside blackout* | ≥ 10 business days notice, outside blackout* | Direct manager |
+
+--- CHUNK 12 ---
+(9:16) Policy Search with Black-Box Optimization (9:21)
+10 SKIPPED THIS TERM – Grasping (brief intro) 157
+Force Closure (10:5) Form Closure, Caging (10:7) The “mitten thought experiment”
+(10:10) Compliant/soft hands (10:12)
+
+--- CHUNK 13 ---
+[Page 145]
+Introduction to Robotics, Marc Toussaint 145
+• We have costs (neg-rewards), e.g. in the finite horizon case:
+(cid:90) T
+Jπ = c(x(t),u(t)) dt + φ(x(T))
+0
+• We want a policy (“controller”)
+π : (x,t) (cid:55)→ u
+9:5
+Reinforcement Learning = the dynamics f and costs c are unknown
+• All the agent can do is collect data
+D = {(x ,u ,c )}T
+t t t t=0
+What can we do with this data?
+9:6
+Five approaches to RL
+desab−ledoM
+eerf−ledoM
+hcraeS
+yciloP
+gninraeL
+noitatimI
+CO
+esrevnI
+
+--- CHUNK 14 ---
+Nobody in the group thought either policy alone gets a modern grid to its stated targets on the current timeline; the disagreement was about which one to lead with while political capital is being spent.
+
+--- CHUNK 15 ---
+[Page 150]
+150 Introduction to Robotics, Marc Toussaint
+Kober&Peters: PolicySearchforMotorPrimitivesinRobotics,NIPS2008.
+(seriousrewardshaping!)
+9:18
+Learning to walk in 20 Minutes
+• Policy Gradient method (Reinforcement Learning)
+(cid:80)
+Stationary policy parameterized as linear in features u = w φ (q,q˙)
+i i i
+• Problem: find parameters w to minimize expected costs
+i
+cost = mimick (q,q˙) of the passive down-hill walker at “certain point in cycle”
+Learning To Walk
+
+--- CHUNK 16 ---
+Q(s,a) ≈ w
+∂β
+– Then the natural gradient (∂V(β) multiplied with inv. Fisher metric) updates
+∂β
+βnew = β + αw
+• Another is PoWER: Use the stochastic policy π(a|s), let a t = φ(s t )(cid:62)(β + (cid:15) t ) where
+(cid:15) t ∼ N(0,Σ) is the sampled noise, then ∂V ∂β (β) = 0 implies
+β ← β + E ξ|β { (cid:80)H t=0 (cid:15) t Qπ(s t ,a t ,t)}
+E ξ|β { (cid:80)H t=0 Qπ(s t ,a t ,t)}
+9:17
+

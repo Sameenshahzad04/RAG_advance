@@ -1,0 +1,12 @@
+[Page 168]
+168 Introduction to Robotics, Marc Toussaint
+HRP-2 stair climbing
+Kajita et al.: Biped Walking Pattern Generation by using Preview Control of Zero-Moment Point. ICRA
+2003. http://eref.uqu.edu.sa/files/eref2/folder1/biped_walking_pattern_generation_
+by_usin_53925.pdf
+11:12
+ZMP Summary
+• ZMP is the “rescue” for conventional methods:
+– ZMP-stability → the robot can be controlled as if foot is “glued” (virtually) to
+the ground!
+– The whole body behaves like a “conventional arm”

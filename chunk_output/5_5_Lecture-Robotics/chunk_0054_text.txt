@@ -1,0 +1,88 @@
+∂φ1(q) ∂φ1(q) ... ∂φ1(q)
+J(q) =
+∂
+∂
+q
+φ(q) =
+
+∂
+∂
+φ
+φ
+∂
+∂
+d
+2
+q
+q
+. .
+.
+(
+(
+1
+1
+q
+q
+)
+) ∂
+∂
+φ
+φ
+∂
+∂
+d
+2
+q
+q
+(
+(
+2
+2
+q
+q
+)
+)
+.
+.
+.
+.
+.
+. ∂
+∂
+φ
+φ
+∂
+∂
+d
+2
+q
+q
+. .
+.
+(
+n
+n
+(
+q
+q
+)
+)
+
+
+∈ Rd×n
+∂q1 ∂q2 ∂qn
+2:20
+Jacobian for a rotational degree of freedom
+eff
+axis
+point
+i-th joint
+• Assume the i-th joint is located at p = t (q) and has rotation axis a =
+i W→i i
+1
+R
+W→i
+(q) 0
+0
+• We consider an infinitesimal variation δq ∈ R of the ith joint and see how an
+i

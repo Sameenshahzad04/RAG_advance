@@ -1,0 +1,23 @@
+3:14
+1D point mass – integral feedback
+• Idea 3
+“Pull if the position error accumulated large in the past:”
+(cid:90) t
+u = K (q∗ − q) + K (q˙∗ − q˙) + K (q∗(s) − q(s)) ds
+p d i
+s=0
+• ThisisnotalinearODEw.r.t.x = (q,q˙).
+However,whenweextendthestatetox = (q,q˙,e)wehavetheODE
+q˙ = q˙
+q¨= u/m = Kp/m(q∗ −q)+K
+d
+/m(q˙∗ −q˙)+Ki/me
+e˙ = q∗ −q
+(noexplicitdiscussionhere)
+3:15
+1D point mass – PID control
+(cid:90) t
+u = K (q∗ − q) + K (q˙∗ − q˙) + K (q∗ − q(s)) ds
+p d i
+s=0
+• PID control

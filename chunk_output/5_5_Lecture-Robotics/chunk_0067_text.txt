@@ -1,0 +1,14 @@
+7: Command qt to all robot motors and compute all TW→i(qt)
+8: end for
+01-kinematics: ./x.exe -mode 2/3
+• Why does this not follow the interpolated trajectory yˆ exactly?
+0:T
+– What happens if T = 1 and y∗ is far?
+2:31
+Two additional notes
+• What if we linearize at some arbitrary q(cid:48) instead of q ?
+0
+φ(q) ≈ y(cid:48) + J (q − q(cid:48)) , y(cid:48) = φ(q(cid:48))
+q∗ = argmin||φ(q) − y∗||2 + ||q − q(cid:48) + (q(cid:48) − q )||2
+C 0 W
+q

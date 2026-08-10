@@ -1,0 +1,26 @@
+[Page 14]
+14 Introduction to Robotics, Marc Toussaint
+– Singularities, null space,
+2:3
+2.1 Basic 3D geometry & notation
+2:4
+Pose (position & orientation)
+• A pose is described by a translation p ∈ R3 and a rotation R ∈ SO(3)
+– R is an orthonormal matrix (orthogonal vectors stay orthogonal, unit vectors stay
+unit)
+– R-1 = R(cid:62)
+– columns and rows are orthogonal unit vectors
+– det(R) = 1
+R R R 
+11 12 13
+– R =  R
+21
+R
+22
+R
+23
+
+R R R 
+31 32 33
+2:5
+Frame and coordinate transforms

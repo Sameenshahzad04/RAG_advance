@@ -1,0 +1,12 @@
+[Page 46]
+46 Introduction to Robotics, Marc Toussaint
+• However, knowing the robot dynamics we can transfer our understanding of
+PID control of a point mass to general systems
+3:27
+General robot dynamics
+• Let (q,q˙) be the dynamic state and u ∈ Rn the controls (typically joint torques
+in each motor) of a robot
+• Robot dynamics can generally be written as:
+M(q) q¨+ C(q,q˙) q˙ + G(q) = u
+M(q) ∈ Rn×n is positive definite intertia matrix
+(can be inverted → forward simulation of dynamics)

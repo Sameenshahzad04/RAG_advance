@@ -1,0 +1,6 @@
+• Guaranteed convergence
+• Still active research:
+K. Taylor and S.M. LaValle: I-Bug: An Intensity-Based Bug Algorithm
+⇒ Useful for minimalistic, robust 2D goal reaching
+– not useful for finding paths in joint space
+4:12

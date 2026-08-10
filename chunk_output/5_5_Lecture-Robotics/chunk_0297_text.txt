@@ -1,0 +1,6 @@
+0:t
+(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)
+x
+t
+Smoothing: P(x t |y 0:T ) (cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)y(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)
+0:T

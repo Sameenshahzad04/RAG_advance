@@ -1,0 +1,10 @@
+0 0 0 0
+wheretheapproximation≈meansthatweusethelocallinearizationΦ(q) = Φ(q )+
+0
+J(q − q ). Verify this.
+0
+b) On slide 02:34 there is a term (I − J#J) called nullspace projection. Verify that
+for (cid:37) → ∞ (and C = (cid:37)I) and any choice of a ∈ Rn
+δq = (I − J#J)a ⇒ δy = 0
+(assuming linearity of φ, i.e., Jδq = δy). Note: this means that any choice of a, the
+motion (I − J#J)a will not change the “endeffector position” y.

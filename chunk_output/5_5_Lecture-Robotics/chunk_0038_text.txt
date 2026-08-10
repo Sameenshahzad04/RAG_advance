@@ -1,0 +1,14 @@
+2:1
+Basic motion generation problem
+• Move all joints in a coordinated way so that the endeffector makes a desired
+movement
+01-kinematics: ./x.exe -mode 2/3/4
+2:2
+Outline
+• Basic 3D geometry and notation
+• Kinematics: φ : q (cid:55)→ y
+• Inverse Kinematics: y∗ (cid:55)→ q∗ = argmin ||φ(q) − y∗||2 + ||q − q ||2
+q C 0 W
+• Basic motion heuristics: Motion profiles
+• Additional things to know
+– Many simultaneous task variables

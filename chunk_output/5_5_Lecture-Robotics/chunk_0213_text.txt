@@ -1,0 +1,40 @@
+x
+(non-holonomic ⇐⇒ dim(U ) < dim(x))
+x
+The elements of U are elements of T subject to additional differential con-
+x x
+straints.
+4:47
+Car example
+x˙ = v cosθ
+y˙ = v sinθ
+θ˙ = (v/L) tanϕ
+|ϕ| < Φ
+x
+v
+State q =  y Controls u =  ϕ
+
+θ
+x˙  v cosθ 
+Sytem equation 
+
+y
+θ
+˙
+˙
+
+
+= 
+(v/
+v
+L)
+sin
+ta
+θ
+nϕ
+
+
+4:48
+Car example
+• The car is a non-holonomic system: not all DoFs are controlled, dim(u) < dim(q)
+We have the differential constraint q˙:

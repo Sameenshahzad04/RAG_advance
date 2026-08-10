@@ -1,0 +1,9 @@
+– motion needs perception
+– motion needs spatial representations
+• Manipulation requires to acknowledge the structure (geometry, physics, ob-
+jects) of the real world. Classical AI does not
+1:8
+Robotics as intelligence research
+• Machine Learning and AI are computational disciplines, which had great suc-
+cess with statistical modelling, analysis of data sets, symbolic reasoning. But
+they have not solved autonomous learning, acting & reasoning in real worlds.

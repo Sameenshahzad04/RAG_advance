@@ -1,0 +1,11 @@
+[Page 49]
+Introduction to Robotics, Marc Toussaint 49
+What have we learned? What not?
+• More theory
+– Contacts → Inequality constraints on the dynamics
+– Switching dynamics (e.g. for walking)
+– Controllling contact forces
+• Hardware limits
+– I think: the current success stories on highly dynamic robots are all anchored in
+novel hardware approaches
+3:36

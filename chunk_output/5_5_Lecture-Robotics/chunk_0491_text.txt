@@ -1,0 +1,4 @@
+|F|
+b) Multiplying two Gaussians is essential in many algorithms (typically, a prior and
+a likelihood, to get a posterior). Prove the general rule
+N(x|a,A) N(x|b,B)

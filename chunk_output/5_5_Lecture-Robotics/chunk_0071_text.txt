@@ -1,0 +1,10 @@
+– δy = Jδq ⇒ dimensions of δy limited
+– Intuition: arm fully stretched
+• Implications:
+det(JJ(cid:62)) = 0
+→ pseudo-inverse J(cid:62)(JJ(cid:62))-1 is ill-defined!
+→ inverse kinematics δq = J(cid:62)(JJ(cid:62))-1δy computes “infinite” steps!
+• Singularity robust pseudo inverse J(cid:62)(JJ(cid:62)+ (cid:15)I)-1
+The term (cid:15)I is called regularization
+• Recall our general solution (for W = I)
+J(cid:93) = J(cid:62)(JJ(cid:62)+ C-1)-1

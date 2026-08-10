@@ -1,0 +1,6 @@
+[Page 106]
+106 Introduction to Robotics, Marc Toussaint
+http://stair.stanford.edu/multimedia.php
+STAIR: STanford Artificial Intelligence Robot
+7:4
+Types of Robot Mobility

@@ -1,0 +1,10 @@
+[Page 94]
+94 Introduction to Robotics, Marc Toussaint
+P(X) denotes the probability distribution (function over Ω)
+Example: A dice can take values Ω = {1,2,3,4,5,6}.
+By P(X) we discribe the full distribution over possible values {1,..,6}. These are 6
+numbers that sum to one, usually stored in a table, e.g.: [1, 1, 1, 1, 1, 1]
+6 6 6 6 6 6
+• In implementations we typically represent distributions over discrete random
+variables as tables (arrays) of numbers
+• Notation for summing over a RV:

@@ -1,0 +1,11 @@
+[Page 60]
+60 Introduction to Robotics, Marc Toussaint
+Local Minimum Problem with the Charge Analogy
+4:16
+Potential fields – conclusions
+• Very simple, therefore popular
+• In our framework: Combining a goal (endeffector) task variable, with a con-
+straint (collision avoidance) task variable; then using inv. kinematics is exactly
+the same as “Potential Fields”
+⇒ Does not solve locality problem of feedback control.
+4:17

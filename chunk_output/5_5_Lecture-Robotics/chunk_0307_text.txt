@@ -1,0 +1,13 @@
+1 N j
+– Exact update equations (under the Gaussian assumption)
+– Conceptually very simple
+• Drawbacks:
+– Scaling (full covariance matrix is O(N2))
+– Sometimes non-robust (uni-modal, “data association problem”)
+– Lacks advantages of Particle Filter
+(multiple hypothesis, more robust to non-linearities)
+7:38
+SLAM with particles
+Core idea: Each particle carries its own map belief
+• Use a conditional representation “p (x ,m) = p (x ) p (m|x )”
+t t t t t t

@@ -1,0 +1,9 @@
+[Page 3]
+Introduction to Robotics, Marc Toussaint 3
+Bernoulli and Binomial distributions (6:14) Beta (6:15) Multinomial (6:18) Dirichlet
+(6:19) Conjugate priors (6:23) Dirac distribution (6:26) Gaussian (6:27) Particle ap-
+proximation of a distribution (6:30) Student’s t, Exponential, Laplace, Chi-squared,
+Gamma distributions (6:33)
+7 Mobile Robotics 104
+Darpa challenge (7:1)
+7.1 State Estimation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 107

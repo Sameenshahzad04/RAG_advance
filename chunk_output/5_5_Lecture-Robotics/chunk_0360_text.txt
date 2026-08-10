@@ -1,0 +1,3 @@
+0 0
+• Lyapunov stable or uniformly stable ⇐⇒
+∀(cid:15) : ∃δ s.t. ||x(0)|| ≤ δ ⇒ ∀t : ||x(t)|| ≤ (cid:15)

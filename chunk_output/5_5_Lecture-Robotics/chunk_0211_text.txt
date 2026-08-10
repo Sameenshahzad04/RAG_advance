@@ -1,0 +1,9 @@
+[Page 81]
+Introduction to Robotics, Marc Toussaint 81
+4:44
+RRT*
+Sertac Karaman & Emilio Frazzoli: Incremental sampling-based algorithms for
+optimal motion planning, arXiv 1005.0416 (2010).
+4:45
+4.3 Non-holonomic systems
+4:46

@@ -1,0 +1,13 @@
+• As a starting point, consider the claim:
+“Intelligence means to gain maximal controllability over all degrees of freedom over the
+environment.”
+Note:
+– controllability (ability to control) (cid:54)= control
+– What does controllability mean exactly?
+• I think the general idea of controllability is really interesting
+– Linear control theory provides one specific definition of controllability, which
+we introduce next..
+8:25
+Controllability
+• Consider a linear controlled system
+x˙ = Ax + Bu

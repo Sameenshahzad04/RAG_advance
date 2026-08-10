@@ -1,0 +1,20 @@
+[Page 96]
+96 Introduction to Robotics, Marc Toussaint
+Bernoulli & Binomial
+• We have a binary random variable x ∈ {0,1} (i.e. dom(x) = {0,1})
+The Bernoulli distribution is parameterized by a single scalar µ,
+P(x=1|µ) = µ , P(x=0|µ) = 1 − µ
+Bern(x|µ) = µx(1 − µ)1−x
+• We have a data set of random variables D = {x ,..,x }, each x ∈ {0,1}. If
+1 n i
+each x ∼ Bern(x |µ) we have
+i i
+P(D|µ) = (cid:81)n
+i=1
+Bern(x
+i
+|µ) = (cid:81)n
+i=1
+µxi(1 − µ)1−xi
+n n
+(cid:88) 1 (cid:88)

@@ -1,0 +1,4 @@
+9:4
+... in the notation of control theory
+• We have a (potentially stochastic) controlled system
+x˙ = f(x,u) + noise(x,u)

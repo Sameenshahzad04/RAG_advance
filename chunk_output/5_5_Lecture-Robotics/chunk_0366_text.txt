@@ -1,0 +1,10 @@
+i i
+8:38
+Linear Stability Analysis comments
+• The same type of analysis can be done locally for non-linear systems, as we
+will do for the cart-pole in the exercises
+• We can design a controller that minimizes the (negative) eigenvalues of A:
+↔ controller with fastest asymtopic convergence
+This is a real alternative to optimal control!
+8:39
+Lyapunov function method

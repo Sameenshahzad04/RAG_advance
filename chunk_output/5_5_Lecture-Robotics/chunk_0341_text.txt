@@ -1,0 +1,12 @@
+∂u
+= 2u(cid:62)R + 2x(cid:62)P(t)B
+u∗ = −R-1B(cid:62)Px
+⇒ Riccati differential equation
+−P˙ = A(cid:62)P + PA − PBR-1B(cid:62)P + Q
+8:17
+Riccati differential equation
+−P˙ = A(cid:62)P + PA − PBR-1B(cid:62)P + Q
+• This is a differential equation for the matrix P(t) describing the quadratic value
+function. If we solve it with the finite horizon constraint P(T) = F we solved
+the optimal control problem
+• The optimal control u∗ = −R-1B(cid:62)Px is called Linear Quadratic Regulator

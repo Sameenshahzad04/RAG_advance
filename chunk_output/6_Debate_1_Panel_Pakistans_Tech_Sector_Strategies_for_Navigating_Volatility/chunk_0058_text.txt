@@ -1,0 +1,7 @@
+payment method.
+Minimum practical setup:
+• Maintain relationships with at least two Pakistani banks that understand IT export receipts. This is
+my conservative business recommendation, not a statutory requirement.
+• For each major client, define a primary and backup payment method before the first invoice.
+• Ask banks in writing what documents they require for software exports, SaaS subscriptions,
+consulting retainers, marketplace payments, and platform receipts.

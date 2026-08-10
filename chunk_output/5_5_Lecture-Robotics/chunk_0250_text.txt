@@ -1,0 +1,20 @@
+6:16
+Beta
+fromBishop
+6:17
+Multinomial
+• We have an integer random variable x ∈ {1,..,K}
+The probability of a single x can be parameterized by µ = (µ ,..,µ ):
+1 K
+P(x=k|µ) = µ
+k
+with the constraint
+(cid:80)K
+µ = 1 (probabilities need to be normalized)
+k=1 k
+• We have a data set of random variables D = {x ,..,x }, each x ∈ {1,..,K}. If
+1 n i
+each x ∼ P(x |µ) we have
+i i
+P(D|µ) = (cid:81)n µ = (cid:81)n (cid:81)K µ[xi=k] = (cid:81)K µmk
+i=1 xi i=1 k=1 k k=1 k

@@ -1,0 +1,16 @@
+[Page 136]
+136 Introduction to Robotics, Marc Toussaint
+x˙  0 1x  0
+1 = 1 + u
+ x˙    0 0   x    1 
+2 2
+Is x “controllable”?
+8:26
+Controllability
+We consider a linear stationary (=time-invariant) controlled system
+x˙ = Ax + Bu
+• Complete controllability: All elements of the state can be brought from arbi-
+trary initial conditions to zero in finite time
+• A system is completely controllable iff the controllability matrix
+(cid:104) (cid:105)
+C := B AB A2B ··· An-1B

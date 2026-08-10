@@ -1,0 +1,6 @@
+• We’ll neglect stochasticity here
+• When analyzing a given controller π, one analyzes closed-loop system as de-
+scribed by the differential equation
+x˙ = f(x,π(x,t))
+(E.g., analysis for convergence & stability)
+8:2

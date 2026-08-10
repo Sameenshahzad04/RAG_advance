@@ -1,0 +1,15 @@
+[Page 154]
+154 Introduction to Robotics, Marc Toussaint
+– the best µ selected
+9:29
+Covariance Matrix Adaptation (CMA-ES)
+• An obvious critique of the simple Evolution Strategies:
+– The search distribution N(x|xˆ,σ2) is isotropic
+(no going forward, no preferred direction)
+– The variance σ is fixed!
+• Covariance Matrix Adaptation Evolution Strategy (CMA-ES)
+9:30
+Covariance Matrix Adaptation (CMA-ES)
+• In Covariance Matrix Adaptation
+θ = (xˆ,σ,C,p ,p ) , p (x) = N(x|xˆ,σ2C)
+σ C θ

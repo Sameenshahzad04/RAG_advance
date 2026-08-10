@@ -1,0 +1,9 @@
+[Page 161]
+Introduction to Robotics, Marc Toussaint 161
+IllustrationfromSua´rez,Roa,Cornella` (2006): GraspQualityMeasures
+10:9
+The “mitten thought experiment”
+• From Oliver Brock’s research website:
+“Our approach to grasping is motivated by the ”mitten thought experiment”. This ex-
+periment illustrates that a sensory information-deprived subject (blindfolded, wearing
+a thick mitten to eliminate tactile feedback) is able to grasp a large variety of objects

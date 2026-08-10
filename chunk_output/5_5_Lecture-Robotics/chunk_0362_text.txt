@@ -1,0 +1,16 @@
+• Given a linear system
+x˙ = Ax
+Let λ be the eigenvalues of A
+i
+– The system is asymptotically stable ⇐⇒ ∀ : real(λ ) < 0
+i i
+– The system is unstable stable ⇐⇒ ∃ : real(λ ) > 0
+i i
+– The system is marginally stable ⇐⇒ ∀ : real(λ ) ≤ 0
+i i
+• Meaning: An eigenvalue describes how the system behaves along one state dimension
+(along the eigenvector):
+x˙ = λ x
+i i i
+As for the 1D point mass the solution is x i (t) = aeλit and
+– imaginary λ i → oscillation

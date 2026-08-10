@@ -1,0 +1,7 @@
+[Table - Page 35]
+| Thejointanglesthemselves |  |
+| --- | --- |
+| dimension | d=n |
+| parameters | (none) |
+| kin.map | φ (q)=q qitself |
+| Jacobian | J (q)=I qitself n |

@@ -1,0 +1,11 @@
+• In the black-box case we have no local information directly accessible
+→ one needs to account for the history in some way or another to have an idea
+where to continue search
+• “Accounting for the history” very often means learning: Learning a local or
+global model of f itself, learning which steps have been successful recently
+(gradient estimation), or which step directions, or other heuristics
+9:25
+Stochastic Search
+9:26
+Stochastic Search
+• The general recipe:

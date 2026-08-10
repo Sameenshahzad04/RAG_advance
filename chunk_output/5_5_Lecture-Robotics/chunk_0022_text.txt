@@ -1,0 +1,13 @@
+[Page 7]
+Introduction to Robotics, Marc Toussaint 7
+http://people.csail.mit.edu/nikolaus/drg/
+1:5
+Why Robotics?
+• Commercial:
+Industrial, health care, entertainment, agriculture, surgery, etc
+• Critical view:
+– International Committee for Robot Arms Control
+http://icrac.net/
+– Noel Sharkey’s articles on robot ethics (Child care robots PePeRo...)
+http://www.nec.co.jp/products/robot/en/
+1:6

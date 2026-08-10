@@ -1,0 +1,13 @@
+• In practice: Robot motion design (includ-
+ing grasping) may require cumbersome hand-
+tuning of such task variables.
+2:63
+• Technical Reference: The four rotation axes of a quaternion joint:
+AquaternionjointhasfourDOFs. Ifitiscurrentlyinconfigurationq ∈ R4,theithDOFsgenerates
+(infinitesimally)arotationaroundtheaxis
+−2
+ai =
+(cid:112)
+[ei ◦q-1]1:3
+q2
+where ei ∈ R4 is the ith unit vector, ◦ is the concatenation of quaternions, q-1 the inverse quater-

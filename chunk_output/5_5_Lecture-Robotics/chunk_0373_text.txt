@@ -1,0 +1,9 @@
+8:43
+Observability & Adaptive Control
+• When some state dimensions are not directly observable: analyzing higher or-
+der derivatives to infer them.
+Very closely related to controllability: Just like the controllability matrix tells
+whether state dimensions can (indirectly) be controlled; an observation matrix
+tells whether state dimensions can (indirectly) be inferred.
+• Adaptive Control: When system dynamics x˙ = f(x,u,β) has unknown param-
+eters β.

@@ -1,0 +1,8 @@
+Robotics:_Schedule_WT09
+• StefanSchaal’slectureIntroductiontoRobotics: http://www-clmc.usc.edu/Teaching/TeachingIntroductionToRoboticsSyllabus
+(focus on control, useful: Basic Linear Control Theory (analytic solution to simple dynamic model
+→ PID), chapter on dynamics)
+• ChrisAtkeson’s“Kinematics,DynamicSystems,andControl”http://www.cs.cmu.edu/˜cga/
+kdc/
+(uses Schaal’s slides and LaValle’s book, useful: slides on 3d kinematics http://www.cs.cmu.
+edu/˜cga/kdc/ewhitman1.pptx)

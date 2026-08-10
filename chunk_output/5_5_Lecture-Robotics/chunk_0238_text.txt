@@ -1,0 +1,14 @@
+P(Ω \ A) = 1 − P(A)
+6:5
+Probabilities & Random Variables
+• For a random variable X with discrete domain dom(X) = Ω we write:
+∀ : 0 ≤ P(X=x) ≤ 1
+x∈Ω
+(cid:80)
+P(X=x) = 1
+x∈Ω
+Example: A dice can take values Ω = {1,..,6}.
+X is the random variable of a dice throw.
+P(X=1) ∈ [0,1] is the probability that X takes value 1.
+• A bit more formally: a random variable is a map from a measureable space to a domain
+(sample space) and thereby introduces a probability measure on the domain (“assigns a

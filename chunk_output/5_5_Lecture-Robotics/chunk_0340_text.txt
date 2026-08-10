@@ -1,0 +1,14 @@
+[Page 132]
+132 Introduction to Robotics, Marc Toussaint
+Riccati differential equation = HJB eq. in LQ case
+• In the Linear-Quadratic (LQ) case, the value function always is a quadratic
+function of x!
+Let V (x,t) = x(cid:62)P(t)x, then the HBJ equation becomes
+∂ (cid:104) ∂V (cid:105)
+− V (x,t) = min c(x,u) + f(x,u)
+∂t u ∂x
+(cid:104) (cid:105)
+−x(cid:62)P˙(t)x = min x(cid:62)Qx + u(cid:62)Ru + 2x(cid:62)P(t)(Ax + Bu)
+u
+∂ (cid:104) (cid:105)
+0 = x(cid:62)Qx + u(cid:62)Ru + 2x(cid:62)P(t)(Ax + Bu)

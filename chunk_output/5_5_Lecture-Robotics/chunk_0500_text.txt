@@ -1,0 +1,10 @@
+0 0
+and write a = π(s ). The value of a state s is defined as the expected discounted
+t t
+sum of future rewards,
+V π(s) = E{r + γr + γ2r + ··· |s =s} (8)
+0 1 2 0
+given that the agent starts in state s and from there executes the policy π.
+a) Prove
+V π(s) = E{r |s,π(s)} + γ (cid:80) P(s(cid:48) |s,π(s)) V π(s(cid:48)) . (9)
+0 s(cid:48)

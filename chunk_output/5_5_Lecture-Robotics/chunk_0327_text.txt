@@ -1,0 +1,19 @@
+[Page 128]
+128 Introduction to Robotics, Marc Toussaint
+Optimal control (discrete time)
+Given a controlled dynamic system
+x = f(x ,u )
+t+1 t t
+we define a cost function
+T
+(cid:88)
+Jπ = c(x ,u ) + φ(x )
+t t T
+t=0
+where x and the controller π : (x,t) (cid:55)→ u are given, which determines x and
+0 1:T
+u
+0:T
+8:7
+Dynamic Programming & Bellman principle
+An optimal policy has the property that whatever the initial state and initial decision

@@ -1,0 +1,11 @@
+[Page 85]
+Introduction to Robotics, Marc Toussaint 85
+1) Select a q ∈ T
+2) Pick v, φ, and τ
+3) Integrate motion from q
+4) Add result if collision-free
+4:53
+J. Barraquand and J.C. Latombe. Nonholonomic Multibody Robots: Controllability
+and Motion Planning in the Presence of Obstacles. Algorithmica, 10:121-155, 1993.
+car parking
+4:54

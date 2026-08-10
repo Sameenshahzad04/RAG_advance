@@ -1,0 +1,12 @@
+[Page 162]
+162 Introduction to Robotics, Marc Toussaint
+J.N.A.L.Leijnse,2005
+DeBruijneetal. 1999
+See Just Herder’s lecture on “Biograsping”
+http://www.slideshare.net/DelftOpenEr/bio-inspired-design-lecture6-bio-grasping
+10:12
+Tendon-based hand mechanisms
+JasterSchuurmans,2004
+ShapeGripper,ShigeoHirose,TITECH
+DLRhand
+10:13

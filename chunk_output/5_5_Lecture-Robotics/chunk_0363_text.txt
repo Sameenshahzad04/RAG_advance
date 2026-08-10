@@ -1,0 +1,7 @@
+– imaginary λ i → oscillation
+– negative real(λ i ) → exponential decay ∝ e−|λi|t
+– positive real(λ i ) → exponential explosion ∝ e|λi|t
+8:36
+Linear Stability Analysis: Example
+• Let’s take the 1D point mass q¨= u/m in closed loop with a PD u = −K q − K q˙
+p d

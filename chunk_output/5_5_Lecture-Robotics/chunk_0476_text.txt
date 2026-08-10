@@ -1,0 +1,13 @@
+i p d i
+K non-zero?
+d
+NoteonEulerIntegration: Seealsohttp://en.wikipedia.org/wiki/Euler_
+method. Given a differential equation x˙ = f(x,u), Euler integration numerically
+“simulates” this equation forward by iterating
+x = x + τf(x,u)
+t+1 t
+for small time steps τ.
+12.5.2 Following a reference trajectory with PD control
+We have the same point mass as above. But now the goal position q∗ changes over
+time: we have a reference trajectory
+q∗(t) = cos(t)

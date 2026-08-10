@@ -1,0 +1,15 @@
+• Product rule and Bayes’ Theorem:
+P(X,Z,Y ) = P(X|Y,Z) P(Y |Z) P(Z)
+P(X ) =
+(cid:81)n
+P(X |X )
+1:n i=1 i i+1:n P(X|Y,Z) = P(Y|X,Z) P(X|Z)
+P(Y|Z)
+P(X |X ) = P(X2|X1,X3:n) P(X1|X3:n)
+1 2:n P(X2|X3:n) P(X,Y |Z) = P(X,Z|Y) P(Y)
+P(Z)
+6:11
+6.2 Probability distributions
+6:12
+• We skip Bernoulli & Beta, Multinomial & Dirichlet..
+6:13

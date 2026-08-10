@@ -1,0 +1,15 @@
+[Page 138]
+138 Introduction to Robotics, Marc Toussaint
+• The following will therefore discuss stability analysis of general differential
+equations x˙ = f(x)
+• What follows:
+– 3 basic definitions of stability
+– 2 basic methods for analysis by Lyapunov
+8:33
+Aleksandr Lyapunov (1857–1918)
+8:34
+Stability – 3 definitions
+x˙ = F(x) with equilibrium point x = 0
+• x is an equilibrium point ⇐⇒ f(x ) = 0
+0 0
+• Lyapunov stable or uniformly stable ⇐⇒

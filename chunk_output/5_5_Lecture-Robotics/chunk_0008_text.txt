@@ -1,0 +1,3 @@
+Joint distribution (6:8) Marginal (6:8) Conditional distribution (6:8) Bayes’ Theorem
+(6:10) Multiple RVs, conditional independence (6:11)
+6.2 Probability distributions . . . . . . . . . . . . . . . . . . . . . . . . . . 95

@@ -1,0 +1,21 @@
+[Page 108]
+108 Introduction to Robotics, Marc Toussaint
+–whichhallway?
+– which door exactly?
+– which heading direction?
+7:9
+State Estimation Problem
+• What is the probability of being in front
+of room 154, given we see what is shown
+in the image?
+• What is the probability given that we
+were just in front of room 156?
+• What is the probability given that we
+were in front of room 156 and moved 15
+meters?
+7:10
+Recall Bayes’ theorem
+P(Y |X) P(X)
+P(X|Y ) =
+P(Y )
+posterior = likelihood · prior

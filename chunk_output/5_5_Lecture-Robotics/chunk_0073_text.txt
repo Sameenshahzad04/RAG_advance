@@ -1,0 +1,11 @@
+δq = argmin||q − a||2 + ||Jq − δy||2
+W C
+q
+= J#δy + (I − J#J)a , J# = W-1J(cid:62)(JW-1J(cid:62)+ C-1)-1
+In the limit C → ∞ it is guaranteed that Jδq = δy (we are exacty on the mani-
+fold). The term a introduces additional “nullspace motion”.
+2:36
+Inverse Kinematics and Motion Rate Control
+Some clarification of concepts:
+• The notion “kinematics” describes the mapping φ : q (cid:55)→ y, which usually is a
+many-to-one function.

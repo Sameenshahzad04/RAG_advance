@@ -1,0 +1,10 @@
+[Page 11]
+• Clear scope-change pricing.
+• Client acceptance criteria in writing.
+• Intellectual property transfer only after payment clearance, unless enterprise procurement terms
+require otherwise.
+For SaaS/product companies:
+• Push annual contracts with upfront discounts where possible.
+• Maintain monthly plans only where churn is low and payment collection is reliable.
+• Use card, bank transfer, and platform alternatives depending on geography.
+• Track failed payments daily, not monthly.

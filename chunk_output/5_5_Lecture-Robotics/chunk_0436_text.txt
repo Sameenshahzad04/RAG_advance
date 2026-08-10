@@ -1,0 +1,13 @@
+– Can accellerate q¨any DoF → conventional dynamic control
+fully actuated system
+• Limitations:
+– Humans don’t use ZMP stability, we allow our feet to roll
+(toe-off, heel-strike: ZMP at edge of support polygon)
+– Can’t describe robots with point feet (walking on stilts)
+11:13
+Models of human bipedal locomotion
+The following illustrations are from:
+McMahon: Mechanics of Locomotion. IJRR 3:4-28, 1984
+http://www.cs.cmu.edu/˜cga/legs/mcmahon1.pdf
+http://www.cs.cmu.edu/˜cga/legs/mcmahon2.pdf
+11:14

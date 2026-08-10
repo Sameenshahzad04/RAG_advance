@@ -1,0 +1,5 @@
+u t ∂t ∂x
+(cid:104) ∂V ∂V (cid:105)
+0 = min c(x,u)+ + f(x,u)
+u ∂t ∂x
+8:11

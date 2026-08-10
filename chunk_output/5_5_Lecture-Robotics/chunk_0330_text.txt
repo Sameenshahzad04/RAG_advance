@@ -1,0 +1,22 @@
+[Page 129]
+Introduction to Robotics, Marc Toussaint 129
+Derivation:
+(cid:104)(cid:88) T (cid:105)
+Vt(x) = min c(xs,us)+φ(xT)
+π
+s=t
+(cid:104) (cid:88) T (cid:105)
+= min c(x,ut)+min[ c(xs,us)+φ(xT)]
+ut π
+s=t+1
+(cid:104) (cid:105)
+= min c(x,ut)+Vt+1(f(x,ut))
+ut
+8:9
+Optimal Control (continuous time)
+Given a controlled dynamic system
+x˙ = f(x,u)
+we define a cost function with horizon T
+(cid:90) T
+Jπ = c(x(t),u(t)) dt + φ(x(T))
+0

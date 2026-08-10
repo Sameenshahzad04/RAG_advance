@@ -1,0 +1,10 @@
+[Page 113]
+Introduction to Robotics, Marc Toussaint 113
+• Gaussian
+• Particles
+7:20
+Recall: Particle Representation of a Distribution
+• Weighed set of N particles {(xi,wi)}N
+i=1
+p(x) ≈ q(x) := (cid:80)N wiδ(x,xi)
+i=1

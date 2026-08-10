@@ -1,0 +1,13 @@
+– Newton’s equation expresses the force acting at the center of mass for an acceler-
+ated body:
+f = mv˙
+i i
+– Euler’s equation expresses the torque (=control) acting on a rigid body given an
+angular velocity and angular acceleration:
+u = I w˙ + w × Iw
+i i
+• Forward recursion: (≈ kinematics)
+Compute (angular) velocities (v ,w ) and accelerations (v˙ ,w˙ ) for every link
+i i i i
+(viaforwardpropagation;seegeometrynotesfordetails)
+• Backward recursion:

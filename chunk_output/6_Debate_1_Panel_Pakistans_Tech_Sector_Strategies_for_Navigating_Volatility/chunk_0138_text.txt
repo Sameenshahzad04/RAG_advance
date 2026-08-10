@@ -1,0 +1,5 @@
+banking rules will remain arbitrary.
+1. Control Your Infrastructure: Build radical redundancy. Two internet lines, a generator, and a
+compliance expert on your team. This is your 'Fortress Pakistan.'
+2. Control Your Talent: Pay top-of-market, peg salaries to the dollar to hedge against devaluation,
+and invest in an office culture that remote work can't replicate. Your people are your moat.

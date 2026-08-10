@@ -1,0 +1,14 @@
+a concrete method for stability analysis.)
+• In standard cases, a good guess for the Lyapunov function is either the energy
+or the value function
+8:41
+Lyapunov function method – Energy Example
+• Let’s take the 1D point mass q¨= u/m in closed loop with a PD u = −K q −K q˙,
+p d
+which has the solution (slide 05:14):
+√
+q(t) = be−ξ/λ t eiω0 1−ξ2 t
+• Energy of the 1D point mass: V (q,q˙) := 1mq˙2
+2
+V˙ (x) = e−2ξ/λ tV (x(0))
+(using that the energy of an undamped oscillator is conserved)

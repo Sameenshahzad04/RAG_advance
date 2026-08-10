@@ -1,0 +1,2 @@
+We have the differential constraint q˙:
+x˙ sinθ − y˙ cosθ = 0

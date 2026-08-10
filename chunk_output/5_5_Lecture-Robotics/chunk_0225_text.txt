@@ -1,0 +1,9 @@
+• Neglecting obstacles, there are only six types of trajectories that connect any
+configuration ∈ R2 × S1:
+{LRL,RLR,LSL,LSR,RSL,RSR}
+• annotating durations of each phase:
+{L R L ,,R L R ,L S L ,L S R ,R S L ,R S R }
+α β γ α β γ α d γ α d γ α d γ α d γ
+with α ∈ [0,2π),β ∈ (π,2π),d ≥ 0
+4:60
+Side story: Dubins curves

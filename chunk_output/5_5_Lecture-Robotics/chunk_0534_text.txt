@@ -1,0 +1,16 @@
+Followingareferencetrajectoryinjoint
+Bi-directional RRT (4:42),
+space (3:30),
+Bug algorithms (4:8),
+Following a reference trajectory in task
+space (3:31),
+Choice of optimizer (5:5),
+Force Closure (10:5),
+Compliant/soft hands (10:12),
+Form Closure, Caging (10:7),
+Composition of transforms (2:13),
+Forward kinematics (2:15),
+Conditional distribution (6:8),
+Frequentist vs Bayesian (6:3),
+Configuration state metrics (4:59),
+From inverse kinematics to path costs

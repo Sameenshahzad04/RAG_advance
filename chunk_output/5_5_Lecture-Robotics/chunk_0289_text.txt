@@ -1,0 +1,14 @@
+7:23
+Example: Quadcopter Localization
+http://www.slawomir.de/publications/grzonka09icra/grzonka09icra.pdf
+Quadcopter Indoor Localization
+7:24
+Typical Pitfall in Particle Filtering
+• Predicted particles {xi}N have very low observation likelihood P(y |xi) ≈ 0
+t i=1 t t
+(“particles die over time”)
+• Classical solution: generate particles also with other than purely forward pro-
+posal P(x |u ,x ):
+t t-1 t-1
+– Choose a proposal that depends on the new observation y , ideally approxi-
+t

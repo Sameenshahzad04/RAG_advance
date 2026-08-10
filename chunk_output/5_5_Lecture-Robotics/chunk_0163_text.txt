@@ -1,0 +1,14 @@
+[Page 54]
+54 Introduction to Robotics, Marc Toussaint
+A better bug?
+“Bug 2” Algorithm
+1) head toward goal on the m-line
+2) if an obstacle is in the way,
+Start
+follow it until you encounter the
+m-line again.
+3) Leave the obstacle and continue
+toward the goal
+Goal
+Better or worse than Bug1?
+4:9

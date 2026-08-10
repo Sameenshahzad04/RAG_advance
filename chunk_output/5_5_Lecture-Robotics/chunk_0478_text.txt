@@ -1,0 +1,12 @@
+[Page 185]
+Introduction to Robotics, Marc Toussaint 185
+12.6 Exercise 6
+12.6.1 Fun with Euler-Lagrange
+Consider an inverted pendulum mounted on a wheel in the 2D x-z-plane; similar
+to a Segway. The exercise is to derive the Euler-Lagrange equation for this system.
+Tips:
+• Strictly follow the scheme we discussed on slide 03:23.
+• Use the generalized coordinates
+q = (x,θ) (3)
+with x is the position of the wheel and θ the angle of the pendulum relative
+to the world-vertical.

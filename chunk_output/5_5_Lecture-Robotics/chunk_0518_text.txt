@@ -1,0 +1,15 @@
+[Page 194]
+194 Introduction to Robotics, Marc Toussaint
+SearchCMA cma;
+cma.init(5, -1, -1, -0.1, 0.1);
+arr samples, values;
+uint T=500;
+for(uint t=0;t<1000;t++){
+cma.step(samples, values);
+for(uint i=0;i<samples.d0;i++) values(i) = evaluateControlParameters(samples[i], T);
+uint i=values.minIndex();
+cout <<t <<’ ’ <<values(i) <<’ ’ <<samples[i] <<endl;
+}
+12.13 Exercise extra
+12.13.1 Kalman SLAM
+Slide 07:38 outlines how to use a high-dimensional Kalman filter to simultaneously

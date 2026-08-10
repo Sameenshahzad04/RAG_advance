@@ -1,0 +1,7 @@
+[Table - Page 33]
+| Vectorattachedtolinkirelativetolinkj |  |
+| --- | --- |
+| dimension | d=3 |
+| parameters | linkindicesi,j,attachedvectorvini |
+| kin.map | φvec(q)=R-1φvec iv|j j iv |
+| Jacobian | Jvec(q)=R-1[Jvec−A ×φvec] iv|j j iv j iv |

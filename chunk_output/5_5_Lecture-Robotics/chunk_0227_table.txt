@@ -1,0 +1,3 @@
+[Table - Page 90]
+| k=1 k=2 k=3 | f (x ,x )=x −x t t-1 t t t-1 f (x ,..,x )=x −2x +x t t-2 t t t-1 t-2 f (x ,..,x )=x −3x +3x −x t t-3 t t t-1 t-2 t-3 | penalizevelocity penalizeacceleration penalizejerk |
+| --- | --- | --- |

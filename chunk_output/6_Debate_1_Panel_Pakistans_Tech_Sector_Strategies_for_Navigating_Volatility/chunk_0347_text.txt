@@ -1,0 +1,5 @@
+making a new SBP-FBR-MoIT digital reconciliation mechanism a prerequisite for all other reforms.
+This puts the bureaucratic cart miles before the commercial horse. A modern payment gateway like
+Stripe is a digital reconciliation mechanism. It provides timestamped, invoice-linked, auditable
+transaction records by default. The quantified cost of this delay is unacceptable: My realistic
+estimate for building and launching such a government system is 18-24 months. If this delays

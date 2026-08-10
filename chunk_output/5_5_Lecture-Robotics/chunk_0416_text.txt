@@ -1,0 +1,13 @@
+i i i
+cone. Together they can exert the the force an torque:
+(cid:88) (cid:88)
+ftotal = f , τtotal = f × (p − c)
+i i i
+i i
+• Force closure ⇐⇒ we can generate (counter-act) arbitrary ftotal and τtotal by
+choosing f ∈ F appropriately.
+i i
+↔ Check whether the positive linear span of the fiction cones covers the whole
+space.
+10:6
+Form & Force Closure & Caging

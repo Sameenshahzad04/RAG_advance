@@ -1,0 +1,12 @@
+[Page 198]
+198 Introduction to Robotics, Marc Toussaint
+13.5 Control Theory
+• Optimal Control
+– Definition of the (continuous time) optimal control problem
+– Concept & definition of the value function
+– HJB equation
+– Infinite horizon → stationary solution
+– Awareness that optimal control is not the only approach; it shifts the prob-
+lem of designing a controller to designing a cost function.
+• Linear-Quadratic Optimal Control
+– Definition of problem (esp. assumptions made)

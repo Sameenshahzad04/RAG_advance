@@ -1,0 +1,6 @@
+[Page 33]
+1. Immediate and Unconditional Payment Gateway Access: This is not a feature; it's the dial tone.
+The SBP and Ministry of IT must be mandated to bring Stripe and/or a full-service PayPal to
+Pakistan. The current situation where freelancers use convoluted, grey-market methods and
+businesses like mine face massive friction is an existential threat. It makes us look unprofessional
+and risky to global customers.

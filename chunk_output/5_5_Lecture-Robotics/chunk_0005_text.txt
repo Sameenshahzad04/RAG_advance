@@ -1,0 +1,8 @@
+4 Path Planning 50
+Path finding examples (4:1) Feedback control vs path finding vs trajectory optimiza-
+tion (4:5)
+4.1 Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+Bug algorithms (4:8) Potential fields (4:13) Dijkstra (4:18)
+4.2 Sample-based Path Finding . . . . . . . . . . . . . . . . . . . . . . . . 68
+Probabilistic Road Maps (PRMs) (4:28) Planning/testing local connections (4:32)
+Probabilistic completeness of PRMs (4:34) Other PRM sampling strategies (4:35)

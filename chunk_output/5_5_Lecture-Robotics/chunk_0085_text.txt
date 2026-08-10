@@ -1,0 +1,8 @@
+0 ∂q
+q∗ = argmin||q − q ||2 + ||Φ(q)||2
+0 W
+q
+≈ q − (J(cid:62)J + W)-1J(cid:62)Φ(q ) = q − J#Φ(q )
+0 0 0 0
+2:48
+Multiple tasks

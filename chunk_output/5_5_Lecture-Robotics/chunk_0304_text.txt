@@ -1,0 +1,17 @@
+t t
+7:34
+SLAM: classical “chicken or egg problem”
+• If we knew the state trajectory x we could efficiently compute the belief over
+0:t
+the map
+P(m|x ,y ,u )
+0:t 0:t 0:t-1
+• If we knew the map we could use a Bayes filter to compute the belief over the
+state
+P(x |m,y ,u )
+t 0:t 0:t-1
+• SLAM requires to tie state estimation and map building together:
+1) Joint inference on x and m (→ Kalman-SLAM)
+t
+2) Tie a state hypothesis (=particle) to a map hypothesis
+(→ particle SLAM)

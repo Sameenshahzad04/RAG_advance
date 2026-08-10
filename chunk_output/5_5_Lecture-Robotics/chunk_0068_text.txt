@@ -1,0 +1,6 @@
+C 0 W
+q
+= q(cid:48) + J(cid:93) (y∗ − y(cid:48)) + (I − J(cid:93)J) h , h = q 0 − q(cid:48) (1)
+• What if we want to find the exact (local) optimum? E.g. what if we want to
+compute a big step (where q∗ will be remote from q) and we cannot not rely
+only on the local linearization approximation?

@@ -1,11 +1,3 @@
-# =============================================================
-# extractor.py — Extract Text & Tables from PDF, DOCX, TXT
-# =============================================================
-# Reads uploaded files and pulls out all text paragraphs and
-# tables. Returns a list like:
-#   [{"type": "text", "content": "..."}, {"type": "table", "content": "..."}]
-# =============================================================
-
 import os
 import logging
 from typing import List, Dict, Any
@@ -52,7 +44,8 @@ def _extract_pdf(file_path: str) -> List[Dict[str, Any]]:
                             })
 
                 # Extract text from this page
-                text = page.extract_text()
+                # FIX: x_tolerance and y_tolerance force pdfplumber to detect gaps between words
+                text = page.extract_text(x_tolerance=2, y_tolerance=3)
                 if text and text.strip():
                     elements.append({
                         "type": "text",
@@ -71,7 +64,12 @@ def _extract_pdf(file_path: str) -> List[Dict[str, Any]]:
 
         reader = PdfReader(file_path)
         for idx, page in enumerate(reader.pages, start=1):
-            text = page.extract_text()
+           
+           # FIX: extraction_mode="layout" preserves word spaces on LaTeX/Beamer PDFs
+            try:
+                text = page.extract_text(extraction_mode="layout")
+            except Exception:
+                text = page.extract_text()
             if text and text.strip():
                 elements.append({
                     "type": "text",
@@ -147,3 +145,10 @@ def _format_table_markdown(table_data: List[List[Any]]) -> str:
         lines.append("| " + " | ".join(row) + " |")
 
     return "\n".join(lines)
+
+
+
+
+
+
+

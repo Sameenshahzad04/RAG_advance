@@ -1,0 +1,13 @@
+– Linear Algebra
+– Probability theory
+– Optimization
+1:13
+Books
+There is no reference book for this lecture. But a basic well-known standard
+text book is:
+Craig, J.J.: Introduction to robotics: me-
+chanics and control. Addison-Wesley New
+York, 1989. (3rd edition 2006)
+1:14
+Books
+An advanced text book on planning is this:

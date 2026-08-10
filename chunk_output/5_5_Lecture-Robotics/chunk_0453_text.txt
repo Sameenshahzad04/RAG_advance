@@ -1,0 +1,17 @@
+ible. Solve for x:
+(Ax − y)(cid:62)A = 0(cid:62)
+n
+d) As above, additionally B ∈ Rn×n, B positive-definite. Solve for x:
+(Ax − y)(cid:62)A + x(cid:62)B = 0(cid:62)
+n
+12.1.2 Prerequisites: Vector derivatives
+Let x ∈ Rn, y ∈ Rd, f,g : Rn → Rd, A ∈ Rd×n, C ∈ Rd×d. (Also provide the
+dimensionality of the results.)
+a) What is ∂ x ?
+∂x
+b) What is ∂ [x(cid:62)x] ?
+∂x
+c) What is ∂ [f(x)(cid:62)f(x)] ?
+∂x
+d) What is ∂ [f(x)(cid:62)Cg(x)] ?
+∂x

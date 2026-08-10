@@ -1,0 +1,16 @@
+• Conversiontomatrix
+1−r22 −r33 r12 −r03 r13 +r02 
+R(r) =  r12 +r03 1−r11 −r33 r23 −r01 
+ r13 −r02 r23 +r01 1−r11 −r22 
+1√
+rij = 2rirj , r0 = 1+trR
+2
+r3 = (R21 −R12)/(4r0), r2 = (R13 −R31)/(4r0), r1 = (R32 −R23)/(4r0)
+• Composition
+r ◦r(cid:48) =  r0r¯(cid:48) r + 0r r 0 (cid:48)
+0
+(cid:48) − r¯+ r¯(cid:62) r¯ r¯ (cid:48) (cid:48) ×r¯  
+• Applicationtovectorv: converttomatrixfirst
+• Benefits: fast composition. No sin/cos computations. Use this!
+2:10
+Homogeneous transformations

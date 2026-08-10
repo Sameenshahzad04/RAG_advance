@@ -1,0 +1,14 @@
+t t
+We can use a separate (Gaussian) Bayes Filter for each θ
+j
+conditionedonx0:t,eachθj isindependentfromeachθ k:
+(cid:89)
+P(θ1:N |x0:t,y0:n,n0:t) = P(θj |x0:t,y0:n,n0:t)
+j
+7:40
+Particle likelihood in SLAM
+• Particle likelihood for Localization Problem:
+wi = P(y |xi)
+t t t
+(determins the new importance weight wi
+t

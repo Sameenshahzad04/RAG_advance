@@ -1,0 +1,13 @@
+S.kinematicsPos(y,"handR");
+S.jacobianPos (J,"handR");
+Phi .append( 1e2 * (y - y_target) ); //rho = 1e4 (cp. slide 02:45)
+PhiJ.append( 1e2 * J );
+//add the "stay close to home" task here
+//add another task for the left hand here, if you like
+//compute joint updates
+q -= inverse(˜PhiJ*PhiJ + W)*˜PhiJ* Phi; //(cp. slide 02:46)
+S.setJointAngles(q);
+}
+}
+12.5 Exercise 5
+In the lecture we discussed PD force control on a 1D point mass, which leads to

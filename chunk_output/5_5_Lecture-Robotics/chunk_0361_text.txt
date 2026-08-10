@@ -1,0 +1,16 @@
+[Page 139]
+Introduction to Robotics, Marc Toussaint 139
+(when it starts off δ-near to x , it will remain (cid:15)-near forever)
+0
+• asymtotically stable ⇐⇒
+Lyapunov stable and lim x(t) = 0
+t→∞
+• exponentially stable ⇐⇒
+asymtotically stable and ∃α,a s.t. ||x(t)|| ≤ ae−αt||x(0)||
+(→ the “error” time integral (cid:82)∞ ||x(t)||dt ≤ a||x(0)|| is bounded!)
+0 α
+8:35
+Linear Stability Analysis
+(“Linear” ↔ “local” for a system linearized at the equilibrium point.)
+• Given a linear system
+x˙ = Ax

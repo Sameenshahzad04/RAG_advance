@@ -1,0 +1,8 @@
+[Page 105]
+Introduction to Robotics, Marc Toussaint 105
+http://www.darpa.mil/grandchallenge/index.asp
+DARPA Grand Urban Challenge 2007
+7:2
+http://www.slawomir.de/publications/grzonka09icra/grzonka09icra.pdf
+Quadcopter Indoor Localization
+7:3

@@ -1,0 +1,12 @@
+[Page 50]
+50 Introduction to Robotics, Marc Toussaint
+4 Path Planning
+Path finding examples
+Alpha-Puzzle, solved with James Kuffner’s RRTs
+4:1
+Path finding examples
+J. Kuffner, K. Nishiwaki, S. Kagami, M. Inaba, and H. Inoue. Footstep Planning
+Among Obstacles for Biped Robots. Proc. IEEE/RSJ Int. Conf. on Intelligent
+Robots and Systems (IROS), 2001.
+4:2
+Path finding examples

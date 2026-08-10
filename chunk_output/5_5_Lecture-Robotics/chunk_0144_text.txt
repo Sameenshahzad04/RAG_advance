@@ -1,0 +1,10 @@
+– On kinematic trees, NE or ABD are much more precise than game engines
+– Game engines do not provide inverse dynamics, u = NE(q,q˙,q¨)
+• Proper modelling of contacts is really really hard
+3:25
+3.3 Controlling a dynamic robot
+3:26
+• We previously learnt the effect of PID control on a 1D point mass
+• Robots are not a 1D point mass
+– Neither is each joint a 1D point mass
+– Applying separate PD control in each joint neglects force coupling

@@ -1,0 +1,11 @@
+[Page 110]
+110 Introduction to Robotics, Marc Toussaint
+• Generally:
+xt
+Filtering: P(x t |y 0:t ) (cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)y(cid:0)(cid:1)
+0:t
+(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)
+(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)
+xt
+Smoothing: P(x t |y 0:T ) (cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)y0 (cid:0)(cid:1)
+:T

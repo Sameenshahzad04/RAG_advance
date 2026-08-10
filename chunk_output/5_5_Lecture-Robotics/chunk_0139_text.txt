@@ -1,0 +1,11 @@
+d ∂L ∂L ∂T ∂U
+u = − = M q¨+ M˙ q˙ − +
+(cid:124)(cid:123)(cid:122)(cid:125) dt ∂q˙ ∂q (cid:124)(cid:123)(cid:122)(cid:125) ∂q ∂q
+control inertia (cid:124) (cid:123)(cid:122) (cid:125) (cid:124)(cid:123)(cid:122)(cid:125)
+Coriolis gravity
+which relates accelerations q¨to the forces
+3:22
+Newton-Euler recursion
+• An algorithm that computes the inverse dynamics
+u = NE(q,q˙,q¨∗)
+by recursively computing force balance at each joint:

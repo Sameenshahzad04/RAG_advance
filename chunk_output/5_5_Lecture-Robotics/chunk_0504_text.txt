@@ -1,0 +1,16 @@
+(no discounting, but only a finite horizon H.)
+Optimality now requires that ∂Vπ(β) = 0. Assume that a ∈ R is just 1-dimensional
+∂β
+and Σ ∈ R just a number. Try to prove (see slide 18) that we can derive
+H H
+(cid:104) (cid:88) (cid:105)-1 (cid:88)
+β∗ = βold + E { W(s )Qπ(β)(s ,a ,t)} E { W(s )e Qπ(β)(s ,a ,t)} , W(s) = φ(s)(φ(s)(cid:62)Σφ(s))-1φ(s)(cid:62)
+ξ|β t t t ξ|β t t t t
+t=0 t=0
+from
+∂Vπ(β∗)
+= 0. (In the scalar case, W(s) = 1.) As a first step, derive
+∂β
+∂
+logπ(a|s)
+∂β

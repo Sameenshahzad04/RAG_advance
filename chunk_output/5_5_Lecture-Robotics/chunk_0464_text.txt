@@ -1,0 +1,7 @@
+[Page 181]
+Introduction to Robotics, Marc Toussaint 181
+a) The example solution generates a motion in one step using inverse kinematics
+δq = J(cid:93) δy with J(cid:93) = (J(cid:62)J + σ2W)-1J(cid:62). Record the task error, that is, the deviation
+of hand position from y∗ after each step. Why is it initially large?
+b) Try to do 100 smaller steps δq = αJ(cid:93) δy with α = .1 (each step starting with the
+outcome of the previous step). How does the task error evolve over time?

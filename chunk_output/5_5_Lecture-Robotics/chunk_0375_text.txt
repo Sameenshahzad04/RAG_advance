@@ -1,0 +1,7 @@
+[Page 143]
+Introduction to Robotics, Marc Toussaint 143
+9 Reinforcement Learning in Robotics – briefly
+RL = Learning to Act
+fromSatinderSingh’sIntroductiontoRL,videolectures.com
+9:1
+(around2000,bySchaal,Atkeson,Vijayakumar)

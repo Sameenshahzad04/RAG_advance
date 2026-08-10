@@ -1,0 +1,3 @@
+12.5.1 PD force control on a 1D mass point
+a) Implement the system equation for a 1D point mass with mass m = 3.456. That
+is, implement the Euler intergration (see below) of the system dynamics that com-

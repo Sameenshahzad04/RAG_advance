@@ -1,0 +1,17 @@
+(cid:90)
+= c P(y |x ) P(x |x ,u ) P(x |y ,u ) dx
+t t t t t-1 t-1 t-1 0:t-1 0:t-1 t-1
+xt-1
+(cid:90)
+= c P(y |x ) P(x |u ,x ) p (x ) dx
+t t t t t-1 t-1 t-1 t-1 t-1
+xt-1
+using Bayes rule P(X|Y,Z) = c P(Y |X,Z) P(X|Z) with some normalization
+constant c
+t
+uses conditional independence of the observation on past observations and
+controls
+by definition of the marginal
+by definition of a conditional
+given x , x depends only on the controls u (Markov Property)
+t-1 t t-1

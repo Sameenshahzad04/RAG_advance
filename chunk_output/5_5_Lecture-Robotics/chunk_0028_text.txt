@@ -1,0 +1,8 @@
+tialconstraints,metrics;trajectoryoptimization,generalcostfunction,taskvariables,transitioncosts,gradientmethods,2ndorder
+methods,DynamicProgramming
+• Control Theory
+theory on designing optimal controllers
+Topics in control theory, optimal control, HJB equation, infinite horizon case, Linear-Quadratic optimal control, Riccati equations
+(differential,algebraic,discrete-time),controllability,stability,eigenvalueanalysis,Lyapunovfunction
+• Mobile robots
+goal: localize and map yourself

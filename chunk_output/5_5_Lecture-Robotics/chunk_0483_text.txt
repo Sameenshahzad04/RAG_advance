@@ -1,0 +1,6 @@
+lem (rename main.problem.cpp to main.cpp).
+a)ThecodedemonstratesanRRTexplorationanddisplaystheexploredendeffector
+positions. What is the endeffector’s exploration distribution in the limit n → ∞?
+Specify such a distribution analytically for a planar 2 link arm.
+b)FirstgrowanRRTbackwardfromthetargetconfigurationq∗ = (0.945499,0.431195,−1.97155,0.623969,2.22355,
+−0.665206, −1.48356). Stop when there exists a node close (<stepSize) to the

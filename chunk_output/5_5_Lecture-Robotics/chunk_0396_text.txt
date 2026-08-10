@@ -1,0 +1,9 @@
+– Usually these are local methods (extensions trying to be “more” global)
+– Various interesting heuristics
+– Someofthem(implicitlyorexplicitly)locallyapproximatinggradientsor2ndorder
+models
+9:22
+Black-Box Optimization
+• Problem: Let x ∈ Rn, f : Rn → R, find
+min f(x)
+x

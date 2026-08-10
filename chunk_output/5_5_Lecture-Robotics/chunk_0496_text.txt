@@ -1,0 +1,10 @@
+where y(xi) is the (ideal) observation the car would have if it were in the particle
+t
+possition xi. Since (cid:80) w = 1, normalize the weights after this computation.
+t i i
+c) Test the full particle filter including the likelihood weights (step 4) and resam-
+pling (step 2). Test using a larger (10σ ) and smaller (σ /10) variance
+observation observation
+in the computation of the likelihood.
+12.9.2 Kalman filter
+We consider the same car example as above, but track the car using a Kalman filter.

@@ -1,0 +1,15 @@
+[Page 97]
+Introduction to Robotics, Marc Toussaint 97
+Beta
+The prior is Beta(µ|a,b), the posterior is Beta(µ|a + a ,b + b )
+D D
+• Conclusions:
+– The semantics of a and b are counts of [x i =1] and [x i =0], respectively
+– The Beta distribution is conjugate to the Bernoulli (explained later)
+– With the Beta distribution we can represent beliefs (state of knowledge) about un-
+certain µ ∈ [0,1] and know how to update this belief given data
+6:16
+Beta
+fromBishop
+6:17
+Multinomial

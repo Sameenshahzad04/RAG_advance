@@ -1,0 +1,1 @@
+Suspected phishing, lost devices, or credential compromise must be reported to security@example-corp.internal within 1 hour of discovery. Do not attempt to remediate a suspected compromise yourself — isolate the device from the network (disable Wi-Fi/unplug ethernet) and wait for IT Security to respond.

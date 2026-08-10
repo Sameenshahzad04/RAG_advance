@@ -1,0 +1,12 @@
+[Page 125]
+Introduction to Robotics, Marc Toussaint 125
+Life-longMapLearningforGraph-basedSLAMApproachesinStaticEnvironmentsKretzschmar,Grisetti,
+Stachniss
+7:47
+SLAM code
+• Graph-based and grid map methods:
+http://openslam.org/
+• Visual SLAM
+see previous links
+e.g. http://ewokrampage.wordpress.com/
+7:48

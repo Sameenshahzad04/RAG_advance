@@ -1,0 +1,25 @@
+[Page 40]
+40 Introduction to Robotics, Marc Toussaint
+⇒ (m ω2 + K ω + K ) = 0 ∧ (q∗ − a) = 0
+d p
+(cid:112)
+−K ± K2 − 4mK
+⇒ ω = d d p
+2m
+q(t) = q∗ + b eω t
+The term −Kd in ω is real ↔ exponential decay (damping)
+2m
+3:11
+1D point mass – derivative feedback
+(cid:112)
+−K ± K2 − 4mK
+q(t) = q∗ + b eω t , ω = d d p
+2m
+(cid:112)
+• Effect of the second term K2 − 4mK /2m in ω:
+d p
+K2 < 4mK ⇒ ω has imaginary part
+d p
+(cid:112)
+oscillating with frequency K /m − K2/4m2
+√ p d

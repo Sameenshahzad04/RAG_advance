@@ -1,0 +1,20 @@
+4:34
+Other PRM sampling strategies
+illustrationfromO.Brock’slecture
+Gaussian: q1 ∼ U; q2 ∼ N(q1,σ); if q1 ∈ Q
+free
+and q2 (cid:54)∈ Q
+free
+, add q1 (or vice versa).
+Bridge: q1 ∼ U; q2 ∼ N(q1,σ); q3 = (q1 +q2)/2; if q1,q2 (cid:54)∈ Q
+free
+and q3 ∈ Q
+free
+, add q3.
+• Sampling strategy can be made more intelligence: “utility-based sampling”
+• Connection sampling
+(once earlier sampling has produced connected components)
+4:35
+Probabilistic Roadmaps – conclusions
+• Pros:
+– Algorithmically very simple

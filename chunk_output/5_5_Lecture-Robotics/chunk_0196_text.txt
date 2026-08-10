@@ -1,0 +1,11 @@
+3: q ← random sample from Q
+4: if q ∈ Q free then V ← V ∪{q}
+5: end while
+6: for all q ∈ V do // check if near points can be connected
+7: Nq ← k nearest neighbors of q in V
+8: for all q(cid:48) ∈ Nq do
+9: if path(q,q(cid:48)) ∈ Q free then E ← E ∪{(q,q(cid:48))}
+10: end for
+11: end for
+where path(q,q(cid:48)) is a local planner (easiest: straight line)
+4:31

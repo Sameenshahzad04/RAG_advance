@@ -1,0 +1,16 @@
+[Page 10]
+10 Introduction to Robotics, Marc Toussaint
+Last Year’s script
+seehttps://ipvs.informatik.uni-stuttgart.de/mlr/marc/teaching/
+13-Robotics/13-Robotics-script.pdf
+1:12
+Prerequisites
+• Is this a practical or theoretical course?
+“There is nothing more practical than a good theory.”
+(Vapnik, others...)
+• Essentially, the whole course is about
+reducing real-world problems to mathematical problems
+that can be solved efficiently
+• Required: Basics in
+– Linear Algebra
+– Probability theory

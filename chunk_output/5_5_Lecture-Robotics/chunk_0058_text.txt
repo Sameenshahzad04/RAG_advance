@@ -1,0 +1,11 @@
+– the DOF of a rolling cylinder creates rotation and translation
+– the first DOF of a cylindrical joint generates a translation, its second DOF a transla-
+tion
+• We can compute all Jacobians from knowing a , p and b for all DOFs (in the
+i i i
+current configuration q ∈ Rn)
+2:23
+2.3 Inverse Kinematics
+2:24
+Inverse Kinematics problem
+• Generally, the aim is to find a robot configuration q such that φ(q) = y∗

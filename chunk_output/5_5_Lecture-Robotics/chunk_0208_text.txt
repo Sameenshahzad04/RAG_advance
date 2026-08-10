@@ -1,0 +1,7 @@
+[Page 79]
+Introduction to Robotics, Marc Toussaint 79
+n = 1 n = 100 n = 200 n = 300 n = 400 n = 500
+4:41
+Bi-directional search
+• grow two trees starting from q and q
+start goal

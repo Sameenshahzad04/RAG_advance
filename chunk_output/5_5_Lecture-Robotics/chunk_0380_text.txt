@@ -1,0 +1,16 @@
+hcraeS
+yciloP
+gninraeL
+noitatimI
+CO
+esrevnI
+experience data demonstration data
+D = {(x t ,u t ,c t )}T t=0 D = {(x 0:T ,u 0:T )d}n d=1
+learn model learn value fct. optimize policy learn policy learn latent costs
+P(x(cid:48)|u,x) V(x) π(x) π(x) c(x)
+c(x,u)
+dynamic prog. policy dynamic prog.
+V t (x) π(x) V t
+policy policy
+π t (x) π(x)
+9:7

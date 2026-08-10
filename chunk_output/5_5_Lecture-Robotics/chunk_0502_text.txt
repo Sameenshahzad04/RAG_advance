@@ -1,0 +1,11 @@
+(50/50 left/right at each junction).
+c) Bellman’s principle of optimality says that the optimal policy π∗ has a value
+function V π∗(s) = V ∗(s),
+(cid:104) (cid:105)
+V ∗(s) = max E{r |s,a} + γ (cid:80) P(s(cid:48) |s,a) V π(s(cid:48)) . (10)
+a
+0 s(cid:48)
+Compute (by hand) the optimal value function V ∗ over all states for the example
+above.
+d) Now consider continuous state s and action a. Let the policy be stochastic and
+linear in features φ(s) ∈ Rk, that is,

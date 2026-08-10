@@ -1,0 +1,13 @@
+[Page 192]
+192 Introduction to Robotics, Marc Toussaint
+b) We assume a stationary infinite-horizon cost function of the form
+(cid:90) ∞
+Jπ = c(x(t),u(t)) dt
+0
+c(x,u) = x(cid:62)Qx + u(cid:62)Ru
+Q = diag(c,0,1,0) , R = I .
+That is, we penalize position offset c||p||2 and pole angle offset ||θ||2. Choose c = (cid:37) =
+1 to start with.
+Solve the Algebraic Riccati equation
+0 = A(cid:62)P + P(cid:62)A − PBR-1B(cid:62)P + Q
+by initializing P = Q and iterating using the following iteration:

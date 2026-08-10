@@ -1,0 +1,11 @@
+[Page 195]
+Introduction to Robotics, Marc Toussaint 195
+13 Bullet points to help learning
+This is a summary list of core topics in the lecture and intended as a guide for preparation
+for the exam. Test yourself also on the bullet points in the table of contents. Going through
+all exercises is equally important.
+13.1 Kinematics
+• 3D geometry
+– Definition of an object pose, frame, transformations
+– Homogeneous transformations (4×4 matrix)
+– Composition of transformations, notation xW = T T T xC

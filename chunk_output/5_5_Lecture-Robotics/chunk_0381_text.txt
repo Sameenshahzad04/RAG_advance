@@ -1,0 +1,23 @@
+[Page 146]
+146 Introduction to Robotics, Marc Toussaint
+Five approaches to RL
+desab−ledoM
+eerf−ledoM
+hcraeS
+yciloP
+gninraeL
+noitatimI
+LR
+esrevnI
+experience data demonstration data
+D = {(s t ,a t ,r t )}T t=0 D = {(s 0:T ,a 0:T )d}n d=1
+learn model learn value fct. optimize policy learn policy learn latent costs
+P(s(cid:48)|s,a) V(s) π(s) π(s) R(s,a)
+R(s,a)
+dynamic prog. policy dynamic prog.
+V(s) π(s) V(s)
+policy policy
+π(s) π(s)
+9:8
+Imitation Learning
+D = {(s ,a )d}n learn → /copy π(s)

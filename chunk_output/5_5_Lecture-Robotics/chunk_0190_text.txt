@@ -1,0 +1,7 @@
+[Page 67]
+Introduction to Robotics, Marc Toussaint 67
+The Wavefront in Action (Done)
+• You’re done
+– Remember, 0’s should only remain if unreachable
+regions exist
+4:24

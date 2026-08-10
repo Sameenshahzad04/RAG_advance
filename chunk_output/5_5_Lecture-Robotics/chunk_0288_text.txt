@@ -1,0 +1,14 @@
+[Page 115]
+Introduction to Robotics, Marc Toussaint 115
+Condensation Algorithm in the vision community
+• Efficient resampling is important:
+Typically “Residual Resampling”:
+Instead of sampling directly nˆi ∼ Multi({Nw i }) set nˆi = (cid:98)Nw i (cid:99) + n¯ i with n¯ i ∼
+Multi({Nw
+i
+− (cid:98)Nw
+i
+(cid:99)})
+Liu & Chen (1998): Sequential Monte Carlo Methods for Dynamic Systems.
+Douc, Cappe´ & Moulines: Comparison of Resampling Schemes for Particle Filtering.
+7:23

@@ -1,0 +1,11 @@
+∂x
+d) What is ∂ [f(x)(cid:62)Cg(x)] ?
+∂x
+e) Let B and C be symmetric (and pos.def.). What is the minimum of (Ax −
+y)(cid:62)C(Ax − y) + x(cid:62)Bx ?
+12.1.3 Optimization
+Given x ∈ Rn, f : Rn → R, we want to find argmin f(x). (We assume f is
+x
+uni-modal.)
+a) What 1st-order optimization methods (querying f(x),∇f(x) in each iteration) do
+you know?

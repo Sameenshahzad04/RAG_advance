@@ -1,0 +1,10 @@
+i i i
+• Problem: find parameters w to minimize expected costs
+i
+cost = mimick (q,q˙) of the passive down-hill walker at “certain point in cycle”
+Learning To Walk
+Tedrake, Zhang &Seung: Stochastic policygradient reinforcement learningon a simple 3Dbiped. IROS,
+2849-2854,2004. http://groups.csail.mit.edu/robotics-center/public_papers/Tedrake04a.
+pdf
+11:24
+Summary

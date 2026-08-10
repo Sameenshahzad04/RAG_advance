@@ -1,0 +1,7 @@
+t
+mating P(x |y ,u ,x )
+t t t-1 t-1
+– Or mix particles sampled directly from P(y |x ) and from P(x |u ,x ).
+t t t t-1 t-1
+(Robust Monte Carlo localization for mobile robots. Sebastian Thrun, Dieter Fox, Wolfram Burgard,
+FrankDellaert)

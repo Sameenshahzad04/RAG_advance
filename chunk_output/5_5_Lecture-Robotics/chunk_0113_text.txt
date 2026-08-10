@@ -1,0 +1,15 @@
+[Page 35]
+Introduction to Robotics, Marc Toussaint 35
+The joint angles themselves
+dimension d = n
+parameters (none)
+kin. map φ (q) = q
+qitself
+Jacobian J (q) = I
+qitself n
+Example: Set the target y∗ = 0 and the precision (cid:37) very low → this task describes
+posture comfortness in terms of deviation from the joints’ zero position. In the classical
+view, it induces “nullspace motion”.
+2:62
+Task variables – conclusions
+• There is much space for creativity in defining

@@ -1,0 +1,4 @@
+• Backward recursion:
+For the leaf links, we now know the desired accelerations q∗ and can compute
+the necessary joint torques. Recurse backward.
+3:23

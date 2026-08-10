@@ -1,0 +1,13 @@
+∂x
+Student’s t p(x;ν) ∝ [1 + x2]−ν+ 2 1
+ν
+(=Gaussian for ν → ∞, otherwise heavy
+tails)
+Exponential p(x;λ) = [x ≥ 0] λe−λx
+(distributionoversingleeventtime)
+Laplace p(x;µ,b) = 1 e−|x−µ|/b
+2b
+(“doubleexponential”)
+Chi-squared p(x;k) ∝ [x ≥ 0] xk/2−1e−x/2
+Gamma p(x;k,θ) ∝ [x ≥ 0] xk−1e−x/θ
+6:33

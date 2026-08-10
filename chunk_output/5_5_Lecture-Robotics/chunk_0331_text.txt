@@ -1,0 +1,14 @@
+(cid:90) T
+Jπ = c(x(t),u(t)) dt + φ(x(T))
+0
+where the start state x(0) and the controller π : (x,t) (cid:55)→ u are given, which
+determine the closed-loop system trajectory x(t),u(t) via x˙ = f(x,π(x,t)) and
+u(t) = π(x(t),t)
+8:10
+Hamilton-Jacobi-Bellman equation (continuous time)
+• Define the value function or optimal cost-to-go function
+(cid:104)(cid:90) T (cid:105)
+V (x,t) = min c(x(s),u(s)) ds + φ(x(T))
+π t x(t)=x
+• Hamilton-Jacobi-Bellman equation
+(cid:104) (cid:105)

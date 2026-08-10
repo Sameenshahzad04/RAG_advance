@@ -1,0 +1,7 @@
+the swing leg.
+– At the moment of impact, the stance leg lifts from the ground without interaction.
+– The impact is instantaneous.
+– The external forces during the impact can be represented by impulses.
+–Theimpulsiveforcesmayresultinaninstantaneouschangeinthevelocities, butthere
+is no instantaneous change in the configuration.
+– The actuators cannot generate impulses and, hence, can be ignored during impact.

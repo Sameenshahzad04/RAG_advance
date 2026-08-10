@@ -1,0 +1,15 @@
+[Page 147]
+Introduction to Robotics, Marc Toussaint 147
+Or trace observed trajectories by minimizing perturbation costs (Atkeson &
+Schaal 1997)
+9:10
+Imitation Learning
+Atkeson&Schaal
+9:11
+Inverse RL
+D = {(s ,a )d}n le→arn R(s,a) →DP V (s) → π(s)
+0:T 0:T d=1
+• Use ML to “uncover” the latent reward function in observed behavior
+Literature:
+Pieter Abbeel & Andrew Ng: Apprenticeship learning via inverse reinforcement learning (ICML
+2004)

@@ -1,0 +1,9 @@
+b) The Monty Hall Problem: I have three boxes. In one I put a prize, and two are
+empty. I then mix up the boxes. You want to pick the box with the prize in it. You
+choose one box. I then open another one of the two remaining boxes and show that
+it is empty. I then give you the chance to change your choice of boxes—should you
+do so?
+c) Given a joint probability P(X,Y ) over 2 binary random variables as the table
+Y=0 Y=1
+X=0 .06 .24
+X=1 .14 .56

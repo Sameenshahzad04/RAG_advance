@@ -1,0 +1,7 @@
+[Table - Page 33]
+| Positionofapointonlinkirelativetopointonlinkj |  |
+| --- | --- |
+| dimension | d=3 |
+| parameters | linkindicesi,j,pointoffsetviniandwinj |
+| kin.map | φpos (q)=R-1(φpos−φpos) iv|jw j iv jw |
+| Jacobian | Jpos (q)=R-1[Jpos−Jpos−A ×(φpos−φpos)] iv|jw j iv jw j iv jw |

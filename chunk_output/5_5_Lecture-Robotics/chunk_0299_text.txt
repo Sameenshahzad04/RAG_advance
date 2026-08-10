@@ -1,0 +1,12 @@
+0:t t+1:T
+P(x |P,F,u ) ∝ P(F|x ,P,u ) P(x |P,u )
+t 0:T t 0:T t 0:T
+= P(F|x ,u ) P(x |P,u )
+t t:T t 0:t-1
+(cid:124) (cid:123)(cid:122) (cid:125) (cid:124) (cid:123)(cid:122) (cid:125)
+=:βt(xt) =:p(xt)
+Bayesian smoothing fuses a forward filter p (x ) with a backward “filter” β (x )
+t t t t
+• Backward recursion (derivation analogous to the Bayesian filter)
+β (x ) := P(y |x ,u )
+t t t+1:T t t:T

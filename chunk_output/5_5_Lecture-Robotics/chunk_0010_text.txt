@@ -1,0 +1,6 @@
+ApplyingBayes’ruletostateestimation(7:12)BayesFilter(7:13)Odometry: Filtering
+without observations (7:17) Particle Filter = Bayes Filter with Particles (7:22) Kalman
+Filter=BayesFilterwithGaussian(7:26)Kalmanfilterequations(7:27)ExtendedKF,
+Unscented Transform (7:28)
+7.2 Simultaneous Localization and Mapping (SLAM) . . . . . . . . . . . 118
+Definition of a map, definition of SLAM problem (7:34) Joint Bayes Filter over state

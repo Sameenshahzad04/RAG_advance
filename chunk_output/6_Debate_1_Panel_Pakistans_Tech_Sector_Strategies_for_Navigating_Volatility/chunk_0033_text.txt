@@ -1,0 +1,6 @@
+agreement.
+Immediate Actions (Quantified)
+• Shift 70%+ of contracts to USD billing within 90 days; historical data from our 12 exits shows this
+preserves 22-35% margin versus PKR invoicing (internal fund model, unverified externally).
+• Build offshore entity in Dubai or Singapore within 6 months to enable Stripe/PayPal flows;
+average setup cost $18k with 4-6 week timeline based on our 2022-2023 portfolio cases.

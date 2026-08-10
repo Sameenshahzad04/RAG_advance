@@ -1,0 +1,14 @@
+[Page 120]
+120 Introduction to Robotics, Marc Toussaint
+Map uncertainty
+• In the case the map m = (θ ,..,θ ) is a set of N landmarks, θ ∈ R2
+1 N j
+• Use Gaussians to represent the uncertainty of landmark positions
+7:37
+(Extended) Kalman Filter SLAM
+• Analogous to Localization with Gaussian for the pose belief p (x )
+t t
+– But now: joint belief p (x ,θ ) is 3 + 2N-dimensional Gaussian
+t t 1:N
+– Assumes the map m = (θ ,..,θ ) is a set of N landmarks, θ ∈ R2
+1 N j

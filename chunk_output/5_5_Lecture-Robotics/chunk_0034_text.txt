@@ -1,0 +1,10 @@
+edu/˜cga/kdc/ewhitman1.pptx)
+• CMUlecture“introductiontorobotics”http://www.cs.cmu.edu/afs/cs.cmu.edu/academic/
+class/16311/www/current/syllabus.html
+(useful: PID control, simple BUGs algorithms for motion planning, non-holonomic constraints)
+• Handbook of Robotics (partially online at Google books) http://tiny.cc/u6tzl
+• LaValle’s Planning Algorithms http://planning.cs.uiuc.edu/
+1:16
+Organization
+• Course Webpage:
+http://ipvs.informatik.uni-stuttgart.de/mlr/marc/teaching/

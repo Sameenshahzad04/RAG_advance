@@ -1,0 +1,15 @@
+[Page 37]
+Introduction to Robotics, Marc Toussaint 37
+Dynamics
+• The dynamics of a system describes how the controls u influence the change-
+t
+of-state of the system
+x = f(x ,u )
+t+1 t t
+– The notation x t refers to the dynamic state of the system: e.g., joint positions and
+velocities x t = (q t ,q˙ t ).
+– f is an arbitrary function, often smooth
+3:3
+Outline
+• We start by discussing a 1D point mass for 3 reasons:
+– The most basic force-controlled system with inertia

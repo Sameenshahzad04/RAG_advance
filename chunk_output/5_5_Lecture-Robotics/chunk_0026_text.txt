@@ -1,0 +1,13 @@
+[Page 9]
+Introduction to Robotics, Marc Toussaint 9
+organize behavior in natural worlds.
+1:9
+History
+• little movie...
+(http://www.csail.mit.edu/videoarchive/history/aifilms http://www.ai.sri.
+com/shakey/)
+1:10
+Four chapters
+• Kinematics & Dynamics
+goal: orchestrate joint movements for desired movement in task spaces
+Kinematicmap, Jacobian, optimalityprincipleofinversekinematics, singularities, configuration/operational/nullspace, multiplesi-

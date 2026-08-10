@@ -1,0 +1,5 @@
+• FBR and SBP should integrate payment gateway receipts into a single export remittance
+certificate to avoid later tax disputes.
+• A three-year rolling tax framework should replace a rigid 10-year final tax pact, with renewal
+based on export growth, formalisation, and compliance data.
+Policy Risks and Implementation Tradeoffs

@@ -1,0 +1,17 @@
+|2πA|1/2 2
+Product:
+N(x|a,A)N(x|b,B) = N(x|B(A+B)-1a+A(A+B)-1b,A(A+B)-1B) N(a|b,A+B)
+“Propagation”:
+(cid:82) N(x|a+Fy,A)N(y|b,B)dy = N(x|a+Fb,A+FBF(cid:62))
+y
+Transformation:
+N(Fx+f |a,A) = 1 N(x| F-1(a−f), F-1AF-(cid:62))
+|F|
+(more identities: see “Gaussian identities” http://ipvs.informatik.uni-stuttgart.de/
+mlr/marc/notes/gaussians.pdf)
+7:26
+Kalman filter derivation
+pt(xt) = N(xt|st,St)
+P(yt|xt) = N(yt|Cxt +c,W)
+P(xt|ut-1,xt-1) = N(xt|Axt-1 +a,Q)
+(cid:90)

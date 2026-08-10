@@ -1,0 +1,5 @@
+• Employers should disclose skill needs to training providers in a standard format.
+• Companies should train not only developers but also project managers, product owners,
+cybersecurity analysts, UX professionals, DevOps engineers, and international sales teams.
+Policy recommendations:
+• Government-funded training should be tied to placement outcomes and employer validation.

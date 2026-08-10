@@ -1,0 +1,12 @@
+[Page 158]
+158 Introduction to Robotics, Marc Toussaint
+http://www.k2.t.u-tokyo.ac.jp/fusion/index-e.html
+• Asimo’s grasping:
+10:3
+Outline
+• Introduce to the basic classical concepts for grasping (force closure)
+• Discussion and alternative views
+• References:
+Craig’s Introduction to robotics: mechanics and control – chapter 3.
+Matt Mason’s lecture: Static and Quasistatic Manipulation
+www.cs.cmu.edu/afs/cs/academic/class/16741-s07/www/lecture18.pdf

@@ -1,0 +1,12 @@
+From1960s/70s. Rechenberg/Schwefel
+• Perhaps the simplest type of distribution model
+θ = (xˆ) , p (x) = N(x|xˆ,σ2)
+t
+a n-dimenstional isotropic Gaussian with fixed deviation σ
+• Update heuristic:
+– Given D = {(x ,f(x ))}λ , select µ best: D(cid:48) = bestOf (D)
+i i i=1 µ
+– Compute the new mean xˆ from D(cid:48)
+• This algorithm is called “Evolution Strategy (µ,λ)-ES”
+– The Gaussian is meant to represent a “species”
+– λ offspring are generated

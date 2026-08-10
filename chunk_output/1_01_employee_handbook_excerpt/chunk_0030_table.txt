@@ -1,0 +1,6 @@
+[Table]
+| Tenure | Accrual Rate | Annual Cap |
+| --- | --- | --- |
+| 0–2 years | 1.25 days / month | 15 days |
+| 3–5 years | 1.67 days / month | 20 days |
+| 6+ years | 2.08 days / month | 25 days |

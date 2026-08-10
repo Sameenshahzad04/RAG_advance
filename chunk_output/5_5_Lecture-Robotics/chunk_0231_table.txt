@@ -1,0 +1,3 @@
+[Table - Page 91]
+| k=0 k=1 k=2 k=3 | f (x )=φ(x )−y∗ t t t f (x ,x )=φx −φx t t-1 t t t-1 f (x ,..,x )=φx −2φx +φx t t-2 t t t-1 t-2 f (x ,..,x )=φx −3φx +3φx −φx t t-3 t t t-1 t-2 t-3 | penalize offset in sometaskspace |
+| --- | --- | --- |

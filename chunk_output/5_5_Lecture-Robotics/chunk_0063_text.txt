@@ -1,0 +1,15 @@
+0 0 0 0
+• We can derive the optimum as
+f(q) = ||φ(q) − y∗||2 + ||q − q ||2
+C 0 W
+= ||y − y∗ + J (q − q )||2 + ||q − q ||2
+0 0 C 0 W
+∂
+f(q) = 0(cid:62)= 2(y − y∗ + J (q − q ))(cid:62)CJ + 2(q − q )TW
+∂q 0 0 0
+J(cid:62)C (y∗ − y ) = (J(cid:62)CJ + W) (q − q )
+0 0
+q∗ = q + J(cid:93)(y∗ − y )
+0 0
+with J(cid:93) = (J(cid:62)CJ + W)-1J(cid:62)C = W-1J(cid:62)(JW-1J(cid:62)+ C-1)-1 (Woodbury identity)
+– For C → ∞ and W = I, J(cid:93) = J(cid:62)(JJ(cid:62))-1 is called pseudo-inverse

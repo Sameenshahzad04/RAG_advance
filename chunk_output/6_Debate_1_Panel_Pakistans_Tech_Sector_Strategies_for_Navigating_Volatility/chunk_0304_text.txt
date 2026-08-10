@@ -1,0 +1,5 @@
+framework, clarify settlement rules, AML/CFT requirements, data treatment, dispute resolution,
+chargeback handling, and tax reporting. It cannot compel Stripe or PayPal to enter Pakistan.
+Comparable market entry decisions by global payment platforms depend on commercial risk, sanctions
+screening, fraud rates, regulatory clarity, banking partners, and expected transaction volume. A more
+feasible policy target is: publish a payment gateway regulatory framework within 6-9 months, process

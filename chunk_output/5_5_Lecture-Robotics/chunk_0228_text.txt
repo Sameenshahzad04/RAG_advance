@@ -1,0 +1,14 @@
+[Page 90]
+90 Introduction to Robotics, Marc Toussaint
+5 Path Optimization – briefly
+Outline
+• These are only some very brief notes on path optimization
+• The aim is to explain how to formulate the optimization problem. Concerning
+the optimization algortihm itself, refer to the Optimization lecture.
+5:1
+From inverse kinematics to path costs
+• Recall our optimality principle of inverse kinematics
+argmin||q − q ||2 + ||Φ(q)||2
+0 W
+q
+• A trajectory q is a sequence of robot configurations q ∈ Rn

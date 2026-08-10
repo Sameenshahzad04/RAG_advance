@@ -1,0 +1,7 @@
+:T
+(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)
+(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)
+xt
+Prediction: P(x t |y 0:s ) (cid:0)(cid:1)(cid:0)(cid:1)y(cid:0)(cid:1)
+0:s
+(cid:0)(cid:1)(cid:0)(cid:1)

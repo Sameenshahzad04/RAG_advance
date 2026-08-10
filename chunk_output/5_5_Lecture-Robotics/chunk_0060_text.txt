@@ -1,0 +1,11 @@
+q∗ = argmin||φ(q) − y∗||2 + ||q − q ||2
+C 0 W
+q
+• The 1st term ensures that we find a configuration even if y∗ is not exactly reach-
+able
+The 2nd term disambiguates the configurations if there are many φ-1(y∗)
+2:26
+Inverse Kinematics as optimization problem
+q∗ = argmin||φ(q) − y∗||2 + ||q − q ||2
+C 0 W
+q

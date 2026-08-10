@@ -1,0 +1,14 @@
+For y = R-1p the derivative is y(cid:48) = R-1p(cid:48) − R-1(R(cid:48))R-1p = R-1(p(cid:48) − a × p). (For details see
+http://ipvs.informatik.uni-stuttgart.de/mlr/marc/notes/3d-geometry.pdf)
+2:55
+Relative vector
+Vector attached to link i relative to link j
+dimension d = 3
+parameters link indices i,j, attached vector v in i
+kin. map φvec (q) = R-1φvec
+iv|j j iv
+Jacobian Jvec(q) = R-1[Jvec − A × φvec]
+iv|j j iv j iv
+2:56
+Alignment
+Alignment of a vector attached to link i with a reference v∗

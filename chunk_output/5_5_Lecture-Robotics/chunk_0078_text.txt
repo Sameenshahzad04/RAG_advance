@@ -1,0 +1,14 @@
+[Page 28]
+28 Introduction to Robotics, Marc Toussaint
+1) Optimize a desired final configuration q :
+T
+Given a desired final task value y T, optimize a final joint state q T to minimize the func-
+tion
+f(q ) = ||q − q ||2 + ||y − φ(q )||2
+T T 0 W/T T T C
+– The metric 1 W is consistent with T cost terms with step metric W.
+T
+– In this optimization, q T will end up remote from q 0. So we need to iterate Gauss-
+Newton, as described on slide 2.3.
+2) Compute q as interpolation between q and q :
+0:T 0 T

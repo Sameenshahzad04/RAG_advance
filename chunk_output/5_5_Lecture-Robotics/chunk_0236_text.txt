@@ -1,0 +1,4 @@
+• Bayesian (subjective) probabilities quantify degrees of belief
+Example: “The probability of it raining tomorrow is 0.3”
+– Not possible to repeat “tomorrow”
+6:3

@@ -1,0 +1,11 @@
+[Page 142]
+142 Introduction to Robotics, Marc Toussaint
+Lyapunov function method – value function Example
+• Consider infinite horizon linear-quadratic optimal control. The solution of the
+Algebraic Riccati equation gives the optimal controller.
+• The value function satisfies
+V (x) = x(cid:62)Px
+V˙ (x) = [Ax + Bu∗](cid:62)Px + x(cid:62)P[Ax + Bu∗]
+u∗ = −R-1B(cid:62)Px = Kx
+V˙ (x) = x(cid:62)[(A + BK)(cid:62)P + P(A + BK)]x
+= x(cid:62)[A(cid:62)P + PA + (BK)(cid:62)P + P(BK)]x

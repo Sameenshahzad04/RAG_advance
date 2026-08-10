@@ -1,0 +1,7 @@
+AML/CFT flags, and documented business need.
+• Processing timeline: routine eligible payments should be processed within 30 calendar days,
+subject to complete documentation and AML screening.
+• Sector-neutral eligibility: the facility must apply to verified IT exporters generally, not only
+VC-backed portfolio companies.
+This accepts the VC's concern regarding predictability, but rejects a blanket USD 2 million entitlement.
+4. A three-year rolling tax framework rather than a

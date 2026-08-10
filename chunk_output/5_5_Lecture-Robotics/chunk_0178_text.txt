@@ -1,0 +1,8 @@
+[Page 61]
+Introduction to Robotics, Marc Toussaint 61
+The Wavefront in Action (Part 2)
+• Now repeat with the modified cells
+– This will be repeated until no 0’s are adjacent to cells
+with values >= 2
+• 0’s will only remain when regions are unreachable
+4:18

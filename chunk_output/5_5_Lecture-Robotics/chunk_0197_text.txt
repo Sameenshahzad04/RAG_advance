@@ -1,0 +1,12 @@
+[Page 71]
+Introduction to Robotics, Marc Toussaint 71
+Local Planner
+tests collisions up to a specified resolution δ
+4:32
+Problem: Narrow Passages
+The smaller the gap (clearance (cid:37)) the more unlikely to sample such points.
+4:33
+PRM theory
+(for uniform sampling in d-dim space)
+• Let a,b ∈ Q and γ a path in Q connecting a and b.
+free free

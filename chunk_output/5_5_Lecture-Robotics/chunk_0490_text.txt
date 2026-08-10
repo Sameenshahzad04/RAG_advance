@@ -1,0 +1,13 @@
+Y=0 Y=1
+X=0 .06 .24
+X=1 .14 .56
+What are P(X) and P(Y )? Are X and Y conditionally independent?
+12.8.2 Gaussians
+On slide 06:17 there is the definition of a multivariate (n-dim) Gaussian distribu-
+tion. Proof the following using only the definition. (You may ignore terms inde-
+pendent of x.)
+a) Proof that:
+N(x|a,A) = N(a|x,A)
+N(x|a,A) = |F| N(Fx|Fa, FAF(cid:62))
+N(Fx + f |a,A) = 1 N(x| F-1(a − f), F-1AF-(cid:62))
+|F|

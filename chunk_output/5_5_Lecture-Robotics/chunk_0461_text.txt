@@ -1,0 +1,8 @@
+phi.)
+a) Assume you would like to control the pointing direction of the robot’s head (e.g.,
+its eyes) to point to a desired external world point xW. What task map can you
+define to achieve this? What is the Jacobian?
+b) You would like the two hands or the robot to become parallel (e.g. for clapping).
+What task map can you define to achieve this? What is the Jacobian?
+c) You would like to control a standard endeffector position p to be at y∗, as usual.
+eff

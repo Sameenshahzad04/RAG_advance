@@ -1,0 +1,13 @@
+C(q,q˙) ∈ Rn are the centripetal and coriolis forces
+G(q) ∈ Rn are the gravitational forces
+u are the joint torques
+(cf. to the Euler-Lagrange equation on slide 22)
+• We often write more compactly:
+M(q) q¨+ F(q,q˙) = u
+3:28
+Controlling a general robot
+• From now on we just assume that we have algorithms to efficiently compute
+M(q) and F(q,q˙) for any (q,q˙)
+• Inverse dynamics: If we know the desired q¨∗ for each joint,
+u = M(q) q¨∗ + F(q,q˙)
+gives the necessary torques

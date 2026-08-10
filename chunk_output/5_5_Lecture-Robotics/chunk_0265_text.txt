@@ -1,0 +1,18 @@
+• A particle distribution q(x) is a weighed set S = {(xi,wi)}N of N particles
+i=1
+– each particle has a “location” xi ∈ Rn and a weight wi ∈ R
+– weights are normalized, (cid:80) wi = 1
+i
+N
+(cid:88)
+q(x) := wi δ(x − xi)
+i=1
+where δ(x − xi) is the δ-distribution.
+• Given weighted particles, we can estimate for any (smooth) f:
+(cid:90)
+(cid:104)f(x)(cid:105) = f(x)p(x)dx ≈ (cid:80)N wif(xi)
+p i=1
+x
+See An Introduction to MCMC for Machine Learning www.cs.ubc.ca/˜nando/
+papers/mlintro.pdf
+6:30

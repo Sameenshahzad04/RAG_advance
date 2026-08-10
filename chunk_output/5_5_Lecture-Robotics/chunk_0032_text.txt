@@ -1,0 +1,11 @@
+[Page 11]
+Introduction to Robotics, Marc Toussaint 11
+Steven M. LaValle: Planning Algorithms.
+Cambridge University Press, 2006.
+online: http://planning.cs.uiuc.edu/
+1:15
+Online resources
+• VideoLecturebyOussamaKhatib: http://academicearth.org/courses/introduction-to-robotics
+http://www.virtualprofessors.com/introduction-to-robotics-stanford-cs223a-khatib
+(focus on kinematics, dynamics, control)
+• OliverBrock’slecturehttp://courses.robotics.tu-berlin.de/mediawiki/index.php/

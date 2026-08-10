@@ -1,0 +1,15 @@
+[Page 100]
+100 Introduction to Robotics, Marc Toussaint
+Assume you have a prior P(θ)
+• The prior P(θ) is conjugate to the likelihood P(D|θ) iff the posterior
+P(θ|D) ∝ P(D|θ) P(θ)
+is in the same distribution class as the prior P(θ)
+• Having a conjugate prior is very convenient, because then you know how to
+update the belief given data
+6:23
+Conjugate priors
+likelihood conjugate
+Binomial Bin(D|µ) Beta Beta(µ|a,b)
+Multinomial Mult(D|µ) Dirichlet Dir(µ|α)
+Gauss N(x|µ,Σ) Gauss N(µ|µ ,A)
+0

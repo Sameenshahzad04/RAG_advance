@@ -1,0 +1,6 @@
+possible.)
+b) Try to implement Kalman SLAM, which tracks the car simultaneous to the land-
+marks. YoushouldnowaccesstheroutinesgetMeanObservationAtStateAndLandmarks
+and getObservationJacobianAtStateAndLandmarks to retrieve the mean
+observation and the necessary Jacobians given the current mean estimate θ of the
+landmarks.

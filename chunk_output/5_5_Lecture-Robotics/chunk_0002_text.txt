@@ -1,0 +1,7 @@
+Singularity (2:35) Null space, task space, operational space, joint space (2:36) Motion
+rate control (2:37) Sine motion profile (2:39) Joint space trajectory interpolation (2:41)
+Task space trajectory interpolation (2:42)
+2.4 Multiple tasks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+The’big’taskvector(2:47)Inversekinematicsforalltasks(2:48)Hierarchicakinverse
+kinematics,nullspacemotion(2:50)ReferenceoftaskmapsandtheirJacobians(2:52)
+1

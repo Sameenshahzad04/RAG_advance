@@ -1,0 +1,29 @@
+0:T 0 T
+Given the initial configuration q 0 and the final q T, interpolate on a straight line with a
+some motion profile. E.g.,
+q
+t
+= q
+0
++ MP(t/T) (q
+T
+− q
+0
+)
+2:41
+Task space interpolation
+1) Compute y as interpolation between y and y :
+0:T 0 T
+Given a initial task value y 0 and a desired final task value y T, interpolate on a straight
+line with a some motion profile. E.g,
+y
+t
+= y
+0
++ MP(t/T) (y
+T
+− y
+0
+)
+2) Project y to q using inverse kinematics:
+0:T 0:T

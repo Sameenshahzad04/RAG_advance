@@ -1,0 +1,15 @@
+→ Riccati equation
+8:14
+Linear-Quadratic Optimal Control
+linear dynamics
+x˙ = f(x,u) = Ax + Bu
+quadratic costs
+c(x,u) = x(cid:62)Qx + u(cid:62)Ru , φ(x ) = x(cid:62)Fx
+T T T
+• Note: Dynamicsneglectsconstantterm; costsneglectlinearandconstantterms.
+This is because
+– constant costs are irrelevant
+– linear cost terms can be made away by redefining x or u
+– constant dynamic term only introduces a constant drift
+8:15
+Linear-Quadratic Control as Local Approximation

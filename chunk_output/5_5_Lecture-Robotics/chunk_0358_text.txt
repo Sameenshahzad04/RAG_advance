@@ -1,0 +1,10 @@
+• Instead of designing a controller by first designing a cost function and then
+applying Riccati,
+design a controller such that the desired state is provably a stable equilibrium
+point of the closed loop system
+8:32
+Stability
+• Stability is an analysis of the closed loop system. That is: for this analysis we
+don’t need to distinguish between system and controller explicitly. Both to-
+gether define the dynamics
+x˙ = f(x,π(x,t)) =: f(x)

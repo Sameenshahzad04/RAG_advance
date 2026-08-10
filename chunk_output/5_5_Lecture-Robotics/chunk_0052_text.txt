@@ -1,0 +1,7 @@
+– A position v on the endeffector transformed to world coordinates:
+φpos (q) = T (q) v ∈ R3
+eff,v W→eff
+– A direction v ∈ R3 attached to the endeffector in world coordinates:
+φvec (q) = R (q) v ∈ R3
+eff,v W→eff
+Where R A→B is the rotation in T A→B.

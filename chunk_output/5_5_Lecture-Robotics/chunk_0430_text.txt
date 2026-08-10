@@ -1,0 +1,9 @@
+[Page 166]
+166 Introduction to Robotics, Marc Toussaint
+• Vukobratovic’s view on walking, leading to ZMP ideas:
+“Basic characteristics of all biped locomotion systems are:
+(i) the possibility of rotation of the overall system about one of the foot edges
+caused by strong disturbances, which is equivalent to the appearance of an
+unpowered (passive) DOF,
+(ii) gait repeatability (symmetry), which is related to regular gait only
+(iii) regular interchangeability of single- and double-support phases”

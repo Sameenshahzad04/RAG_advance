@@ -1,0 +1,15 @@
+[Page 73]
+Introduction to Robotics, Marc Toussaint 73
+• Cons:
+– Precomputation of exhaustive roadmap takes a long time
+(but not necessary for “Lazy PRMs”)
+4:36
+Rapidly Exploring Random Trees
+2 motivations:
+• Single Query path finding: Focus computational efforts on paths for specific
+(q ,q )
+start goal
+• UseactuallycontrollableDoFstoincrementallyexplorethesearchspace: control-
+based path finding.
+(Ensures that RRTs can be extended to handling differential constraints.)
+4:37

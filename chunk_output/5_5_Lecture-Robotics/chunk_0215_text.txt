@@ -1,0 +1,12 @@
+[Page 83]
+Introduction to Robotics, Marc Toussaint 83
+“A car cannot move directly lateral.”
+• Analogy to dynamic systems: Just like a car cannot instantly move sidewards, a dy-
+namic system cannot instantly change its position q: the current change in position is
+constrained by the current velocity q˙.
+4:49
+Path finding for a non-holonomic system
+Could a car follow this trajectory?
+This is generated with a PRM in the state space q = (x,y,θ) ignoring the differn-
+tial constraint.
+4:50

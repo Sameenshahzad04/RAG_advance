@@ -1,0 +1,8 @@
+[Page 151]
+Introduction to Robotics, Marc Toussaint 151
+Policy Gradients – references
+Peters&Schaal(2008): Reinforcementlearningofmotorskillswithpolicygradients,NeuralNetworks.
+Kober&Peters: PolicySearchforMotorPrimitivesinRobotics,NIPS2008.
+Vlassis, Toussaint (2009): Learning Model-free Robot Control by a Monte Carlo EM Algorithm. Au-
+tonomousRobots27,123-130.
+Rawlik, Toussaint, Vijayakumar(2012): On Stochastic Optimal Control and Reinforcement Learning by

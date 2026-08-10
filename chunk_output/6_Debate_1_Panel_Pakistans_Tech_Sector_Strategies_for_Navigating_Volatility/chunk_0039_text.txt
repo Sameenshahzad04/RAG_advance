@@ -1,0 +1,5 @@
+infrastructure. The most common paths are a Dubai (DAFZA/DMCC) free zone company or a US
+LLC/C-Corp. This isn't a luxury; it is a fundamental cost of doing business for any export-oriented
+tech company in Pakistan. This entity handles all client billing and receives all foreign income
+through Stripe, PayPal, or whatever gateway our clients prefer. It then remits funds back to the
+Pakistani parent company for operational expenses.

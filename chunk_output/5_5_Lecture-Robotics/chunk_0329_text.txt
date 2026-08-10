@@ -1,0 +1,4 @@
+t u t+1
+(cid:104) (cid:105)
+The argmin gives the optimal control signal: π∗(x) = argmin ···
+t u

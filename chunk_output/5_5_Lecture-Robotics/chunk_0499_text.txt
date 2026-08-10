@@ -1,0 +1,14 @@
+to access C(x ) = ∂y. Note that c(x ) = yˆ −C(x )x , where yˆ is the mean observa-
+t ∂x t t t t t
+tion in state x (there is another routine for this).
+t
+12.10 Exercise 10
+12.10.1 The value function in Markov Decision Processes
+On slide 5 of the RL lecture we defined MDPs as
+T
+(cid:89)
+P(s ,a ,r ;π) = P(s ) P(a |s ;π) P(r |s ,a ) P(s |s ,a ) , (7)
+0:T+1 0:T 0:T 0 t t t t t t+1 t t
+t=0
+where P(a |s ;π) described the agent’s policy. We assume a deterministic agent
+0 0

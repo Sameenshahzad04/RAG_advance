@@ -1,0 +1,12 @@
+• X is independent of Y iff: P(X|Y ) = P(X)
+(table thinking: all columns of P(X|Y ) are equal)
+6:8
+Joint distributions
+joint: P(X,Y )
+(cid:80)
+marginal: P(X) = P(X,Y )
+Y
+conditional: P(X|Y ) = P(X,Y)
+P(Y)
+• Implications of these definitions:
+Product rule: P(X,Y ) = P(X|Y ) P(Y ) = P(Y |X) P(X)

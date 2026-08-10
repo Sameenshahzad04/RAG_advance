@@ -1,0 +1,7 @@
+[Table - Page 34]
+| Penetrationofjointlimits |  |
+| --- | --- |
+| dimension | d=1 |
+| parameters | jointlimitsq ,q ,marginm low hi |
+| kin.map | φ (q)= 1 (cid:80)n [m−q +q ]++[m+q −q ]+ limits m i=1 i low i hi |
+| Jacobian | J (q) =−1[m−q +q >0]+ 1[m+q −q >0] limits 1,i m i low m i hi |

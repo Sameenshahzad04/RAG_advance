@@ -1,0 +1,27 @@
+Document: 03_research_notes_renewables_policy.docx (doc_id=3)
+Generated: 2026-08-10 10:35:55
+Total chunks: 23
+============================================================
+[0000] text  | 68 chars | chunk_0000_text.txt
+[0001] text  | 90 chars | chunk_0001_text.txt
+[0002] text  | 20 chars | chunk_0002_text.txt
+[0003] text  | 277 chars | chunk_0003_text.txt
+[0004] text  | 200 chars | chunk_0004_text.txt
+[0005] text  | 26 chars | chunk_0005_text.txt
+[0006] text  | 77 chars | chunk_0006_text.txt
+[0007] text  | 81 chars | chunk_0007_text.txt
+[0008] text  | 113 chars | chunk_0008_text.txt
+[0009] text  | 63 chars | chunk_0009_text.txt
+[0010] text  | 83 chars | chunk_0010_text.txt
+[0011] text  | 85 chars | chunk_0011_text.txt
+[0012] text  | 48 chars | chunk_0012_text.txt
+[0013] text  | 125 chars | chunk_0013_text.txt
+[0014] text  | 184 chars | chunk_0014_text.txt
+[0015] text  | 271 chars | chunk_0015_text.txt
+[0016] text  | 203 chars | chunk_0016_text.txt
+[0017] text  | 151 chars | chunk_0017_text.txt
+[0018] text  | 80 chars | chunk_0018_text.txt
+[0019] text  | 5 chars | chunk_0019_text.txt
+[0020] text  | 140 chars | chunk_0020_text.txt
+[0021] text  | 163 chars | chunk_0021_text.txt
+[0022] text  | 209 chars | chunk_0022_text.txt

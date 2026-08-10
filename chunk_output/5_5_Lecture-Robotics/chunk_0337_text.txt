@@ -1,0 +1,14 @@
+[Page 131]
+Introduction to Robotics, Marc Toussaint 131
+• The HJB eq. is a differential equation for V (x,t) which is in general hard to
+solve
+• The (time-discretized) Bellman equation can be solved by Dynamic Program-
+ming starting backward:
+(cid:104) (cid:105)
+V (x) = φ(x) , V (x) = min c(x,u) + V (f(x,u)) etc.
+T T-1 T
+u
+But it might still be hard or infeasible to represent the functions V (x) over
+t
+continuous x!
+• Both become significantly simpler under linear dynamics and quadratic costs:

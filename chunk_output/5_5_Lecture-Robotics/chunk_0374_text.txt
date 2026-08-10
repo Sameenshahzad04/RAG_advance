@@ -1,0 +1,7 @@
+eters β.
+– One approach is to estimate β from the data so far and use optimal control.
+– Another is to design a controller that has an additional internal update equa-
+tion for an estimate
+βˆ
+and is provably stable. (See Schaal’s lecture, for instance.)
+8:44

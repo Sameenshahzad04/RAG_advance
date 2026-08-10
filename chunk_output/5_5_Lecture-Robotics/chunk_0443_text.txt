@@ -1,0 +1,8 @@
+chaos. InternationalJournalofRoboticsResearch17,1998.
+http://www.ambarish.com/paper/COMPASS_IJRR_Goswami.pdf
+11:19
+Passive dynamic walking: Compass Gait
+• Swing phase has analytic equations of motions
+M(q)q¨+ C(q,q˙)q˙ + G(q) = 0
+but can’t be solved analytically...
+• Phase space plot of numeric solution:

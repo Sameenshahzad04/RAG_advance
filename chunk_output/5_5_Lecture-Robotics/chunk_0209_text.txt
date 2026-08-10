@@ -1,0 +1,16 @@
+[Page 80]
+80 Introduction to Robotics, Marc Toussaint
+let one tree grow towards the other
+(e.g., “choose q of T as q of T ”)
+new 1 target 2
+4:42
+Summary: RRTs
+• Pros (shared with PRMs):
+– Algorithmically very simple
+– Highly explorative
+– Allows probabilistic performance guarantees
+• Pros (beyond PRMs):
+– Focus computation on single query (q ,q ) problem
+start goal
+– Trees from multiple queries can be merged to a roadmap
+– Can be extended to differential constraints (nonholonomic systems)

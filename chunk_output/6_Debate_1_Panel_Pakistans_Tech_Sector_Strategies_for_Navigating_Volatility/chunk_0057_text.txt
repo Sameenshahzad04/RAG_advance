@@ -1,0 +1,8 @@
+Foreign Exchange Manual and circulars through your bank, because operational interpretation varies by
+bank and can change. Do not design your treasury plan without written confirmation from your bank's
+trade/FX desk.
+2. Build a Two-Bank and Two-Channel Payment
+Architecture
+Your company should not depend on one bank officer, one branch, one fintech account, or one
+payment method.
+Minimum practical setup:

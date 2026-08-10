@@ -1,0 +1,6 @@
+many-to-one function.
+• The notion “inverse kinematics” in the strict sense describes some mapping
+g : y (cid:55)→ q such that φ(g(y)) = y, which usually is non-unique or ill-defined.
+• In practice, one often refers to δq = J(cid:93)δy as inverse kinematics.
+• Wheniteratingδq = J(cid:93)δy inacontrolcyclewithtimestepτ (typicallyτ ≈ 1−10
+msec), then y˙ = δy/τ and q˙ = δq/τ and q˙ = J(cid:93)y˙. Therefore the control cycle

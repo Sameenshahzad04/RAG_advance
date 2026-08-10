@@ -1,0 +1,14 @@
+• Two tasks plus nullspace motion:
+f(q) = ||q − a||2 + (cid:37) ||J q − y ||2 + (cid:37) ||J q − y ||2
+W 1 1 1 2 2 2
+q∗ = J#y + (I − J#J )[J#y + (I − J#J )a]
+1 1 1 1 2 2 2 2
+J# = (W/(cid:37) + J(cid:62)J )-1J(cid:62)= W-1J(cid:62)(J W-1J(cid:62)+ I/(cid:37) )-1
+2 2 2 2 2 2 2 2 2
+• etc...
+2:50
+Hierarchical IK & nullspace motion
+• The previous slide did nothing but rewrite the nice solution q∗ = −J#Φ(q )
+0
+(for the “big” Φ) in a strange hierarchical way that allows to “see” nullspace
+projection

@@ -1,0 +1,15 @@
+[Page 36]
+36 Introduction to Robotics, Marc Toussaint
+3 Dynamics
+Kinematic Dynamic
+instantly change joint velocities q˙: instantly change joint torques u:
+δq = ! J(cid:93) (y∗ − φ(q )) u = ! ?
+t t
+accounts for kinematic coupling of accounts for dynamic coupling of
+joints but ignores inertia, forces, joints and full Newtonian physics
+torques
+gears, stiff, all of industrial robots future robots, compliant, few re-
+search robots
+3:1
+When velocities cannot be changed/set arbitrarily
+• Examples:

@@ -1,0 +1,4 @@
+papers/mlintro.pdf
+6:30
+Particle Approximation of a Distribution
+Histogram of a particle representation:

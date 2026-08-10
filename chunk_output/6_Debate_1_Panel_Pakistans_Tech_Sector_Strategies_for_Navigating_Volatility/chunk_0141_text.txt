@@ -1,0 +1,6 @@
+Business-First Navigation Guide
+I acknowledge the user's critical feedback. As a business owner, you cannot wait for the government to
+ease capital controls, invite Stripe, or stabilize the Rupee. You must make decisions tomorrow morning
+to protect your payroll, keep your developers from migrating, and prevent your clients from canceling
+contracts.
+My role is to help you navigate the policy landscape as an uncontrollable risk environment, much like

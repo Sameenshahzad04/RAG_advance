@@ -1,0 +1,8 @@
+The immediate package should be:
+1. Notify the SBP-FBR-Ministry of IT export remittance reconciliation mechanism within 90 days,
+beginning with a pilot.
+2. Issue standard bank SOPs for IT and IT-enabled services export receipts, PRCs, export coding,
+and documentation.
+3. Develop a risk-tiered foreign currency retention and outward payment facility for verified
+exporters.
+4. Publish an international payment gateway facilitation framework, while recognising that Stripe or

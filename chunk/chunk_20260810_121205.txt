@@ -1,0 +1,6 @@
+=== RETRIEVED CHUNKS LOG ===
+Timestamp: 20260810_121205
+Query: give me summary of employee handbook
+Total Chunks: 0
+============================================================
+

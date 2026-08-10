@@ -1,0 +1,18 @@
+iv ·k k iv k
+Notation:
+– a k ,p k are axis and position of joint k
+– [k ≺ i] indicates whether joint k is between root and link i
+– J ·k is the kth column of J
+2:53
+Vector
+Vector attached to link i
+dimension d = 3
+parameters link index i, attached vector v
+kin. map φvec(q) = R v
+iv W→i
+Jacobian Jvec(q) = A × φvec(q)
+iv i iv
+Notation:
+– A i is a matrix with columns (A i ) ·k = [k ≺ i] a k containing the joint axes or zeros
+– theshortnotation“A×p”meansthateachcolumninAtakesthecross-productwith
+p.

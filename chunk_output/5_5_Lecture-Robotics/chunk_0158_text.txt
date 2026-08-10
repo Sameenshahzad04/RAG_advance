@@ -1,0 +1,20 @@
+[Page 52]
+52 Introduction to Robotics, Marc Toussaint
+path finding
+trajectory optimization
+feedback control
+start goal
+• Feedback Control: E.g., q = q + J(cid:93)(y∗ − φ(q ))
+t+1 t t
+• Trajectory Optimization: argmin f(q )
+q0:T 0:T
+• Path Finding: Find some q with only valid configurations
+0:T
+4:5
+Outline
+• Really briefly: Heuristics & Discretization (slides from Howie CHoset’s CMU
+lectures)
+– Bugs algorithm
+– Potentials to guide feedback control
+– Dijkstra
+• Sample-based Path Finding

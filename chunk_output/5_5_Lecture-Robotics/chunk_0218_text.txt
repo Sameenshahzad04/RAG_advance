@@ -1,0 +1,3 @@
+4) If the motion is collision-free, add the endpoint to the tree
+4:52
+Control-based sampling for the car

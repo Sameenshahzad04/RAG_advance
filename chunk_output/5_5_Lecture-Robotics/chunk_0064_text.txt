@@ -1,0 +1,3 @@
+– W generalizes the metric in q-space
+– C regularizes this pseudo-inverse (see later section on singularities)
+2:29

@@ -1,0 +1,9 @@
+– Definition of controllability
+– Be able to apply on simple examples
+• Stability
+– Definitions of stability
+– Eigenvalue analysis for linear systems
+– Optimize controllers for negativity of eigenvalues
+– Definition of a Lyapunov function
+– Lyanunov’s theorem: ∃ Lyapunov fct. → stability
+– Energy and value function as candidates for a Lyapunov fct.

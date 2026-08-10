@@ -1,0 +1,17 @@
+[Page 43]
+Introduction to Robotics, Marc Toussaint 43
+The Euler-Lagrange equation
+d ∂L ∂L
+− = u
+dt ∂q˙ ∂q
+• L(q,q˙) is called Lagrangian and defined as
+L = T − U
+where T=kinetic energy and U=potential energy.
+• q is called generalized coordinate – any coordinates such that (q,q˙) describes
+the state of the system. Joint angles in our case.
+• u are external forces
+3:20
+Example: A pendulum
+• Generalized coordinates: angle q = (θ)
+• Kinematics:
+– velocity of the mass: v = (lθ˙cosθ,0,lθ˙sinθ)

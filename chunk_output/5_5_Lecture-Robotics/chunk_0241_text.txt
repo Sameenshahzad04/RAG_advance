@@ -1,0 +1,21 @@
+• Notation for summing over a RV:
+In equation we often need to sum over RVs. We then write
+(cid:80)
+P(X) ···
+X
+(cid:80)
+as shorthand for the explicit notation P(X=x) ···
+x∈dom(X)
+6:7
+Joint distributions
+Assume we have two random variables X and Y
+• Definitions:
+Joint: P(X,Y )
+(cid:80)
+Marginal: P(X) = P(X,Y )
+Y
+Conditional: P(X|Y ) = P(X,Y)
+P(Y)
+(cid:80)
+The conditional is normalized: ∀ Y : X P(X|Y ) = 1
+• X is independent of Y iff: P(X|Y ) = P(X)

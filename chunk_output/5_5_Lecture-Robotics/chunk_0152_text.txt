@@ -1,0 +1,15 @@
+q∗ = argmin||φ(q) − y∗||2 + ||q − q ||2
+C 0 W
+q
+• Operational space control (one might call it “Inverse task space dynamics”):
+u∗ = argmin||φ¨(q) − y¨∗||2 + ||u||2
+C H
+u
+3:32
+Operational space control
+• We can derive the optimum perfectly analogous to inverse kinematics
+We identify the minimum of a locally squared potential, using the local linearization
+(and approx. J¨= 0)
+d d
+φ¨(q) = φ˙(q) ≈ (Jq˙ + J˙q) ≈ Jq¨+ 2J˙q˙ = JM-1(u − F) + 2J˙q˙
+dt dt

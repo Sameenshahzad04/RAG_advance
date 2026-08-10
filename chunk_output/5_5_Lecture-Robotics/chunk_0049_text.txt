@@ -1,0 +1,25 @@
+[Page 18]
+18 Introduction to Robotics, Marc Toussaint
+B eff
+joint
+B'
+transf.
+A C' relative
+A'
+eff.
+C
+offset
+link
+transf.
+W
+• A kinematic structure is a graph (usually tree or chain)
+of rigid links and joints
+T (q) = T T (q) T T (q) T T (q) T
+W→eff W→A A→A(cid:48) A(cid:48)→B B→B(cid:48) B(cid:48)→C C→C(cid:48) C(cid:48)→eff
+2:15
+Joint types
+• Joint transformations: T A→A(cid:48) (q) depends on q ∈ Rn
+revolute joint: joint angle q ∈ R determines rotation about x-axis:
+1 0 0 0
+T
+A→A(cid:48)

@@ -1,0 +1,8 @@
+0 = A(cid:62)P + PA − PBR-1B(cid:62)P + Q
+V˙ (x) = x(cid:62)[PBR-1B(cid:62)P − Q + (PBK)(cid:62)+ PBK]x
+= −x(cid:62)[Q + K(cid:62)RK]x
+(Wecouldhavederivedthiseasier! x(cid:62)Qxaretheimmediatestatecosts,andx(cid:62)K(cid:62)RKx =
+u(cid:62)Ru are the immediate control costs—and V˙ (x) = −c(x,u∗)! See slide 11 bottom.)
+• That is: V is a Lyapunov function if Q + K(cid:62)RK is positive definite!
+8:43
+Observability & Adaptive Control

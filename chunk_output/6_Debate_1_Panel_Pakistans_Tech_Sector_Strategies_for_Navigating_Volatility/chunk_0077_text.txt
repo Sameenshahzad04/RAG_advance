@@ -1,0 +1,13 @@
+10. Build a Weekly Management Dashboard
+In volatility, monthly review is too slow. Your leadership team should review the following weekly:
+• Cash in bank.
+• Runway in months.
+• Receivables by age.
+• Revenue by client.
+• Revenue by geography.
+• Gross margin by project or product line.
+• Payment channel exposure.
+• Hiring commitments.
+• Delivery delays.
+• Client churn or expansion signals.
+• Tax/compliance deadlines.

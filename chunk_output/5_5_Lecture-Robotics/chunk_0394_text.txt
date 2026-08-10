@@ -1,0 +1,12 @@
+ApproximateInference. RSS2012. (ψ-learning)
+• These methods are sometimes called white-box optimization:
+They optimize the policy parameters β for the total reward R = (cid:80) γtr while
+t
+tying to exploit knowledge of how the process is actually parameterized
+9:20
+Policy Search with Black-Box Optimization [skipped]
+9:21
+“Black-Box Optimization”
+• The term is not really well defined
+– I use it to express that only f(x) can be evaluated
+– ∇f(x) or ∇2f(x) are not (directly) accessible

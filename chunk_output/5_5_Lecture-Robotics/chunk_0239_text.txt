@@ -1,0 +1,4 @@
+probability to each possible value”)
+6:6
+Probabilty Distributions
+• P(X=1) ∈ R denotes a specific probability

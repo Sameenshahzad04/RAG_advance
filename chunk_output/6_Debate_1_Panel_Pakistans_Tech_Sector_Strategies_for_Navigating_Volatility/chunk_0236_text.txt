@@ -1,0 +1,8 @@
+5. Improve Business Continuity, Cybersecurity, and
+Data Governance
+Volatility is not limited to macroeconomics. Firms face power interruptions, internet disruptions, cyber
+incidents, client-side compliance requirements, and reputational risk. A serious exporter must be able to
+demonstrate continuity and trust.
+Business recommendations:
+• Maintain cybersecurity policies, access control, secure backups, incident response procedures,
+and client data segregation.

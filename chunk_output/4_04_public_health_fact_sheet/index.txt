@@ -1,0 +1,11 @@
+Document: 04_public_health_fact_sheet.pdf (doc_id=4)
+Generated: 2026-08-10 10:38:41
+Total chunks: 7
+============================================================
+[0000] text  | 454 chars | chunk_0000_text.txt
+[0001] text  | 457 chars | chunk_0001_text.txt
+[0002] text  | 490 chars | chunk_0002_text.txt
+[0003] text  | 450 chars | chunk_0003_text.txt
+[0004] text  | 478 chars | chunk_0004_text.txt
+[0005] text  | 453 chars | chunk_0005_text.txt
+[0006] text  | 211 chars | chunk_0006_text.txt

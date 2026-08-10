@@ -1,0 +1,12 @@
+[Page 127]
+Introduction to Robotics, Marc Toussaint 127
+Core topics in Control Theory
+• Stability*
+Analyze the stability of a closed-loop system
+→ Eigenvalue analysis or Lyapunov function method
+• Controllability*
+Analyze which dimensions (DoFs) of the system can actually in principle be controlled
+• Transfer function
+Analyzetheclosed-looptransferfunction,i.e.,“howfrequenciesaretransmittedthrough
+the system”. (→ Laplace transformation)
+• Controller design

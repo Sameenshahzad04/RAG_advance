@@ -1,0 +1,20 @@
+[Page 118]
+118 Introduction to Robotics, Marc Toussaint
+(cid:90)
+= β (x ) P(y |x ) P(x |x ,u ) dx
+t+1 t+1 t+1 t+1 t+1 t t t+1
+xt+1
+7:30
+7.2 Simultaneous Localization and Mapping (SLAM)
+7:31
+Localization and Mapping
+• The Bayesian filter requires an observation model P(y |x )
+t t
+• A map is something that provides the observation model:
+A map tells us for each x what the sensor readings y might look like
+t t
+7:32
+Types of maps
+Grid map
+Landmark map
+K.Murphy(1999): Bayesianmaplearning

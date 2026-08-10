@@ -1,0 +1,10 @@
+θ encodes what has been learned from the history
+θ defines where to search in the future
+• Evolutionary Algorithms: θ is a parent population
+Evolution Strategies: θ defines a Gaussian with mean & variance
+Estimation of Distribution Algorithms: θ are parameters of some distribution
+model, e.g. Bayesian Network
+Simulated Annealing: θ is the “current point” and a temperature
+9:28
+Example: Gaussian search distribution (µ,λ)-ES
+From1960s/70s. Rechenberg/Schwefel

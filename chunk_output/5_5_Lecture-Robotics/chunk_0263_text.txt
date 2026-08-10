@@ -1,0 +1,9 @@
+“Propagation”:
+(cid:82) N(x|a + Fy,A) N(y|b,B) dy = N(x|a + Fb,A + FBF(cid:62))
+y
+Transformation:
+N(Fx + f |a,A) = 1 N(x| F-1(a − f), F-1AF-(cid:62))
+|F |
+Marginal & conditional:
+(cid:18) (cid:12) (cid:19)
+N x y (cid:12) (cid:12) (cid:12) a b , C A (cid:62) B C = N(x|a,A) · N(y|b + C(cid:62)A-1(x-a), B − C(cid:62)A-1C)

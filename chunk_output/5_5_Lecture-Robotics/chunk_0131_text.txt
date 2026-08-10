@@ -1,0 +1,4 @@
+p d i
+s=0
+• PID control
+– Proportional Control (“Position Control”)

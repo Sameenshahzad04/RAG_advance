@@ -1,0 +1,16 @@
+From inverse kinematics to path costs
+Continuous time finite horizion defini-
+(5:2),
+tion (8:10),
+Control-based sampling (4:52),
+General k-order cost terms (5:3),
+Coordinateframesandtransforms(2:6),
+GeneralstructureofEuler-Lagrange(3:22),
+Generalstructureofrobotdynamics(3:28),
+D gain (3:10),
+Dampingration, wavelength(3:14),
+Goal-oriented RRT (4:40),
+Darpa challenge (7:1),
+Graph-based SLAM (7:45),
+Definitionofadynamicsequation(3:3),
+Hamilton-Jacobi-Bellmanequation(8:11),

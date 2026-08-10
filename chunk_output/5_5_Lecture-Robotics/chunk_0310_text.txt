@@ -1,0 +1,16 @@
+http://www.cs.ubc.ca/˜murphyk/Papers/map_nips99.pdf
+7:39
+Map estimation for a given particle history
+• Given x (e.g. a trajectory of a particle), what is the posterior over the map m?
+0:t
+→ simplified Bayes Filter:
+p (m) := P(m|x ,y ) ∝ P(y |m,x ) p (m)
+t 0:t 0:t t t t-1
+(no transtion model: assumption that map is constant)
+• In the case of landmarks (FastSLAM):
+m = (θ ,..,θ )
+1 N
+θ = position of the jth landmark, j ∈ {1,..,N}
+j
+n = which landmark we observe at time t, n ∈ {1,..,N}
+t t

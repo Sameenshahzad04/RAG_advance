@@ -1,0 +1,12 @@
+=== RETRIEVED CHUNKS LOG ===
+Timestamp: 20260810_104832
+Query: what is hr policy
+Total Chunks: 2
+============================================================
+
+--- CHUNK 1 ---
+Submit requests through the HR portal:
+
+--- CHUNK 2 ---
+Questions about accrual balances can be checked anytime on the HR Portal.
+

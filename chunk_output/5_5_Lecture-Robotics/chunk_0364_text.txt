@@ -1,0 +1,23 @@
+[Page 140]
+140 Introduction to Robotics, Marc Toussaint
+• Dynamics:
+q˙ 0 1  0 0 
+x˙ = = x + 1/m x
+ q¨   0 0   −K −K  
+p d
+ 0 1 
+A =
+ −K /m −K /m 
+p d
+• Eigenvalues:
+q  0 1 q
+The equation λ  q˙  =  −K /m −K /m   q˙  leads to the equation λq˙ = λ2q =
+p d
+−K /mq−K /mλq or mλ2+K λ+K = 0 with solution (compare slide 05:10)
+p d d p
+(cid:112)
+−K ± K2 − 4mK
+λ = d d p
+2m
+For K2 − 4mK negative, the real(λ) = −K /2m
+d p d

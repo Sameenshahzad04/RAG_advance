@@ -1,0 +1,7 @@
+[Table]
+| Service Line | Q3 2024 | Q3 2025 | Growth % | YTD 2025 |
+| --- | --- | --- | --- | --- |
+| AI/ML Development | 45.2M | 67.8M | +50.0% | 185.4M |
+| Web Development | | 38.5M | 42.1M | +9.4% | 118.7M |
+| Mobile Applications | 28.3M | 35.6M | +25.8% | 95.2M |
+| Total Revenue | 180.8M | 245.7M | +35.9% | 668.8M |

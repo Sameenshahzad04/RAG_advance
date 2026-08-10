@@ -1,0 +1,15 @@
+p d
+(linear in the dynamic system state x = (q,q˙))
+• With such linear control laws we can design approach trajectories (by tuning
+the gains)
+– but no optimality principle behind such motions
+3:17
+3.2 Dynamics of mechanical systems
+3:18
+Two ways to derive dynamics equations for mechanical systems
+• The Euler-Lagrange equation, L = L(t,q(t),q˙(t)),
+d ∂L ∂L
+− = u
+dt ∂q˙ ∂q
+Used when you want to derive analytic equations of motion (“on paper”)
+• The Newton-Euler recursion (and related algorithms)

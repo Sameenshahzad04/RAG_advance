@@ -1,0 +1,16 @@
+dimension d = 1
+parameters margin m
+kin. map φ (q) = 1 (cid:80)K [m − |pa − pb|]+
+col m k=1 k k
+Jacobian J (q) = 1 (cid:80)K [m − |pa − pb| > 0]
+col m k=1 k k
+(−Jpos + Jpos)(cid:62) pa k −pb k
+pa k pb k |pa k −pb k |
+A collision detection engine returns a set {(a,b,pa,pb)K } of potential collisions be-
+k=1
+tween link a k and b k, with nearest points pa k on a and pb k on b.
+2:60
+Center of gravity
+Center of gravity of the whole kinematic structure
+dimension d = 3
+parameters (none)

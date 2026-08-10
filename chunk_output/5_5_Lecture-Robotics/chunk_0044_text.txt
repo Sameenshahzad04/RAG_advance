@@ -1,0 +1,24 @@
+[Page 16]
+16 Introduction to Robotics, Marc Toussaint
+ 0 −w w 
+3 2
+wˆ :=  w
+3
+0 −w
+1
+
+−w w 0 
+2 1
+(wˆ is called skew matrix, with property wˆv = w×v; exp(·) is called exponential
+map)
+• Composition: convert to matrix first
+• Drawback: singularity for small rotations
+2:9
+Quaternion
+• A quaternion is r ∈ R4 with unit length |r| = r2 + r2 + r2 + r2 = 1
+0 1 2 3
+r 
+r = 0 , r = cos(θ/2) , r¯ = sin(θ/2) w
+  r¯  0
+where w is the unit length rotation axis
+• Conversiontomatrix

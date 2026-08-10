@@ -1,0 +1,3 @@
+• Conversion to matrix:
+R(w) = exp(wˆ)
+= cosθ I + sinθ wˆ/θ + (1 − cosθ) ww(cid:62)/θ2

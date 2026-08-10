@@ -1,0 +1,5 @@
+remedy is too dependent on one symbolic outcome: Stripe or PayPal entry.
+First, SBP cannot mandate a private foreign company to enter Pakistan. The state can create enabling
+conditions, but the final market-entry decision rests with the payment platform. A red line that depends
+on a third-party commercial decision is not administratively sound.
+Second, payment gateways are not the only payment infrastructure gap. Pakistani exporters need

@@ -1,0 +1,15 @@
+.
+.
+q) − y 2 ∗) ∈ R(cid:80) i di
+ . 
+2:47
+Multiple tasks
+• We can “pack” together all tasks in one “big task” Φ.
+Example: We want to control the 3D position of the left hand and of the right hand.
+Both are “packed” to one 6-dimensional task vector which becomes zero if both tasks
+are fulfilled.
+• The big Φ is scaled/normalized in a way that
+– the desired value is always zero
+– the cost metric is I
+• Using the local linearization of Φ at q , J = ∂Φ(q0) , the optimum is
+0 ∂q

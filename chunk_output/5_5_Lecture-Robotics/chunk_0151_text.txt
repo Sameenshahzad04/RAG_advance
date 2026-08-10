@@ -1,0 +1,15 @@
+reference trajectory!
+3:30
+Following a reference trajectory in task space
+• Recall the inverse kinematics problem:
+– We know the desired step δy∗ (or velocity y˙∗) of the endeffector.
+– Which step δq (or velocities q˙) should we make in the joints?
+• Equivalent dynamic problem:
+– We know how the desired acceleration y¨∗ of the endeffector.
+– What controls u should we apply?
+3:31
+Operational space control
+• Inverse kinematics:
+q∗ = argmin||φ(q) − y∗||2 + ||q − q ||2
+C 0 W
+q

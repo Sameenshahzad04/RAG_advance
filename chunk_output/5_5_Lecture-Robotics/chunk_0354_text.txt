@@ -1,0 +1,14 @@
+(cid:104) (cid:105)
+C := B AB A2B ··· An-1B
+has full rank dim(x) (that is, all rows are linearly independent)
+• Meaning of C:
+The ith row describes how the ith element x i can be influenced by u
+“B”: x˙ i is directly influenced via B
+“AB”: x¨ i is “indirectly” influenced via AB (u directly influences some x˙ j
+via B; the dynamics A then influence x¨ i depending on x˙ j)
+...
+“A2B”: x i is “double-indirectly” influenced
+etc...
+Note: x¨ = Ax˙ + Bu˙ = AAx + ABu + Bu˙
+...
+x = A3x + A2Bu + ABu˙ + Bu¨

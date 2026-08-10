@@ -1,0 +1,14 @@
+[Page 111]
+Introduction to Robotics, Marc Toussaint 111
+1. We have a belief p (x ) of our previous position
+t-1 t-1
+2. We use the motion model to predict the current position
+(cid:82)
+pˆ (x ) ∝ P(x |u ,x ) p (x ) dx
+t t xt-1 t t-1 t-1 t-1 t-1 t-1
+3. We integetrate this with the current observation to get a better belief
+p (x ) ∝ P(y |x ) pˆ (x )
+t t t t t t
+7:15
+• Typical transition model P(x |u ,x ) in robotics:
+t t-1 t-1

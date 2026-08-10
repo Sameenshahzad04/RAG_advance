@@ -1,0 +1,9 @@
+– EvolutionaryAlgorithms,esp.EvolutionStrategies,CovarianceMatrixAdaptation,
+Estimation of Distribution Algorithms
+– Simulated Annealing, Hill Climing, Downhill Simplex
+– local modelling (gradient/Hessian), global modelling
+9:24
+Optimizing and Learning
+• Black-Box optimization is strongly related to learning:
+• When we have local a gradient or Hessian, we can take that local information
+and run – no need to keep track of the history or learn (exception: BFGS)

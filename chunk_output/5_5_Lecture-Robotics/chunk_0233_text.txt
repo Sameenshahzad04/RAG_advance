@@ -1,0 +1,7 @@
+t t t−k:t t t−k:t
+• Constrained optimization methods:
+– Log-barrier, squared penalties
+– Augmented Lagrangian
+• Note: also the Lagrangian is the form of the so-called Gauss-Newton form.
+The pseudo Hessian is a banded, symmetric, positive-definite matrix.
+5:5

@@ -1,0 +1,19 @@
+[Page 38]
+38 Introduction to Robotics, Marc Toussaint
+• The controls u(t) is the force we apply on the mass point
+• The system dynamics is:
+q¨(t) = u(t)/m
+3:6
+1D point mass – proportional feedback
+• Assume current position is q.
+The goal is to move it to the position q∗.
+What can we do?
+• Idea 1:
+“Always pull the mass towards the goal q∗:”
+u = K (q∗ − q)
+p
+3:7
+1D point mass – proportional feedback
+• What’s the effect of this control law?
+m q¨= u = K (q∗ − q)
+p

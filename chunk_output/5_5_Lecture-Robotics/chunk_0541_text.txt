@@ -1,0 +1,11 @@
+MultipleRVs, conditionalindependence RapidlyExploringRandomTrees(RRTs)
+(6:11), (4:39),
+Multiple tasks (3:35), Reference of task maps and their Jaco-
+bians (2:52),
+Newton-Euler recursion (3:23), Relation to optimal control (9:5),
+Nullspace, taskspace, operationalspace, Riccati differential eq = HJB eq in LQ
+joint space (2:36), case (8:17),
+Riccatiequations(alsodiscretetime)(8:19),
+Odometry: Filtering without observa-
+tions (7:17),
+RRTswithdifferentialconstraints(4:58),

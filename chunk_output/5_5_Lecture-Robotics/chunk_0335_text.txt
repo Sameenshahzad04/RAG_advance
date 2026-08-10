@@ -1,0 +1,18 @@
+0 = min c(x,u) + f(x,u) (cont. time)
+u ∂x
+(cid:104) (cid:105)
+V (x) = min c(x,u) + V (f(x,u)) (discrete time)
+u
+(cid:104) (cid:105)
+The argmin gives the optimal control signal: π∗(x) = argmin ···
+u
+8:12
+Infinite horizon examples
+• Cart-pole balancing:
+– You always want the pole to be upright (θ ≈ 0)
+– You always want the car to be close to zero (x ≈ 0)
+– You want to spare energy (apply low torques) (u ≈ 0)
+You might define a cost
+(cid:90) ∞
+Jπ = ||θ||2 + (cid:15)||x||2 + ρ||u||2
+0

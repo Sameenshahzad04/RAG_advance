@@ -1,0 +1,15 @@
+[Page 167]
+Introduction to Robotics, Marc Toussaint 167
+• “ZMP is defined as that point on the ground at which the net moment of the
+inertial forces and the gravity forces has no component along the horizontal
+axes.” (Vukobratovic & Borovac, 2004)
+• f = force vector acting on body i (gravity plus external)
+i
+w = angular vel vector of body i
+i
+I = interia tensor (∈ R3×3) of body i
+i
+r = p − p = relative position of body i to ZMP
+i i ZMP
+• Definition: p is the point on the ground for which
+ZMP

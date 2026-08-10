@@ -1,0 +1,19 @@
+– velocity of the mass: v = (lθ˙cosθ,0,lθ˙sinθ)
+– angular velocity of the mass: w = (0,−θ˙,0)
+• Energies:
+1 1 1
+T = mv2 + w(cid:62)Iw = (ml2 + I )θ˙2 , U = −mglcosθ
+2 2 2 2
+• Euler-Lagrange equation:
+d ∂L ∂L
+u = −
+dt ∂q˙ ∂q
+d
+= (ml2 + I )θ˙ + mglsinθ = (ml2 + I )θ¨+ mglsinθ
+dt 2 2
+3:21
+The Euler-Lagrange equation
+• How is this typically done?
+• First, describe the kinematics and Jacobians for every link i:
+(q,q˙) (cid:55)→ {T (q),v ,w }
+W→i i i

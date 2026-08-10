@@ -1,0 +1,5 @@
+• Neurosciencesandpsychologyaredescriptivesciences, eitheronthebiological
+or cognitive level, e.g. with geat sucesses to describe and cure certain deceases.
+But they are not sufficient to create intelligent systems.
+• Robotics is the only synthetic discipline to understand intelligent behavior in
+natural worlds. Robotics tells us what the actual problems are when trying to

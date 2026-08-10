@@ -1,0 +1,4 @@
+• V (x) < 0 ⇐⇒ ξ > 0 ⇐⇒ K > 0
+d
+Same result as for the eigenvalue analysis
+8:42

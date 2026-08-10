@@ -1,0 +1,13 @@
+matics
+– Definition & example for a singularity
+• Motion profiles & Interpolation
+– Motion profiles (esp. sine profile)
+– Joint space vs. task space interpolation of a trajectory [e.g. using a motion
+profile in one or the other space]
+• Multiple Tasks
+– How to incorporate multiple tasks
+– What are interesting task maps; know at least about pos, vec, align, and
+limits
+• Further
+– Be able to explain the consequences of the local linearization in IK (big steps
+→ errors)

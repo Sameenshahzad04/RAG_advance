@@ -1,0 +1,12 @@
+(cid:37) i → ∞ in some prespecified hierarchical order.
+• We can rewrite the solution in a way that allows for such a hierarchical limit:
+• One task plus “nullspace motion”:
+f(q) = ||q − a||2 + (cid:37) ||J q − y ||2
+W 1 1 1
+q∗ = [W + (cid:37) J(cid:62)J ]-1 [Wa + (cid:37) J(cid:62)y ]
+1 1 1 1 1 1
+= J#y + (I − J#J )a
+1 1 1 1
+J# = (W/(cid:37) + J(cid:62)J )-1J(cid:62)= W-1J(cid:62)(J W-1J(cid:62)+ I/(cid:37) )-1
+1 1 1 1 1 1 1 1 1
+• Two tasks plus nullspace motion:

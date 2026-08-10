@@ -1,0 +1,7 @@
+[Table - Page 33]
+| Alignmentavectorattachedtolinkiwithvectorattachedtoj |  |
+| --- | --- |
+| dimension | d=1 |
+| parameters | linkindicesi,j,attachedvectorsv,w |
+| kin.map | φalign (q)=(φvec)(cid:62)φvec iv|jw jw iv |
+| Jacobian | Jalign (q)=(φvec)(cid:62)Jvec+φvec(cid:62)Jvec iv|jw jw iv iv jw |

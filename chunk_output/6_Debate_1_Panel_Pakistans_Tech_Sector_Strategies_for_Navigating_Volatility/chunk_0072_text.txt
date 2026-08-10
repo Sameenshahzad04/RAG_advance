@@ -1,0 +1,9 @@
+8. Talent Strategy: Retain the Core, Make the
+Bench Variable
+Pakistani tech firms face salary inflation, remote-work competition, migration, and uneven graduate
+quality. The answer is not indiscriminate hiring.
+Recommended structure:
+• Keep a permanent core team for architecture, client communication, delivery management, and
+quality assurance.
+• Use contractors for burst capacity, but standardize NDAs, IP assignment, confidentiality, and
+security obligations.

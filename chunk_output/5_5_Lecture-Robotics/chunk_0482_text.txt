@@ -1,0 +1,9 @@
+b) As above, try to hold the arm steady at q∗ = 0 and q˙∗ = 0. But now use the
+knowledgeofM andF ineachtimestep. Forthis, decideonadesiredwavelengthλ
+and damping behavior ξ and compute the respective K and K (assuming m = 1),
+p d
+the same for each joint. Use the PD equation to determine desired accelerations q¨∗
+(slide 03:31) and use inverse dynamics to determine the necessary u.
+12.7 Exercise 7
+12.7.1 RRTs for path finding
+In the code in teaching/RoboticsCourse/04-rrt you find an example prob-

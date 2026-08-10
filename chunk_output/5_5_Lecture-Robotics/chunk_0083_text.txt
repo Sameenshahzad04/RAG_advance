@@ -1,0 +1,21 @@
+[Page 30]
+30 Introduction to Robotics, Marc Toussaint
+– a desired value y∗
+i
+– a precision (cid:37) i (equiv. to a task cost metric C i = (cid:37) i I)
+• Each task contributes a term to the objective function
+q∗ = argmin||q − q ||2 + (cid:37) ||φ (q) − y∗||2 + (cid:37) ||φ (q) − y∗||2 + ···
+0 W 1 1 1 2 2 2
+q
+which we can also write as
+q∗ = argmin||q − q ||2 + ||Φ(q)||2
+0 W
+q
+√
+ (cid:37) (φ (q) − y∗)
+√ 1 1 1
+where Φ(q) :=  (cid:37) 2 (φ 2 (
+.
+.
+q) − y 2 ∗) ∈ R(cid:80) i di
+ . 

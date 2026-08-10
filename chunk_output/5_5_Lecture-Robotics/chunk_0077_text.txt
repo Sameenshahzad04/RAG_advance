@@ -1,0 +1,15 @@
+2:39
+Motion profiles
+• Generally, let’s define a motion profile as a mapping
+MP : [0,1] (cid:55)→ [0,1]
+with MP(0) = 0 and MP(1) = 1 such that the interpolation is given as
+x = x + MP(t/T) (x − x )
+t 0 T 0
+• For example
+MP (s) = s
+ramp
+1
+MP (s) = [1 − cos(πs)]
+sin 2
+2:40
+Joint space interpolation

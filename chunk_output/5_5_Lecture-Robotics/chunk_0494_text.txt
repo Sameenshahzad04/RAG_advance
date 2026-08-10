@@ -1,0 +1,9 @@
+dynamics
+added to x, y and θ. Then, in each step, the car meassures the relative positions of
+m landmark points, resulting in an observation y ∈ Rm×2; these observations are
+t
+Gaussian-noisy with standard deviation σ = .5. In the current implemen-
+observation
+tation the control signal u = (.1,.2) is fixed (roughly driving circles).
+t
+a) Odometry (dead reckoning): First write a particle filter (with N = 100 particles)

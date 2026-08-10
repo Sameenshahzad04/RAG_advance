@@ -1,0 +1,14 @@
+[Page 165]
+Introduction to Robotics, Marc Toussaint 165
+Walking := in all instances at least one foot is on ground
+Running := otherwise
+• 2 phases of Walking
+– double-support phase (in Robotics often statically stable)
+– single-support phase (statically instable)
+11:5
+Asimo
+11:6
+Statically Stable Walk
+• You could rest (hold pose) at any point in time and not fall over
+⇐⇒ CoG projected on ground is within support polygon
+CoG = center of gravity of all body masses

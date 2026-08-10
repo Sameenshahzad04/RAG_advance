@@ -1,0 +1,6 @@
+Definition of closed loop system equation (8:33) Lyapunov and exponential stability
+(8:35) Linear stability analysis using eigenvalues (8:36) Definition of Lyapunov func-
+tion (8:40) Energy as Lyapunov function (8:42) Value as Lyapunov function (8:43)
+9 Reinforcement Learning in Robotics – briefly 143
+MarkovDecisionProcess(9:4)Relationtooptimalcontrol(9:5)FiveapproachestoRL
+(9:7) Imitation Learning (9:9) Inverse RL (9:12) Policy Search with Policy Gradients

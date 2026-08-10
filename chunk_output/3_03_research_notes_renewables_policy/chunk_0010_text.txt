@@ -1,0 +1,1 @@
+But it complicates dispatch modeling for grid operators unused to co-located assets

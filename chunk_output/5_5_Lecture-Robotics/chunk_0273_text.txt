@@ -1,0 +1,14 @@
+→ Bayesian filtering & smoothing
+particles, Kalman
+• PART II:
+Another challenge is to build a map while exploring
+→ SLAM (simultaneous localization and mapping)
+7:7
+7.1 State Estimation
+7:8
+State Estimation Problem
+• Our sensory data does not provide sufficient information to determine our lo-
+cation.
+• Given the local sensor readings y , the current state x (location, position) is
+t t
+uncertain.

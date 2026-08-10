@@ -1,0 +1,14 @@
+[Page 199]
+Index
+1D point mass (3:6), Dynamicvs. non-dynamicrobots(3:1),
+AlgebraicRiccatiequation(ARE)forin-
+finite horizion (8:19), EnergyasLyapunovfunction(8:42),
+Applying Bayes’ rule to state estima- Euler-Lagrange equation (3:20),
+tion (7:12), ExtendedKF,UnscentedTransform(7:28),
+Bayes Filter (7:13),
+Feedbackcontrolvspathfindingvstra-
+Bayes’ Theorem (6:10),
+jectory optimization (4:5),
+Bellman equation (discrete time) (8:9),
+Five approaches to RL (9:7),
+Followingareferencetrajectoryinjoint

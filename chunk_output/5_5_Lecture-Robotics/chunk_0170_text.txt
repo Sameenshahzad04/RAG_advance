@@ -1,0 +1,5 @@
+[Page 57]
+Introduction to Robotics, Marc Toussaint 57
+Start-Goal Algorithm:
+Potential Functions
+4:13

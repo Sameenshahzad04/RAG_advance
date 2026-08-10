@@ -1,0 +1,7 @@
+//www.robots.ox.ac.uk/˜gk/PTAM/
+Newcombe, Lovegrove & Davison: DTAM: Dense Tracking and Mapping in Real-
+Time ICCV 2011. http://www.doc.ic.ac.uk/˜rnewcomb/
+Engel, Scho¨ps & Cremers: LSD-SLAM: Large-Scale Direct Monocular SLAM,
+ECCV 2014. http://vision.in.tum.de/_media/spezial/bib/engel14eccv.pdf
+7:44
+Alternative SLAM approach: Graph-based

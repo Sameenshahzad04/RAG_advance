@@ -1,0 +1,14 @@
+[Page 87]
+Introduction to Robotics, Marc Toussaint 87
+with a trailer
+4:57
+Better control-based exploration: RRTs revisited
+• RRTs with differential constraints:
+Input: qstart, number k of nodes, time interval τ
+Output: tree T = (V,E)
+1: initialize V = {qstart}, E = ∅
+2: for i = 0 : k do
+3: qtarget ← random sample from Q
+4: qnear ← nearest neighbor of qtarget in V
+5: use local planner to compute controls u that steer qnear towards qtarget
+6: qnew ← qnear + (cid:82) t τ =0 q˙(q,u)dt

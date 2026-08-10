@@ -1,0 +1,25 @@
+[Page 95]
+Introduction to Robotics, Marc Toussaint 95
+Bayes’ Theorem: P(X|Y ) = P(Y|X) P(X)
+P(Y)
+6:9
+Bayes’ Theorem
+P(Y |X) P(X)
+P(X|Y ) =
+P(Y )
+posterior = likelihood · prior
+normalization
+6:10
+Multiple RVs:
+• Analogously for n random variables X (stored as a rank n tensor)
+1:n
+Joint: P(X )
+1:n
+(cid:80)
+Marginal: P(X ) = P(X ),
+1 X2:n 1:n
+Conditional: P(X |X ) = P(X1:n)
+1 2:n P(X2:n)
+• X is conditionally independent of Y given Z iff:
+P(X|Y,Z) = P(X|Z)
+• Product rule and Bayes’ Theorem:

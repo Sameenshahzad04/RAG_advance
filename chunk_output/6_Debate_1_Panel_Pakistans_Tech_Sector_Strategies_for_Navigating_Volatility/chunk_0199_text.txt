@@ -1,0 +1,6 @@
+instead of building products. (Gap: This is based on my direct experience and anecdotal data from
+my professional network. There is no consolidated study quantifying the economic cost of this
+friction.)
+2. International payment gateways (Stripe, etc.) are willing to enter the Pakistani market if the
+regulatory environment is made clear and stable. We assume their current absence is due to SBP's
+stringent foreign exchange controls and lack of a clear framework, not a fundamental assessment

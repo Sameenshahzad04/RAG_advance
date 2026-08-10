@@ -1,0 +1,1 @@
+This section covers acceptable use of company systems, including email, cloud storage, and endpoint devices. It applies regardless of ownership where a device is enrolled in the company's mobile device management (MDM) program.

@@ -1,0 +1,7 @@
+3: Evaluate samples, D = {(xi,f(xi))}n i=1
+4: Update θ ← h(θ,D)
+5: until θ converges
+• The framework is very general
+• The crucial difference between algorithms is their choice of p (x)
+θ
+9:34

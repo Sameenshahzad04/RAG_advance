@@ -1,0 +1,6 @@
+The VC demand should be revised accordingly.
+3. Currency devaluation of 15-25 percent annually,
+verified via SBP historical data 2018-2023
+This is broadly validated historically. The PKR moved from roughly 121 per USD in mid-2018 to around
+286 per USD by mid-2023, implying a compound annual depreciation of approximately 18-19 percent.
+However, projecting 15-25 percent annually as a forward assumption is not independently validated.

@@ -1,0 +1,19 @@
+Gauss N(x|µ,Σ) Gauss N(µ|µ ,A)
+0
+1D Gauss N(x|µ,λ-1) Gamma Gam(λ|a,b)
+nD Gauss N(x|µ,Λ-1) Wishart Wish(Λ|W,ν)
+nD Gauss N(x|µ,Λ-1) Gauss-Wishart
+N(µ|µ ,(βΛ)-1) Wish(Λ|W,ν)
+0
+6:24
+Distributions over continuous domain
+6:25
+Distributions over continuous domain
+• Let x be a continuous RV. The probability density function (pdf) p(x) ∈ [0,∞)
+defines the probability
+(cid:90) b
+P(a ≤ x ≤ b) = p(x) dx ∈ [0,1]
+a
+(cid:82)y
+The (cumulative) probability distribution F(y) = P(x ≤ y) = dx p(x) ∈
+−∞

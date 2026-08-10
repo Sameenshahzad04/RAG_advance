@@ -1,0 +1,7 @@
+m t t t-1
+4. Compute new importance weights wi ∝ (cid:82) P(y |xi,m) p (m) dm
+t t t t−1
+using the observation model and the map belief
+7:42
+Demo: Visual SLAM
+• Map building from a freely moving camera

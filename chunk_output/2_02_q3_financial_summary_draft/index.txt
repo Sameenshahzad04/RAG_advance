@@ -1,0 +1,14 @@
+Document: 02_q3_financial_summary_draft.docx (doc_id=2)
+Generated: 2026-08-10 10:35:29
+Total chunks: 10
+============================================================
+[0000] text  | 178 chars | chunk_0000_text.txt
+[0001] text  | 33 chars | chunk_0001_text.txt
+[0002] text  | 13 chars | chunk_0002_text.txt
+[0003] text  | 124 chars | chunk_0003_text.txt
+[0004] text  | 164 chars | chunk_0004_text.txt
+[0005] text  | 209 chars | chunk_0005_text.txt
+[0006] text  | 181 chars | chunk_0006_text.txt
+[0007] text  | 305 chars | chunk_0007_text.txt
+[0008] text  | 246 chars | chunk_0008_text.txt
+[0009] table | 320 chars | chunk_0009_table.txt

@@ -1,0 +1,7 @@
+and map (Kalman SLAM) (7:36) Particle SLAM (7:39) Particles carry their own his-
+tory, their own map (7:39) Graph-based SLAM (7:45)
+8 Control Theory 126
+Topics in control theory (8:3)
+8.1 Optimal control . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127
+Discrete time finite horizon definition (8:7) Bellman equation (discrete time) (8:9)
+Continuous time finite horizion definition (8:10) Hamilton-Jacobi-Bellman equation

@@ -1,0 +1,18 @@
+[Page 103]
+Introduction to Robotics, Marc Toussaint 103
+6:31
+Motivation for particle distributions
+• Numeric representation of “difficult” distributions
+– Very general and versatile
+– But often needs many samples
+• Distributions over games (action sequences), sample based planning, MCTS
+• State estimation, particle filters
+• etc
+6:32
+Some more continuous distributions*
+Gaussian N(x|a,A) = 1 e−1 2 (x−a)(cid:62)A-1 (x−a)
+|2πA|1/2
+Dirac or δ δ(x) = ∂ H(x)
+∂x
+Student’s t p(x;ν) ∝ [1 + x2]−ν+ 2 1
+ν

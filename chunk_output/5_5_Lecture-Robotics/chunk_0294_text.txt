@@ -1,0 +1,11 @@
+= N(xt|st,St)·(cid:104)termsindep. ofxt(cid:105)
+St = (C(cid:62)W-1C +Sˆ t -1)-1 = Sˆ t −Sˆ tC(cid:62)(W +CSˆ tC(cid:62))-1CSˆ t
+(cid:124) (cid:123)(cid:122) (cid:125)
+“Kalmangain”K
+st = St[C(cid:62)W-1(yt −c)+Sˆ
+t
+-1sˆt] = sˆt +K(yt −Csˆt −c)
+ThesecondtolastlineusesthegeneralWoodburyidentity.
+ThelastlineusesStC(cid:62)W-1 = K andStSˆ
+t
+-1 = I−KC

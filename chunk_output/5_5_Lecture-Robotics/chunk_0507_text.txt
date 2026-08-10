@@ -1,0 +1,31 @@
+θ¨=
+(13)
+4l − c cos2(θ)
+3 2
+(cid:104) (cid:105)
+p¨= c u + c θ˙2 sin(θ) − θ¨cos(θ) (14)
+1 2
+with g = 9.8ms2 the gravitational constant, l = 1m the pendulum length and con-
+stants c = (M + M )−1 and c = lM (M + M )−1 where M = M = 1kg are the
+1 p c 2 p p c p c
+pendulum and cart masses respectively.
+a) Derive the local linearization of these dynamics around x∗ = (0,0,0,0). The
+eventual dynamics should be in the form
+x˙ = Ax + Bu
+Note that
+ 0 1 0 0   0 
+A =
+
+
+∂
+∂
+∂
+0
+p
+p
+θ
+¨
+¨
+∂
+∂
+∂

@@ -1,0 +1,5 @@
+representation; decision by SBP and Finance Division, with ECC involvement if macro exposure is
+material.
+4. Payment gateway market entry
+The state can create enabling conditions but cannot compel Stripe, PayPal, or similar entities to operate
+in Pakistan. The unresolved issue is commercial willingness of global providers.

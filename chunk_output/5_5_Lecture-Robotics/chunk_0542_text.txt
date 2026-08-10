@@ -1,0 +1,4 @@
+RRTswithdifferentialconstraints(4:58),
+Operational space control (3:32),
+oscillatory-damped, criticallydamped,
+over-damped (3:13), Side story: Dubins curves (4:60),

@@ -1,0 +1,5 @@
+a second Pakistani bank. Split new incoming remittances between them to test their processes.
+3. Build a Compliance Pack (Days 30-60): Create a digital folder, as advised by the DG (R3),
+with all essential documents (incorporation, NTN, contracts, invoices, past PRCs). This pack is
+your primary tool for reducing friction with banks.
+4. Strengthen Commercial Terms (Days 45-90): For all new clients, implement stricter contracts:

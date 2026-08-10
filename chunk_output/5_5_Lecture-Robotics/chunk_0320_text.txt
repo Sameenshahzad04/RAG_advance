@@ -1,0 +1,24 @@
+[Page 126]
+126 Introduction to Robotics, Marc Toussaint
+8 Control Theory
+Cart pole example
+θ
+u
+x
+state x = (x,x˙,θ,θ˙)
+(cid:104) (cid:105)
+g sin(θ) + cos(θ) −c u − c θ˙2 sin(θ)
+1 2
+θ¨=
+4l − c cos2(θ)
+3 2
+(cid:104) (cid:105)
+x¨ = c u + c θ˙2 sin(θ) − θ¨cos(θ)
+1 2
+8:1
+Control Theory
+• Concerns controlled systems of the form
+x˙ = f(x,u) + noise(x,u)
+and a controller of the form
+π : (x,t) (cid:55)→ u
+• We’ll neglect stochasticity here

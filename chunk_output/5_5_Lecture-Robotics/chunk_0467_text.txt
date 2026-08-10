@@ -1,0 +1,8 @@
+c) On slide 02:27 we derived the basic inverse kinematics law. Verify that (assuming
+linearity of φ) for C → ∞ the desired task is fulfilled exactly, i.e., φ(q∗) = y∗. By
+writing C → ∞ we mean that C is a matrix of the form C = (cid:37)C , (cid:37) ∈ R, and we
+0
+take the limit (cid:37) → ∞.
+12.4.2 Multiple task variables
+Consider again the last week’s exercise where the robot moved his hand in a circle
+(Exercise 3.2d).

@@ -1,0 +1,9 @@
+Linear-Quadratic Control as Local Approximation
+• LQ control is important also to control non-LQ systems in the neighborhood
+of a desired state!
+Let x∗ be such a desired state (e.g., cart-pole: x∗ = (0,0,0,0))
+– linearize the dynamics around x∗
+– use 2nd order approximation of the costs around x∗
+– control the system locally as if it was LQ
+– pray that the system will never leave this neighborhood!
+8:16

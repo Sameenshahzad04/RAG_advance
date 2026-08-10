@@ -1,0 +1,7 @@
+[Table - Page 34]
+| Penetrationofcollisionlimits |  |
+| --- | --- |
+| dimension | d=1 |
+| parameters | marginm |
+| kin.map | φ (q)= 1 (cid:80)K [m−|pa−pb|]+ col m k=1 k k |
+| Jacobian | J (q)= 1 (cid:80)K [m−|pa−pb|>0] col m k=1 k k (−Jpos+Jpos)(cid:62)pa −pb k k pa k pb k |pa k −pb k | |

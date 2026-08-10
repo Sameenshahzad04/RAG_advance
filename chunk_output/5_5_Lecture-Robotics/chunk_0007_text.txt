@@ -1,0 +1,7 @@
+5 Path Optimization – briefly 90
+From inverse kinematics to path costs (5:2) General k-order cost terms (5:3) Choice
+of optimizer (5:5)
+6 Probabilities 92
+Probabilities as (subjective) information calculus (6:1) Frequentist vs Bayesian (6:3)
+6.1 Basic definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 93
+Definitions based on sets (6:5) Random variables (6:6) Probability distribution (6:7)

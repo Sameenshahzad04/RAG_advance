@@ -1,0 +1,33 @@
+Jac
+ 
+
+obian:
+
+]
+a×
+a[
+ffe
+1
+]
+a×
+a[
+ffe
+2
+. . .
+]
+a×
+a[
+ffe
+n
+ 
+∈ R3×n
+
+2:22
+Jacobian for general degrees of freedom
+• Every degree of freedom q generates (infinitesimally, at a given q)
+i
+– a rotation around axis a i at point p i
+– and/or a translation along the axis b i
+For instance:
+– the DOF of a hinge joint just creates a rotation around a i at p i
+– the DOF of a prismatic joint creates a translation along b i

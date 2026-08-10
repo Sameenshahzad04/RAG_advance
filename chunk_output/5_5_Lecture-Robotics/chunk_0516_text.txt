@@ -1,0 +1,7 @@
+really bad if an episode is so long that it includes a complete failure and
+wrapping around of the inverted pendulum. Therefore, abort an episode if
+fabs(R.q(1)) too large and penalize an abortion with an extra cost, e.g.,
+proportional to T − t. Try different episode horizons T up to 500; maybe
+increase this horizon stage-wise.
+• Optimizer: You are free to use any optimizer you like. On the webpage
+you find a reference implementation of CMA by Niko Hansen (with wrap-

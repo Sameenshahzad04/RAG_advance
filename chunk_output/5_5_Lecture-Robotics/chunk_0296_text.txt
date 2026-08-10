@@ -1,0 +1,14 @@
+t t t t-1 t-1
+P(y |x ) = N(y |g(x ),W)
+t t t t
+P(x |u ,x ) = N(x |f(x ,u ),Q)
+t t-1 t-1 t t-1 t-1
+– approximate f and g as locally linear (Extended Kalman Filter)
+–orsamplelocallyfromthemandreapproximateasGaussian(UnscentedTrans-
+form)
+7:28
+Bayes smoothing
+x
+t
+Filtering: P(x t |y 0:t ) (cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)y(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)
+0:t

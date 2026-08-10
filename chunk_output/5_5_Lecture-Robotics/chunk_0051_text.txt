@@ -1,0 +1,15 @@
+[Page 19]
+Introduction to Robotics, Marc Toussaint 19
+2:17
+Kinematic Map
+• For any joint angle vector q ∈ Rn we can compute T (q)
+W→eff
+by forward chaining of transformations
+T (q) gives us the pose of the endeffector in the world frame
+W→eff
+• In general, a kinematic map is any (differentiable) mapping
+φ : q (cid:55)→ y
+that maps to some arbitrary feature y ∈ Rd of the pose q ∈ Rn
+2:18
+Kinematic Map
+• The three most important examples for a kinematic map φ are

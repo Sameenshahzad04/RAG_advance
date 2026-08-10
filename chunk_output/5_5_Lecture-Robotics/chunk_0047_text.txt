@@ -1,0 +1,13 @@
+[Page 17]
+Introduction to Robotics, Marc Toussaint 17
+Is T forward or backward?
+A→B
+• T describes the translation and rotation of frame B relative to A
+A→B
+That is, it describes the forward FRAME transformation (from A to B)
+• T describes the coordinate transformation from xB to xA
+A→B
+That is, it describes the backward COORDINATE transformation
+• Confused? Vectors (and frames) transform covariant, coordinates contra-variant.
+See “geometry notes” or Wikipedia for more details, if you like.
+2:12

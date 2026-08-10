@@ -1,0 +1,13 @@
+[Page 180]
+180 Introduction to Robotics, Marc Toussaint
+• tar xvzf libRoboticsCourse.14.tgz
+cd share/examples/Ors/ors
+make
+./x.exe
+12.3 Exercise 3
+12.3.1 Task spaces and Jacobians
+In the lecture we introduced the basic kinematic maps φpos(q) and φvec(q), and their
+i,v i,v
+Jacobians, Jpos(q) and Jvec(q), where i may refer to any part of the robot and v is
+i,v i,v
+any point or direction on this part. In the following you may assume that we have

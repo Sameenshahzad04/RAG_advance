@@ -1,0 +1,7 @@
+P = P + (cid:15)[A(cid:62)P + P(cid:62)A − P BR-1B(cid:62)P + Q]
+k+1 k k k k k
+Choose (cid:15) = 1/1000 and iterate until convergence. Output the gains K = −R-1B(cid:62)P.
+(Why should this iteration converge to the solution of the ARE?)
+c) Solve the same Algebraic Riccati equation by calling the are routine of the
+octave control package (or a similar method in Matlab). For Octave, install the
+Ubuntu packages octave3.2, octave-control, and qtoctave, perhaps use

@@ -1,0 +1,12 @@
+[Page 196]
+196 Introduction to Robotics, Marc Toussaint
+13.2 Dynamics
+• 1D point mass & PID control
+– General form of a dynamic system
+– Dynamics of a 1D point mass
+– Position, derivative and integral feedback to control it to a desired state
+– Solution to the closed-loop PD system equations
+–Qualitativebehaviors: oscillatory-damped, over-damped, criticallydamped
+• Euler-Lagrange equation
+– Definition
+– Roughly: structure of the Euler-Lagrange equation for systems; understand

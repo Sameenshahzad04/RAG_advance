@@ -1,0 +1,12 @@
+[Page 25]
+Introduction to Robotics, Marc Toussaint 25
+– Iterate equation (1) (optionally with a step size < 1 to ensure convergence) by set-
+ting the point y(cid:48) of linearization to the current q∗
+– This is equivalent to the Gauss-Newton algorithm
+2:32
+Where are we?
+• We’ve derived a basic motion generation principle in robotics from
+– an understanding of robot geometry & kinematics
+– a basic notion of optimality
+• In the remainder:
+A. Discussion of classical concepts

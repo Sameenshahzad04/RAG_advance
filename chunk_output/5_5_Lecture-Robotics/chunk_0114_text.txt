@@ -1,0 +1,14 @@
+• There is much space for creativity in defining
+task variables! Many are extensions of φpos
+and φvec and the Jacobians combine the basic
+Jacobians.
+• What the right task variables are to de-
+sign/describe motion is a very hard prob-
+lem! In what task space do humans control
+their motion? Possible to learn from data
+(“task space retrieval”) or perhaps via Rein-
+nearest forcement Learning.
+distance
+LeftHand
+position
+• In practice: Robot motion design (includ-

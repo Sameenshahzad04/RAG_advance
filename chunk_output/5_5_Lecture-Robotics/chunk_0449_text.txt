@@ -1,0 +1,9 @@
+[Page 176]
+176 Introduction to Robotics, Marc Toussaint
+• ZMP type walking was successful (ASIMO, HRP-2, etc), but limited
+• Future types of walking:
+– Exploit passive dynamics, cope with underactuation
+– Follow some general optimiality principle (but real-time!)
+– Learn (esp. Reinforcement Learning)
+– Compliant hardware! (controllable elasticity & damping)
+• Recommended reading: Tedrake: Underactuated Robotics: Learning, Planning,

@@ -1,0 +1,5 @@
+Account (SFCA). All earnings exceeding this threshold will be retained in our UAE subsidiary's
+USD-denominated bank account. These funds will be used for international SaaS subscriptions (AWS,
+Google Workspace, etc.), marketing, and as a strategic cash reserve. If the SBP further restricts the
+existing 50% retention policy for IT exporters or imposes a mandatory conversion at disadvantageous
+rates, we will be forced to move our entire C-suite and at least 30% of our senior engineering roles to

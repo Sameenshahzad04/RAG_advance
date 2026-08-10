@@ -1,0 +1,17 @@
+[Page 107]
+Introduction to Robotics, Marc Toussaint 107
+7:5
+• Each type of robot mobility corresponds to a
+system equation x = x + τf(x ,u )
+t+1 t t t
+or, if the dynamics are stochastic,
+P(x |u ,x ) = N(x |x + τf(x ,u ),Σ)
+t+1 t t t+1 t t t
+• We considered control, path finding, and trajectory optimization
+For this we always assumed to know the state x of the robot (e.g., its pos-
+t
+ture/position)!
+7:6
+Outline
+• PART I:
+A core challenge in mobile robotics is state estimation

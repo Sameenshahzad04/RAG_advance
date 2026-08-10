@@ -1,0 +1,12 @@
+[Page 88]
+88 Introduction to Robotics, Marc Toussaint
+Standard/Naive metrics:
+• Comparing two 2D rotations/orientations θ 1 ,θ 2 ∈ SO(2):
+a) Euclidean metric between eiθ1 and eiθ2
+b) d(θ 1 ,θ 2 ) = min{|θ 1 − θ 2 |,2π − |θ 1 − θ 2 |}
+• Comparing two configurations (x,y,θ) 1,2 in R2:
+Eucledian metric on (x,y,eiθ)
+• Comparing two 3D rotations/orientations r 1 ,r 2 ∈ SO(3):
+Represent both orientations as unit-length quaternions r 1 ,r 2 ∈ R4:
+d(r ,d ) = min{|r − r |,|r + r |}
+1 2 1 2 1 2

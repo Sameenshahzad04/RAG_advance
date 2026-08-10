@@ -1,0 +1,9 @@
+the current country-specific list before issuing an
+International Certificate of Vaccination.
+Une note pour les cliniciens recevant des patients
+francophones : le certificat international de vaccination
+(carnet jaune) doit être présenté à l'entrée dans
+certains pays; vérifiez toujours la liste à jour avant le
+départ. (Reproduced here to test mixed-language
+paragraph handling in downstream extraction.)
+Malaria chemoprophylaxis recommendations vary by

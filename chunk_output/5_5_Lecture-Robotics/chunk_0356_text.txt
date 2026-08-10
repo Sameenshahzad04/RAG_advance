@@ -1,0 +1,14 @@
+[Page 137]
+Introduction to Robotics, Marc Toussaint 137
+x˙  0 0x  1 1 0
+ x˙ 1   =  0 0   x 1   +  1  u C =  1 0  rows linearly dependent
+2 2
+x˙  0 0x  1 1 0
+ x˙ 1   =  0 0   x 1   +  0  u C =  0 0  2nd row zero
+2 2
+x˙  0 1x  0 0 1
+ x˙ 1   =  0 0   x 1   +  1  u C =  1 0  good!
+2 2
+8:29
+Controllability
+Why is it important/interesting to analyze controllability?

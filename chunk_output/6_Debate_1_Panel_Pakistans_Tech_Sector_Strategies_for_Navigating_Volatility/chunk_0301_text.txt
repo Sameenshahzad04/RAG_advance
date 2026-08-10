@@ -1,0 +1,6 @@
+2. Three weeks spent resolving payment issues
+This is plausible as an operational pain point, but the economic cost is not quantified. If a CEO and CTO
+each spent 20 hours and their loaded internal cost is USD 100 per hour, the direct time cost is USD
+4,000. If the delay risked losing a USD 1 million contract, the opportunity risk is far larger. The founder
+should separate administrative time cost from deal-loss probability.
+3. 90 percent of SaaS vendors paid through Stripe,

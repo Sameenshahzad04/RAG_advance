@@ -1,0 +1,13 @@
+[Page 8]
+8 Introduction to Robotics, Marc Toussaint
+Robotics as intelligence research
+AI in the real world
+AI: Machine Learning, probabilistic reasoning, optimization
+Real World: Interaction, manipulation, perception, navigation, etc
+1:7
+Why AI needs to go real world
+Tunicatesdigesttheirbrainoncetheysettled!
+• Motion was the driving force to develop intelligence
+– motion needs control & decision making ↔ fast information processing
+– motion needs anticipation & planning
+– motion needs perception

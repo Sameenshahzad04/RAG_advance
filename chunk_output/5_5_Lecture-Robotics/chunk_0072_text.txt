@@ -1,0 +1,15 @@
+[Page 26]
+26 Introduction to Robotics, Marc Toussaint
+is already singularity robust
+2:35
+Null/task/operational/joint/configuration spaces
+• The space of all q ∈ Rn is called joint/configuration space
+The space of all y ∈ Rd is called task/operational space
+Usually d < n, which is called redundancy
+• For a desired endeffector state y∗ there exists a whole manifold (assuming φ is
+smooth) of joint configurations q:
+nullspace(y∗) = {q | φ(q) = y∗}
+• We have
+δq = argmin||q − a||2 + ||Jq − δy||2
+W C
+q

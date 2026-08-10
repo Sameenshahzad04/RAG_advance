@@ -1,0 +1,14 @@
+[Page 150]
+150 Introduction to Robotics, Marc Toussaint
+Kober&Peters: PolicySearchforMotorPrimitivesinRobotics,NIPS2008.
+(seriousrewardshaping!)
+9:18
+Learning to walk in 20 Minutes
+• Policy Gradient method (Reinforcement Learning)
+(cid:80)
+Stationary policy parameterized as linear in features u = w φ (q,q˙)
+i i i
+• Problem: find parameters w to minimize expected costs
+i
+cost = mimick (q,q˙) of the passive down-hill walker at “certain point in cycle”
+Learning To Walk

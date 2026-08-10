@@ -1,0 +1,5 @@
+nion, q2 the quaternion 2-norm (in case it is not normalized), and [·]1:3 pics the vector elements
+of the quaternion (derivation: see geometry notes). As for the hinge joint, these four axes are fur-
+ther transformed to world coordinates, ai ← RW→jai, if the quaternion joint is located in the
+coordinateframej.
+2:64

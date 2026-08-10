@@ -1,0 +1,16 @@
+(cid:80)
+[x =k]
+i i
+– The posterior is
+P(D|µ)
+P(µ|D) = P(µ) ∝ Mult(D|µ) Dir(µ|a,b)
+P(D)
+∝ (cid:81)K µmk (cid:81)K µαk−1 = (cid:81)K µαk−1+mk
+k=1 k k=1 k k=1 k
+= Dir(µ|α + m)
+6:19
+Dirichlet
+The prior is Dir(µ|α), the posterior is Dir(µ|α + m)
+• Conclusions:
+– The semantics of α is the counts of [x i =k]
+– The Dirichlet distribution is conjugate to the Multinomial

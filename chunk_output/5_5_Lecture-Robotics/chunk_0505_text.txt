@@ -1,0 +1,14 @@
+[Page 191]
+Introduction to Robotics, Marc Toussaint 191
+Then insert a = φ(s )(cid:62)(βold + (cid:15) ) and solve
+t t t
+H
+(cid:88) ∂
+E { logπ(a |s ) Q(s ,a ,t)} = 0
+ξ|β ∂β t t t t
+t=0
+for β. This shows how you can get the optimal policy parameters β∗ based on
+samples generated with β.
+12.11 Exercise 11
+12.11.1 Local linearization and Algebraic Riccati equation
+Slide 08:02 describes the cart pole, which is similar to the Segway-type system of

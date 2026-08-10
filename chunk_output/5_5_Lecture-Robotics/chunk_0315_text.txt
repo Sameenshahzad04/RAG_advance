@@ -1,0 +1,12 @@
+[Page 123]
+Introduction to Robotics, Marc Toussaint 123
+7:43
+Demo: Visual SLAM
+• Map building from a freely moving camera
+– SLAM has become a big topic in the vision community..
+– features are typically landmarks θ with SURF/SIFT features
+1:N
+– PTAM (Parallel Tracking and Mapping) parallelizes computations...
+PTAM1 PTAM2 DTAM KinectFusion LSD-SLAM
+Klein & Murray: Parallel Tracking and Mapping for Small AR Workspaces http:
+//www.robots.ox.ac.uk/˜gk/PTAM/

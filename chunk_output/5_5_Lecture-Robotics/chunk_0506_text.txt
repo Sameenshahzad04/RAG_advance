@@ -1,0 +1,13 @@
+Exercise 6, but a little simpler. We’ll solve the cart pole in this exercise.
+The state of the cart-pole is given by x = (p,p˙,θ,θ˙), with p ∈ R the position of the
+cart, θ ∈ R the pendulums angular deviation from the upright position and p˙,θ˙
+their respective temporal derivatives. The only control signal u ∈ R is the force
+applied on the cart. The analytic model of the cart pole is
+(cid:104) (cid:105)
+g sin(θ) + cos(θ) −c u − c θ˙2 sin(θ)
+1 2
+θ¨=
+(13)
+4l − c cos2(θ)
+3 2
+(cid:104) (cid:105)

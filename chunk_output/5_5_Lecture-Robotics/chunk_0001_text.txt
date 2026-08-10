@@ -1,0 +1,6 @@
+Coordinate frames and transforms (2:6) Homogeneous transformation (2:11) Com-
+position of transforms (2:13)
+2.2 Kinematics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+Forward kinematics (2:15) Joint types (2:16) Kinematic map (2:18) Jacobian (2:20)
+2.3 Inverse Kinematics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+Inverse kinematics as optimization problem (2:26) Inverse kinematics solution (2:29)

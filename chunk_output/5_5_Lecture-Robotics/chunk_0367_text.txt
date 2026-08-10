@@ -1,0 +1,13 @@
+[Page 141]
+Introduction to Robotics, Marc Toussaint 141
+• A method to analyze/prove stability for general non-linear systems is the fa-
+mous “Lyapunov’s second method”
+Let D be a region around the equilibrium point x
+0
+• A Lyaponov function V (x) for a system dynamics x˙ = f(x) is
+– positive, V (x) > 0, everywhere in D except...
+at the equilibrium point where V (x ) = 0
+0
+– always decreases, V˙ (x) = ∂V(x)x˙ < 0, in D except...
+∂x
+at the equilibrium point where f(x) = 0 and therefore V˙ (x) = 0

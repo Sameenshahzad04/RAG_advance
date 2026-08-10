@@ -1,0 +1,11 @@
+book frame to world frame?
+Please use homogeneous coordinates to derive these answers.
+12.2.2 Subscribe to the Email list
+Please subscribe here:
+https://mailman.informatik.uni-stuttgart.de/mailman/listinfo/lehre14-rob
+12.2.3 Simulation software
+Future exercises will require to code some examples in C/C++. Test if you can
+compile and run the lib that accompanies this lecture. Report on problems with
+installation.
+On Ubuntu:
+• install the packages

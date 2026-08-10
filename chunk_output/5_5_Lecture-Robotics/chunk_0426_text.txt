@@ -1,0 +1,12 @@
+[Page 164]
+164 Introduction to Robotics, Marc Toussaint
+11:3
+One-legged locomotion
+• Three separate controllers for:
+– hopping height
+– horizontal velocity (foot placement)
+– attitude (hip torques during stance)
+• Each a simple (PD-like) controller
+Raibert et al.: Dynamically Stable Legged Locomotion. 1985 http://dspace.mit.edu/handle/
+1721.1/6820
+Tedrake: AppliedOptimalControlforDynamicallyStableLeggedLocomotion. PhDthesis(2004). http:

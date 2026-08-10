@@ -1,0 +1,17 @@
+[Page 134]
+134 Introduction to Robotics, Marc Toussaint
+• Algebraic Riccati equation:
+P =
+a c
+, u∗ = −R-1B(cid:62)Px =
+−1
+[cq + bq˙]
+ c b  (cid:37)m
+c b 0 a 1 c2 bc 1 0
+0 = + − + (cid:15)
+ 0 0   0 c  (cid:37)m2  bc b2   0 1 
+√ √
+First solve for c, then for b = m (cid:37) c + (cid:15). Whether the damping ration ξ =
+√ b depends on the choices of (cid:37) and (cid:15).
+4mc
+• The Algebraic Riccati equation is usually solved numerically. (E.g. are, care

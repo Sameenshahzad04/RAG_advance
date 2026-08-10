@@ -1,0 +1,4 @@
+interpretation.
+The tradeoff I accept is implementation sequencing: 90 days for notification and pilot, 6 months for
+operational review, and 18-24 months for full national integration. This is preferable to waiting 18-24
+months before giving exporters any relief.

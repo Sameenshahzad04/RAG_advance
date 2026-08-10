@@ -1,0 +1,6 @@
+σ C k+1 k
+– Update σ depending on |p |
+σ
+– Update C depending on p p(cid:62)(rank-1-update) and Var(D(cid:48))
+c c
+9:31

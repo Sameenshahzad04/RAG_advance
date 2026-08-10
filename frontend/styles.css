@@ -1,99 +1,134 @@
-/* Custom Dark Theme Styles for Streamlit App */
-
+/* Deep Midnight Glassmorphism — Blue, Cyber Purple & Neon White Theme */
 :root {
-    --bg-dark: #0e1117;
-    --card-bg: #1a1f2c;
-    --card-border: #2e364f;
-    --text-main: #f0f2f6;
-    --text-muted: #8b949e;
-    --accent-blue: #38bdf8;
-    
-    --red-status: #ef4444;
-    --red-bg: rgba(239, 68, 68, 0.15);
-    
-    --yellow-status: #f59e0b;
-    --yellow-bg: rgba(245, 158, 11, 0.15);
-    
-    --green-status: #10b981;
-    --green-bg: rgba(16, 185, 129, 0.15);
+    /* Backgrounds */
+    --bg-gradient: radial-gradient(circle at 50% 10%, #170B3B 0%, #06030E 80%);
+    --card-bg: rgba(22, 11, 46, 0.65);
+    --card-hover: rgba(35, 18, 74, 0.85);
+
+    /* Glowing Borders */
+    --border-color: rgba(139, 92, 246, 0.28);
+    --border-hover: rgba(59, 130, 246, 0.65);
+    --blue-glow: rgba(59, 130, 246, 0.35);
+    --purple-glow: rgba(168, 85, 247, 0.35);
+
+    /* Accents */
+    --accent-blue: #3B82F6;
+    --accent-cyan: #06B6D4;
+    --accent-purple: #A855F7;
+    --accent-violet: #8B5CF6;
+
+    /* Text */
+    --text-primary: #FFFFFF;
+    --text-secondary: #E2E8F0;
+    --text-muted: #94A3B8;
 }
 
+/* Base App Setup */
 .stApp {
-    background-color: var(--bg-dark);
-    color: var(--text-main);
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: var(--bg-gradient) !important;
+    background-attachment: fixed !important;
+    color: var(--text-primary) !important;
 }
 
-/* Card Container */
-.doc-card {
-    background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 12px;
-    padding: 20px;
-    margin-bottom: 20px;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+/* Completely Hide Sidebar */
+section[data-testid="stSidebar"] {
+    display: none !important;
 }
 
-.doc-card:hover {
-    transform: translateY(-2px);
-    border-color: var(--accent-blue);
-    box-shadow: 0 10px 15px -3px rgba(56, 189, 248, 0.1);
+/* Native Bordered Container Styling (Fixes Card Overlap Bug) */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: var(--card-bg) !important;
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 14px !important;
+    padding: 16px !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45) !important;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 
-/* Status Badges */
+div[data-testid="stVerticalBlockBorderWrapper"]:hover {
+    background: var(--card-hover) !important;
+    border-color: var(--border-hover) !important;
+    box-shadow: 0 10px 25px var(--purple-glow) !important;
+}
+
+/* Document Titles & Hashes inside Cards */
+.doc-card-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 65%;
+}
+
+.doc-card-hash {
+    font-size: 0.78rem;
+    font-family: monospace;
+    color: #A7F3D0;
+    opacity: 0.8;
+}
+
+/* Status Badges — Zero Red */
 .badge {
     display: inline-block;
     padding: 4px 12px;
     border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-size: 0.72rem;
+    font-weight: 700;
     letter-spacing: 0.5px;
 }
 
-.badge-red {
-    background-color: var(--red-bg);
-    color: var(--red-status);
-    border: 1px solid var(--red-status);
+.badge-ready {
+    background: rgba(59, 130, 246, 0.2);
+    color: #93C5FD;
+    border: 1px solid rgba(59, 130, 246, 0.5);
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.25);
 }
 
-.badge-yellow {
-    background-color: var(--yellow-bg);
-    color: var(--yellow-status);
-    border: 1px solid var(--yellow-status);
+.badge-embedded {
+    background: rgba(168, 85, 247, 0.2);
+    color: #E9D5FF;
+    border: 1px solid rgba(168, 85, 247, 0.5);
+    box-shadow: 0 0 10px var(--purple-glow);
 }
 
-.badge-green {
-    background-color: var(--green-bg);
-    color: var(--green-status);
-    border: 1px solid var(--green-status);
+/* Glowing Buttons */
+div[data-testid="stButton"] button {
+    border-radius: 10px !important;
+    border: 1px solid var(--border-color) !important;
+    background: rgba(26, 14, 54, 0.6) !important;
+    color: var(--text-primary) !important;
+    font-weight: 600 !important;
+    backdrop-filter: blur(8px) !important;
+    transition: all 0.25s ease !important;
 }
 
-/* Metadata Text */
-.doc-title {
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 8px;
-    word-break: break-all;
+div[data-testid="stButton"] button:hover {
+    border-color: var(--accent-cyan) !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 0 14px var(--blue-glow) !important;
 }
 
-.doc-hash {
-    font-family: 'Courier New', monospace;
-    font-size: 0.8rem;
-    color: var(--text-muted);
+/* Primary Accent Button */
+div[data-testid="stButton"] button[kind="primary"] {
+    background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple)) !important;
+    border: none !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 4px 15px var(--purple-glow) !important;
 }
 
-/* Chunk Box in Detail View */
-.chunk-box {
-    background-color: #121620;
-    border-left: 4px solid var(--accent-blue);
-    border-radius: 6px;
-    padding: 14px;
-    margin-bottom: 12px;
+div[data-testid="stButton"] button[kind="primary"]:hover {
+    opacity: 0.92;
+    box-shadow: 0 6px 20px var(--blue-glow) !important;
 }
 
-.chunk-box-table {
-    border-left: 4px solid var(--yellow-status);
+/* Divider for Bottom Navigation */
+.nav-divider {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent-purple), transparent);
+    margin: 24px 0 16px 0;
 }

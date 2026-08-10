@@ -1,0 +1,8 @@
+– ∇f(x) or ∇2f(x) are not (directly) accessible
+More common terms:
+• Global optimization
+– This usually emphasizes that methods should not get stuck in local optima
+– Very very interesting domain – close analogies to (active) Machine Learning, ban-
+dits, POMDPs, optimal decision making/planning, optimal experimental design
+– Usually mathematically well founded methods
+• Stochastic search or Evolutionary Algorithms or Local Search

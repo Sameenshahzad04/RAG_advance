@@ -1,0 +1,16 @@
+[Page 153]
+Introduction to Robotics, Marc Toussaint 153
+• Stochastic Search:
+Input: initialparameterθ,functionf(x),distributionmodelp θ (x),updateheuristic
+h(θ,D)
+Output: final θ and best point x
+1: repeat
+2: Sample {xi}n i=1 ∼ p θ (x)
+3: Evaluate samples, D = {(xi,f(xi))}n i=1
+4: Update θ ← h(θ,D)
+5: until θ converges
+9:27
+Stochastic Search
+• Theparameterθ istheonly“knowledge/information”thatisbeingpropagated
+between iterations
+θ encodes what has been learned from the history

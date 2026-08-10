@@ -1,0 +1,17 @@
+subject to the constraint
+(cid:80)K
+µ = 1:
+k=1 k
+Dir(µ|α) ∝ (cid:81)K µαk−1
+k=1 k
+It is parameterized by α = (α 1 ,..,α K ), has mean (cid:104)µ i (cid:105) = (cid:80) α
+j
+i αj and mode µ∗ i =
+(cid:80) α
+j
+α i− j− 1 K for a i > 1.
+• The crucial point is:
+– Assumeweareinaworldwitha“Multinomialsource”(e.g.,anintegerbandit),but
+don’t know its parameter µ
+– Assume we have a prior distribution P(µ) = Dir(µ|α)
+– Assume we collected some data D = {x 1 ,..,x n }, x i ∈ {1,..,K}, with counts m k =

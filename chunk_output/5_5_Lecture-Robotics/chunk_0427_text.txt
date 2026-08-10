@@ -1,0 +1,4 @@
+//groups.csail.mit.edu/robotics-center/public_papers/Tedrake04b.pdf
+11:4
+Biped locomotion
+• Walking vs Running

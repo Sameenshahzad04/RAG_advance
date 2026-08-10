@@ -1,0 +1,12 @@
+[Page 1]
+Introduction to Robotics
+Marc Toussaint
+April 2016
+This is a direct concatenation and reformatting of all lecture slides and exercises from
+the Robotics course (winter term 2014/15, U Stuttgart), including a bullet point list to
+help prepare for exams.
+Contents
+1 Introduction 5
+2 Kinematics 13
+Mobile robotics vs. Manipulation vs. Kinematic/Dynamic motion control (2:1)
+2.1 Basic 3D geometry & notation . . . . . . . . . . . . . . . . . . . . . . . 14

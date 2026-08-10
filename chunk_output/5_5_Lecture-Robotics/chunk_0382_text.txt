@@ -1,0 +1,10 @@
+D = {(s ,a )d}n learn → /copy π(s)
+0:T 0:T d=1
+• Use ML to imitate demonstrated state trajectories x
+0:T
+Literature:
+Atkeson & Schaal: Robot learning from demonstration (ICML 1997)
+Schaal, Ijspeert & Billard: Computational approaches to motor learning by imitation (Philosophical
+Transactions of the Royal Society of London. Series B: Biological Sciences 2003)
+Grimes, Chalodhorn&Rao: DynamicImitationinaHumanoidRobotthroughNonparametricProb-
+abilistic Inference. (RSS 2006)

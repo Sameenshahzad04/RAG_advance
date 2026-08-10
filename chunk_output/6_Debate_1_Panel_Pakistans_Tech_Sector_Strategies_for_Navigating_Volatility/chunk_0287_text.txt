@@ -1,0 +1,5 @@
+1. 18-24 month path to positive unit economics
+This is a reasonable private capital discipline benchmark, especially in a high-interest-rate, post-2022
+venture funding environment. However, it is not a universal policy benchmark. Deep-tech,
+cybersecurity, enterprise SaaS, and regulated fintech products may need 36-60 months before stable
+unit economics. I validate the 18-24 month figure only as a VC portfolio screening rule, not as a national

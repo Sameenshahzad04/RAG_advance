@@ -1,0 +1,6 @@
+currently available to serious tech exporters.
+3. Decision on Onshore Cash Reserves: I am modifying the Founder & CEO's (Round 3) red line
+of holding a maximum of 90-120 days of OpEx onshore. Justification: The Director General's
+(Round 3) counter-argument is operationally sound: starving local accounts of foreign
+currency flow jeopardizes a bank's willingness to process critical outward payments for
+services like AWS or Google Workspace. A slightly higher buffer of 120 days is a prudent

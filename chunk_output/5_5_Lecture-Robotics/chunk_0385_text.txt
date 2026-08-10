@@ -1,0 +1,5 @@
+2004)
+Andrew Ng & Stuart Russell: Algorithms for Inverse Reinforcement Learning (ICML 2000)
+Nikolay Jetchev & Marc Toussaint: Task Space Retrieval Using Inverse Feedback Control (ICML
+2011).
+9:12

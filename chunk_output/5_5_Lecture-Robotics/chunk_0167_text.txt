@@ -1,0 +1,19 @@
+[Page 56]
+56 Introduction to Robotics, Marc Toussaint
+A better bug?
+“Bug 2” Algorithm
+1) head toward goal on the m-line
+2) if an obstacle is in the way,
+Start
+follow it until you encounter the
+m-line again closer to the goal.
+3) Leave the obstacle and continue
+toward the goal
+Goal
+Better or worse than Bug1?
+4:11
+BUG algorithms – conclusions
+• Other variants: TangentBug, VisBug, RoverBug, WedgeBug, ...
+• only 2D! (TangentBug has extension to 3D)
+• Guaranteed convergence
+• Still active research:

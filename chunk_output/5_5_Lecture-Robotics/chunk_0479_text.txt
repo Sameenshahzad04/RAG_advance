@@ -1,0 +1,8 @@
+to the world-vertical.
+• The system can be parameterized by
+– m A ,I A ,m B ,I B: masses and inertias of bodies A (=wheel) and B (=pendulum)
+– r: radius of the wheel
+– l: length of the pendulum (height of its COM)
+• Describe the pose of every body (depending on q) by the (x,z,φ) coordinate:
+its position in the x-z-plane, and its rotation relative to the world-vertical.
+Accordingly represent the (linear and angular) velocities as a 3-vector.

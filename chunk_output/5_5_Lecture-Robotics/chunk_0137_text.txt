@@ -1,0 +1,7 @@
+(q,q˙) (cid:55)→ {T (q),v ,w }
+W→i i i
+RecallTW→i(q) = TW→A T A→A(cid:48)(q)T A(cid:48)→B T B→B(cid:48)(q) ···
+Further,weknowthatalink’svelocityvi = Jiq˙ canbedescribedviaitspositionJacobian.
+Similarlywecandescribethelink’sangularvelocitywi = J
+i
+wq˙ aslinearinq˙.

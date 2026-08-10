@@ -1,0 +1,20 @@
+[Page 109]
+Introduction to Robotics, Marc Toussaint 109
+• How can we apply this to the
+StateEstimationProblem?
+Using Bayes Rule:
+P(location|sensor) = P(sensor|location)P(location)
+P(sensor)
+7:12
+Bayes Filter
+x = state (location) at time t
+t
+y = sensor readings at time t
+t
+u = control command (action, steering, velocity) at time t-1
+t-1
+• Given the history y and u , we want to compute the probability distribu-
+0:t 0:t-1
+tion over the state at time t
+p (x ) := P(x |y ,u )
+t t t 0:t 0:t-1

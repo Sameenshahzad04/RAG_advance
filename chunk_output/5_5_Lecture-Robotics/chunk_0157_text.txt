@@ -1,0 +1,11 @@
+[Page 51]
+Introduction to Robotics, Marc Toussaint 51
+T. Bretl. Motion Planning of Multi-Limbed Robots Subject to Equilibrium Con-
+straints: The Free-Climbing Robot Problem. International Journal of Robotics
+Research, 25(4):317-342, Apr 2006.
+4:3
+Path finding examples
+S. M. LaValle and J. J. Kuffner. Randomized Kinodynamic Planning. Interna-
+tional Journal of Robotics Research, 20(5):378–400, May 2001.
+4:4
+Feedback control, path finding, trajectory optim.

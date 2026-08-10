@@ -1,0 +1,12 @@
+W→A A→B B→C
+• Fwd kinematics & Jacobian
+– Fwd kinematics as composition of transformations
+– Transformations of a rotational joint
+– Kinematic maps φpos : q (cid:55)→ y and φvec
+– Definition of a Jacobian
+– Derivation of the position and vector Jacobians Jpos, Jvec
+• Inverse kinematics (IK)
+– Optimality criterion for IK
+– Using the local linearization to find the optimum
+– Pseudo code of following a task trajectory in small steps using Inverse Kine-
+matics

@@ -1,0 +1,12 @@
+edu/Teaching/TeachingIntroductionToRoboticsSyllabus
+DrewBagnell’slectureonAdaptiveControlandReinforcementLearninghttp:
+//robotwhisperer.org/acrls11/
+8:4
+Outline
+• We’ll first consider optimal control
+Goal: understand Algebraic Riccati equation
+significance for local neighborhood control
+• Then controllability & stability
+8:5
+8.1 Optimal control
+8:6

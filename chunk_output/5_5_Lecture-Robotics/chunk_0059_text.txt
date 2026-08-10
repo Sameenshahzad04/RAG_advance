@@ -1,0 +1,15 @@
+[Page 22]
+22 Introduction to Robotics, Marc Toussaint
+• Iff φ is invertible
+q∗ = φ-1(y∗)
+• But in general, φ will not be invertible:
+1) The pre-image φ-1(y∗) = may be empty: No configuration can generate the
+desired y∗
+2) The pre-image φ-1(y∗) may be large: many configurations can generate the
+desired y∗
+2:25
+Inverse Kinematics as optimization problem
+• We formalize the inverse kinematics problem as an optimization problem
+q∗ = argmin||φ(q) − y∗||2 + ||q − q ||2
+C 0 W
+q

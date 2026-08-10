@@ -1,0 +1,9 @@
+[Page 32]
+32 Introduction to Robotics, Marc Toussaint
+• The drawbacks are:
+– It is somewhat ugly
+– In practise, I would recommend regularization in any case (for numeric stability).
+Regularization corresponds to NOT taking the full limit (cid:37) i → ∞. Then the hier-
+archical way to write the solution is unnecessary. (However, it points to a “hier-
+archical regularization”, which might be numerically more robust for very small
+regularization?)

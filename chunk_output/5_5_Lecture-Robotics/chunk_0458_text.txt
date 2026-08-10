@@ -1,0 +1,8 @@
+installation.
+On Ubuntu:
+• install the packages
+liblapack-devfreeglut3-devlibqhull-devlibf2c2-devlibann-devgnuplot
+doxygen libglew1.6-dev
+• get the code from
+http://ipvs.informatik.uni-stuttgart.de/mlr/marc/source-code/libRoboticsCourse.
+14.tgz

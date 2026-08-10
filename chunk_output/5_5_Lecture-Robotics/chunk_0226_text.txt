@@ -1,0 +1,8 @@
+[Page 89]
+Introduction to Robotics, Marc Toussaint 89
+→ By testing all six types of trajectories for (q ,q ) we can define a Dubins
+1 2
+metric for the RRT – and use the Dubins curves as controls!
+• Reeds-Shepp curves are an extension for cars which can drive back.
+(includes 46 types of trajectories, good metric for use in RRTs for cars)
+4:61

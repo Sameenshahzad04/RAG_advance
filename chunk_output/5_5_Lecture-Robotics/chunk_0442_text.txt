@@ -1,0 +1,12 @@
+[Page 173]
+Introduction to Robotics, Marc Toussaint 173
+• Suggest different principles of human motion:
+– passive dynamics (Compass Gait) ↔ underactuated system
+– modulation of basic passive dynamics
+– Energy minimization
+11:18
+Passive dynamic walking: Compass Gait
+• Basic 2D planar model of the Compass Gait:
+The pose is described by q = (θ ,θ ), the state by (q,q˙)
+s ns
+Goswami, Thuilot & Espiau: A study of the passive gait of a compass-like biped robot: symmetry and

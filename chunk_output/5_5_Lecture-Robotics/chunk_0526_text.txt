@@ -1,0 +1,14 @@
+0:T
+around it
+13.3 Path planning
+• Basics
+– Path finding vs. trajectroy optimization vs. feedback control
+– Roughly: BUG algorithms
+– Potential functions, and that they’re nothing but IK with special task vari-
+ables
+– Dijkstra Algorithm
+• Probabilistic Road Maps (PRMs)
+– Definition & Generation
+– Importance of local planner
+– Roughly: knowing about probabilistic completeness
+– Roughly: alternative sampling strategies

@@ -1,0 +1,12 @@
+[Page 155]
+Introduction to Robotics, Marc Toussaint 155
+CMA references
+Hansen, N. (2006), ”The CMA evolution strategy: a comparing review”
+Hansen et al.: Evaluating the CMA Evolution Strategy on Multimodal Test
+Functions, PPSN 2004.
+• For “large enough” populations local minima are avoided
+• An interesting variant:
+Igel et al.: A Computational Efficient Covariance Matrix Update and a (1 + 1)-
+CMA for Evolution Strategies, GECCO 2006.
+9:32
+CMA conclusions

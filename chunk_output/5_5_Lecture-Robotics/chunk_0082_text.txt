@@ -1,0 +1,14 @@
+[Page 29]
+Introduction to Robotics, Marc Toussaint 29
+Multiple tasks
+2:45
+Multiple tasks
+RightHand
+position
+LeftHand
+position
+2:46
+Multiple tasks
+• Assume we have m simultaneous tasks; for each task i we have:
+– a kinematic map φ i : Rn → Rdi
+– a current value φ i (q t )

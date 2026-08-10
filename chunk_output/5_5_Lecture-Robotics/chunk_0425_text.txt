@@ -1,0 +1,16 @@
+[Page 163]
+Introduction to Robotics, Marc Toussaint 163
+11 SKIPPED THIS TERM – Legged Locomotion (brief
+intro)
+Legged Locomotion
+• Why legs?
+Bacterial Flagellum: (rotational “motors” in Biology?)
+11:1
+Legged Locomotion
+• Why legs?
+– Human/Animal Locomotion Research
+– Potentially less weight
+– Better handling of rough terrains
+(climbing, isolated footholds, ladders, stairs)
+11:2
+Rolling vs walking

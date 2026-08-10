@@ -1,0 +1,9 @@
+• In this 3-dim space, the mass matrix of every body is
+m 0 0
+i
+M i =  0 m i 0 (4)
+ 0 0 I 
+i
+12.6.2 Optional: PD control to hold an arm steady
+In our code, in 03-dynamics you find an example (rename main.problem.cpp
+tomain.cpp). Pleasechange../02-pegInAHole/pegInAHole.orstopegArm.ors.

@@ -1,0 +1,4 @@
+[Page 171]
+Introduction to Robotics, Marc Toussaint 171
+5. Stance Ankle Flextion:
+6. Pelvis Lateral Displacement:

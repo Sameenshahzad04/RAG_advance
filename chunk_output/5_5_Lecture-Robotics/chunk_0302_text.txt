@@ -1,0 +1,5 @@
+• Notation:
+x = state (location) at time t
+t
+y = sensor readings at time t
+t

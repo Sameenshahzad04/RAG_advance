@@ -1,0 +1,2 @@
+Riccati differential equation
+−P˙ = A(cid:62)P + PA − PBR-1B(cid:62)P + Q , P(T) = F

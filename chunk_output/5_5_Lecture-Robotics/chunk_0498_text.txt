@@ -1,0 +1,13 @@
+(u /L)tanu 
+1 2
+What is B(x ) for the car dynamics?
+t
+b) Concerning the observation likelihood P(y |x ) we assume
+t t
+P(y |x ,θ ) = N(y |C(x )x + c(x ),σ )
+t t 1:N t t t t observation
+What is the matrix C(x ) (the Jacobian of the landmark positions w.r.t. the car state)
+t
+in our example?
+c) Start with the code in RoboticsCourse/06-kalmanSLAM.
+WriteaKalmanfiltertotrackthecar. YoucanusetheroutinegetObservationJacobianAtState

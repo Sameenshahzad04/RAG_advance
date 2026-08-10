@@ -1,0 +1,6 @@
+q = 0 configuration. Read out the collision free path from the tree and display it.
+Why would it be more difficult to grow the tree forward from q = 0 to q∗?
+c) Find a collision free path using bi-directional RRTs (that is, 2 RRTs growing to-
+gether). Use q∗ to root the backward tree and q = 0 to root the forward tree. Stop
+when a newly added node is close to the other tree. Read out the collision free path
+from the tree and display it.

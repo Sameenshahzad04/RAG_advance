@@ -1,0 +1,17 @@
+[Page 119]
+Introduction to Robotics, Marc Toussaint 119
+u = control command (action, steering, velocity) at time t-1
+t-1
+m = the map; formally: a map is the parameters that define P(y |x ,m)
+t t
+• Given the history y and u , we want to compute the belief over the pose
+0:t 0:t-1
+AND THE MAP m at time t
+p (x ,m) := P(x ,m|y ,u )
+t t t 0:t 0:t-1
+• We assume to know the:
+– transition model P(x |u ,x )
+t t-1 t-1
+– observation model P(y |x ,m) (defined by the map)
+t t
+7:34

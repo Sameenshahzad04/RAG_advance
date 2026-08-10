@@ -1,0 +1,10 @@
+[Page 186]
+186 Introduction to Robotics, Marc Toussaint
+You will find an arm with three joints that is swinging freely under gravity (ignor-
+ing collisions).
+a) Apply direct PD control (without using M and F) to each joint separately and try
+to find parameters K and K (potentially different for each joint) to hold the arm
+p d
+steady, i.e., q∗ = 0 and q˙∗ = 0. Bonus: If you are successful, try the same for the arm
+in pegArm2.ors.
+Play with setDynamicsSimulationNoise and check stability.

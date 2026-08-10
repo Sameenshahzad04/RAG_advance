@@ -1,0 +1,22 @@
+8:19
+Example: 1D point mass
+• Dynamics:
+q¨(t) = u(t)/m
+q q˙  q˙  0 1  0 
+x = , x˙ = = = x + u
+ q˙   q¨   u(t)/m   0 0   1/m 
+0 1  0 
+= Ax + Bu , A = , B =
+ 0 0   1/m 
+• Costs:
+c(x,u) = (cid:15)||x||2 + (cid:37)||u||2 , Q = (cid:15)I , R = (cid:37)I
+• Algebraic Riccati equation:
+P =
+a c
+, u∗ = −R-1B(cid:62)Px =
+−1
+[cq + bq˙]
+ c b  (cid:37)m
+0 = A(cid:62)P + PA − PBR-1B(cid:62)P + Q
+c b 0 a 1 c2 bc 1 0
+= + − + (cid:15)

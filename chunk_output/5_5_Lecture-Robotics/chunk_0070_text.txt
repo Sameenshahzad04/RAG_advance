@@ -1,0 +1,14 @@
+A. Discussion of classical concepts
+B. Heuristic motion profiles for simple trajectory generation
+C. Extension to multiple task variables
+2:33
+Discussion of classical concepts
+– Singularity and singularity-robustness
+– Nullspace, task/operational space, joint space
+– “inverse kinematics” ↔ “motion rate control”
+2:34
+Singularity
+• In general: A matrix J singular ⇐⇒ rank(J) < d
+– rows of J are linearly dependent
+– dimension of image is < d
+– δy = Jδq ⇒ dimensions of δy limited

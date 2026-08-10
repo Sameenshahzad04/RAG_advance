@@ -1,0 +1,4 @@
+(9:16) Policy Search with Black-Box Optimization (9:21)
+10 SKIPPED THIS TERM – Grasping (brief intro) 157
+Force Closure (10:5) Form Closure, Caging (10:7) The “mitten thought experiment”
+(10:10) Compliant/soft hands (10:12)

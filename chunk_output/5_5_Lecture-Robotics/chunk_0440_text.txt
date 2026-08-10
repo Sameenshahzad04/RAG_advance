@@ -1,0 +1,10 @@
+[Page 172]
+172 Introduction to Robotics, Marc Toussaint
+11:16
+Models of human bipedal locomotion
+• Human model with 23 DoFs, 54 muscles
+– Compare human walking data with model
+– Model: optimize energy-per-distance
+– Energy estimated based on metabolism and muscle heat rate models
+Anderson & Pandy: Dynamic Optimization of Human Walking. Journal of Biomechanical Engineer-
+ing123:381-390,2001. http://e.guigon.free.fr/rsc/article/AndersonPandy01.pdf

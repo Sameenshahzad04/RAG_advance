@@ -1,0 +1,149 @@
+=== RETRIEVED CHUNKS LOG ===
+Timestamp: 20260810_103922
+Query: what is robotics
+Total Chunks: 14
+============================================================
+
+--- CHUNK 1 ---
+[Page 5]
+Introduction to Robotics, Marc Toussaint 5
+1 Introduction
+Why Robotics?
+1:1
+1:2
+
+--- CHUNK 2 ---
+• Neurosciencesandpsychologyaredescriptivesciences, eitheronthebiological
+or cognitive level, e.g. with geat sucesses to describe and cure certain deceases.
+But they are not sufficient to create intelligent systems.
+• Robotics is the only synthetic discipline to understand intelligent behavior in
+natural worlds. Robotics tells us what the actual problems are when trying to
+
+--- CHUNK 3 ---
+[Page 7]
+Introduction to Robotics, Marc Toussaint 7
+http://people.csail.mit.edu/nikolaus/drg/
+1:5
+Why Robotics?
+• Commercial:
+Industrial, health care, entertainment, agriculture, surgery, etc
+• Critical view:
+– International Committee for Robot Arms Control
+http://icrac.net/
+– Noel Sharkey’s articles on robot ethics (Child care robots PePeRo...)
+http://www.nec.co.jp/products/robot/en/
+1:6
+
+--- CHUNK 4 ---
+– motion needs perception
+– motion needs spatial representations
+• Manipulation requires to acknowledge the structure (geometry, physics, ob-
+jects) of the real world. Classical AI does not
+1:8
+Robotics as intelligence research
+• Machine Learning and AI are computational disciplines, which had great suc-
+cess with statistical modelling, analysis of data sets, symbolic reasoning. But
+they have not solved autonomous learning, acting & reasoning in real worlds.
+
+--- CHUNK 5 ---
+[Page 6]
+6 Introduction to Robotics, Marc Toussaint
+http://www.saintpatrick.org/index.aspx/Health_Services/da_Vinci_Surgery
+1:3
+(robot “wife” aico)
+1:4
+
+--- CHUNK 6 ---
+[Page 13]
+Introduction to Robotics, Marc Toussaint 13
+2 Kinematics
+• Two “types of robotics”:
+1) Mobile robotics – is all about localization & mapping
+2) Manipulation – is all about interacting with the world
+0) Kinematic/Dynamic Motion Control: same as 2) without ever making it to
+interaction..
+• Typical manipulation robots (and animals) are kinematic trees
+Their pose/state is described by all joint angles
+2:1
+Basic motion generation problem
+
+--- CHUNK 7 ---
+[Page 1]
+Introduction to Robotics
+Marc Toussaint
+April 2016
+This is a direct concatenation and reformatting of all lecture slides and exercises from
+the Robotics course (winter term 2014/15, U Stuttgart), including a bullet point list to
+help prepare for exams.
+Contents
+1 Introduction 5
+2 Kinematics 13
+Mobile robotics vs. Manipulation vs. Kinematic/Dynamic motion control (2:1)
+2.1 Basic 3D geometry & notation . . . . . . . . . . . . . . . . . . . . . . . 14
+
+--- CHUNK 8 ---
+[Page 8]
+8 Introduction to Robotics, Marc Toussaint
+Robotics as intelligence research
+AI in the real world
+AI: Machine Learning, probabilistic reasoning, optimization
+Real World: Interaction, manipulation, perception, navigation, etc
+1:7
+Why AI needs to go real world
+Tunicatesdigesttheirbrainoncetheysettled!
+• Motion was the driving force to develop intelligence
+– motion needs control & decision making ↔ fast information processing
+– motion needs anticipation & planning
+– motion needs perception
+
+--- CHUNK 9 ---
+12.13Exercise extra . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 194
+13 Bullet points to help learning 195
+13.1 Kinematics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 195
+13.2 Dynamics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 196
+13.3 Path planning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 196
+13.4 Mobile Robotics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 197
+
+--- CHUNK 10 ---
+[Page 75]
+Introduction to Robotics, Marc Toussaint 75
+
+--- CHUNK 11 ---
+[Page 106]
+106 Introduction to Robotics, Marc Toussaint
+http://stair.stanford.edu/multimedia.php
+STAIR: STanford Artificial Intelligence Robot
+7:4
+Types of Robot Mobility
+
+--- CHUNK 12 ---
+[Page 74]
+74 Introduction to Robotics, Marc Toussaint
+
+--- CHUNK 13 ---
+[Page 10]
+10 Introduction to Robotics, Marc Toussaint
+Last Year’s script
+seehttps://ipvs.informatik.uni-stuttgart.de/mlr/marc/teaching/
+13-Robotics/13-Robotics-script.pdf
+1:12
+Prerequisites
+• Is this a practical or theoretical course?
+“There is nothing more practical than a good theory.”
+(Vapnik, others...)
+• Essentially, the whole course is about
+reducing real-world problems to mathematical problems
+that can be solved efficiently
+• Required: Basics in
+– Linear Algebra
+– Probability theory
+
+--- CHUNK 14 ---
+[Page 143]
+Introduction to Robotics, Marc Toussaint 143
+9 Reinforcement Learning in Robotics – briefly
+RL = Learning to Act
+fromSatinderSingh’sIntroductiontoRL,videolectures.com
+9:1
+(around2000,bySchaal,Atkeson,Vijayakumar)
+

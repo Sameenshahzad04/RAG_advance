@@ -1,0 +1,8 @@
+– Extended KF (assumptions made)
+– Odometry (dead reckoning) as “Bayes filter without observations”
+• SLAM
+– Definition of the SLAM problem
+– In what sense SLAM is a “chicken or egg problem”
+– Joint filtering over x and m: Extended Kalman SLAM
+– Particle-based SLAM (map belief for each particle)
+– Roughly: graph-based SLAM & loop closing

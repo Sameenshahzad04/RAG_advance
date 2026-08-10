@@ -1,0 +1,6 @@
+payment facility
+I accept that exporters and investors need predictable outward payment treatment because the VC
+demonstrated in Round 2 that discretionary approvals reduce capital efficiency and can cause LP capital
+flight within one funding cycle. This moves me from general support for lawful payment facilitation to
+support for an SLA-based, risk-tiered foreign currency retention and outward payment facility.
+I will endorse a phased facility as follows:

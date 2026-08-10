@@ -1,0 +1,12 @@
+ics q¨= f(q,q˙,u)
+3:24
+Some last practical comments
+• [demo]
+• Use energy conservation to measure dynamic of physical simulation
+• Physical simulation engines (developed for games):
+– ODE (Open Dynamics Engine)
+– Bullet (originally focussed on collision only)
+– Physx (Nvidia)
+Differences of these engines to Lagrange, NE or ABD:
+– Game engine can model much more: Contacts, tissues, particles, fog, etc
+– (The way they model contacts looks ok but is somewhat fictional)

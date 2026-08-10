@@ -1,0 +1,12 @@
+[Page 112]
+112 Introduction to Robotics, Marc Toussaint
+7:17
+Again, predictive distributions pˆ (x ) without integrating landmark observations
+t t
+7:18
+The Bayes-filtered distributions p (x ) integrating landmark observations
+t t
+7:19
+Bayesian Filters
+• How to represent the belief p (x ):
+t t

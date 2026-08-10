@@ -1,0 +1,4 @@
+(no gravity, no friction, just a single mass)
+• The state x(t) = (q(t),q˙(t)) is described by:
+– position q(t) ∈ R
+– velocity q˙(t) ∈ R

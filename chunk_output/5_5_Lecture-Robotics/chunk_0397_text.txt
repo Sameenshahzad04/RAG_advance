@@ -1,0 +1,12 @@
+[Page 152]
+152 Introduction to Robotics, Marc Toussaint
+where we can only evaluate f(x) for any x ∈ Rn
+• Aconstrainedversion: Letx ∈ Rn,f : Rn → R,g : Rn → {0,1},find
+min f(x) s.t. g(x) = 1
+x
+wherewecanonlyevaluatef(x)andg(x)foranyx ∈ Rn
+Ihaven’tseenmuchworkonthis. Wouldbeinterestingtoconsiderthismorerigorously.
+9:23
+A zoo of approaches
+• People with many different backgrounds drawn into this
+RangingfromheuristicsandEvolutionaryAlgorithmstoheavymathematics

@@ -1,0 +1,17 @@
+[Page 156]
+156 Introduction to Robotics, Marc Toussaint
+RL under Partial Observability
+• Data:
+D = {(u ,c ,y ) }T
+t t t t t=0
+→ state x not observable
+t
+• Model-based RL is dauting: Learning P(x(cid:48)|u,x) and P(y|u,x) with latent x is
+very hard
+• Model-free: The policy needs to map the history to a new control
+π : (y ,u ) (cid:55)→ u
+t−h,..,t-1 t−h,..,t−1 t
+or any features of the history
+u = φ(y ,u )(cid:62)w
+t t−h,..,t-1 t−h,..,t−1
+9:35

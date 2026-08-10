@@ -1,0 +1,23 @@
+[Page 98]
+98 Introduction to Robotics, Marc Toussaint
+where m =
+(cid:80)n
+[x =k] is the count of [x =k]. The ML estimator is
+k i=1 i i
+1
+argmax logP(D|µ) = (m ,..,m )
+n 1 K
+µ
+• The Multinomial distribution is this distribution over the counts m
+k
+Mult(m ,..,m |n,µ) ∝ (cid:81)K µmk
+1 K k=1 k
+6:18
+Dirichlet
+How to express uncertainty over a Multinomial parameter µ
+• The Dirichlet distribution is over the K-simplex, that is, over µ ,..,µ ∈ [0,1]
+1 K
+subject to the constraint
+(cid:80)K
+µ = 1:
+k=1 k

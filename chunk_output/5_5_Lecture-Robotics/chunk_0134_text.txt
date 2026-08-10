@@ -1,0 +1,5 @@
+f = mv˙ , u = I w˙ + w × Iw
+i i i i
+Algorithms that “propagate” forces through a kinematic tree and numerically compute
+the inverse dynamics u = NE(q,q˙,q¨) or forward dynamics q¨= f(q,q˙,u).
+3:19

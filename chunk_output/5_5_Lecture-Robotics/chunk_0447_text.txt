@@ -1,0 +1,12 @@
+[Page 175]
+Introduction to Robotics, Marc Toussaint 175
+Implausibility of the stiff Compass Gait leg
+Geyer, Seyfarth & Blickhan: Compliant leg behaviour explains basic dynamics of walking and running.
+Proc. Roy. Soc. Lond. B, 273(1603): 2861-2867, 2006. http://www.cs.cmu.edu/˜cga/legs/
+GeyerEA06RoySocBiolSci.pdf
+11:23
+Learning to walk in 20 Minutes
+• Policy Gradient method (Reinforcement Learning)
+(cid:80)
+Stationary policy parameterized as linear in features u = w φ (q,q˙)
+i i i

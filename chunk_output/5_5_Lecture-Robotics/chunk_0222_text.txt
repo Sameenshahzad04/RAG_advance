@@ -1,0 +1,8 @@
+6: qnew ← qnear + (cid:82) t τ =0 q˙(q,u)dt
+7: if qnew ∈ Q free then V ← V ∪{qnew}, E ← E ∪{(qnear,qnew)}
+8: end for
+• Crucial questions:
+• How meassure near in nonholonomic systems?
+• How find controls u to steer towards target?
+4:58
+Configuration state metrics

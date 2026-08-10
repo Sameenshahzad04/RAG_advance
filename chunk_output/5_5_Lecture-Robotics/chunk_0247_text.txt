@@ -1,0 +1,15 @@
+Bernoulli:
+1
+Beta(µ|a,b) = µa−1(1 − µ)b−1
+B(a,b)
+with mean (cid:104)µ(cid:105) = a and mode µ∗ = a−1 for a,b > 1
+a+b a+b−2
+• The crucial point is:
+– Assume we are in a world with a “Bernoulli source” (e.g., binary bandit), but don’t
+know its parameter µ
+– Assume we have a prior distribution P(µ) = Beta(µ|a,b)
+– Assume we collected some data D = {x 1 ,..,x n }, x i ∈ {0,1}, with counts a D =
+(cid:80) (cid:80)
+i x i of [x i =1] and b D = i (1 − x i ) of [x i =0]
+– The posterior is
+P(D|µ)

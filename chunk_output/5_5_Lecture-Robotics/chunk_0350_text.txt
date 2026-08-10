@@ -1,0 +1,18 @@
+[Page 135]
+Introduction to Robotics, Marc Toussaint 135
+• Trajectory Optimization: (control hard constraints could be included)
+T T
+(cid:88) (cid:88)
+min f(q ) = ||Ψ (q ,..,q )||2 + ||Φ (q )||2
+0:T t t-k t t t
+q0:T
+t=0 t=0
+• Reinforcement Learning:
+–MarkovDecisionProcesses↔discretetimestochasticcontrolledsystemP(x |u ,x )
+t+1 t t
+– Bellman equation → Basic RL methods (Q-learning, etc)
+8:23
+8.2 Controllability
+8:24
+Controllability
+• As a starting point, consider the claim:

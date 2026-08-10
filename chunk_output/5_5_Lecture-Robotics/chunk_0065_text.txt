@@ -1,0 +1,14 @@
+[Page 24]
+24 Introduction to Robotics, Marc Toussaint
+“Small step” application
+• This approximate solution to IK makes sense
+– if the local linearization of φ at q 0 is “good”
+– if q 0 and q∗ are close
+• This equation is therefore typically used to iteratively compute small steps in
+configuration space
+q = q + J(cid:93)(y∗ − φ(q ))
+t+1 t t+1 t
+where the target y∗ moves smoothly with t
+t+1
+2:30
+Example: Iterating IK to follow a trajectory

@@ -1,0 +1,10 @@
+2:12
+Composition of transforms
+T = T T T
+W→C W→A A→B B→C
+xW = T T T xC
+W→A A→B B→C
+2:13
+2.2 Kinematics
+2:14
+Kinematics

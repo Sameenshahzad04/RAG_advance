@@ -1,0 +1,12 @@
+gives the necessary torques
+• Forward dynamics: If we know which torques u we apply, use
+q¨∗ = M(q)-1(u − F(q,q˙))
+to simulate the dynamics of the system (e.g., using Runge-Kutta)
+3:29
+Following a reference trajectory in joint space
+• Where could we get the desired q¨∗ from?
+Assume we have a nice smooth reference trajectory qref (generated with some
+0:T
+motion profile or alike), we can at each t read off the desired acceleration as
+1
+q¨ref := [(q − q )/τ − (q − q )/τ] = (q + q − 2q )/τ2

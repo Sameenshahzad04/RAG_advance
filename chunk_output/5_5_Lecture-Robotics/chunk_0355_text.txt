@@ -1,0 +1,11 @@
+...
+x = A3x + A2Bu + ABu˙ + Bu¨
+8:27
+Controllability
+• Whenallrowsofthecontrollabilitymatrixarelinearlyindependent⇒(u,u˙,u¨,...)
+can influence all elements of x independently
+• If a row is zero → this element of x cannot be controlled at all
+• If 2 rows are linearly dependent → these two elements of x will remain coupled
+forever
+8:28
+Controllability examples

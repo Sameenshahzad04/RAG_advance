@@ -1,0 +1,83 @@
+[Page 21]
+Introduction to Robotics, Marc Toussaint 21
+Jacobian for a rotational degree of freedom
+eff
+Consider a variation δq
+i
+axis → the whole sub-tree rotates
+point
+i-th joint δp = [a × (p − p )] δq
+eff i eff i i
+δa = [a × a ] δq
+eff i eff i
+⇒ Position Jacobian:
+
+J
+e
+p
+f
+o
+f,
+s
+v
+(q) =
+
+
+])
+p−
+p(×
+a[
+1
+ffe
+1
+])
+p−
+p(×
+a[
+2
+ffe
+2
+. . .
+])
+p−
+p(×
+a[
+n
+ffe
+n
+
+
+∈ R3×n
+⇒
+J
+e
+V
+v
+f
+e
+f
+e
+,
+c
+v
+c
+(
+t
+q
+o
+)
+r
+=
+Jac
+ 
+
+obian:
+
+]
+a×
+a[
+ffe
+1
+]
+a×
+a[

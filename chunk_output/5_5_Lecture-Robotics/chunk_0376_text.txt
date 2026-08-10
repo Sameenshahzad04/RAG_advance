@@ -1,0 +1,20 @@
+[Page 144]
+144 Introduction to Robotics, Marc Toussaint
+(2007,AndrewNgetal.)
+9:2
+Applications of RL
+• Robotics
+– Navigation, walking, juggling, helicopters, grasping, etc...
+• Games
+– Backgammon, Chess, Othello, Tetris, ...
+• Control
+– factory processes, resource control in multimedia networks, elevators, ....
+• Operations Research
+– Warehousing, transportation, scheduling, ...
+9:3
+Markov Decision Process
+a0 a1 a2
+s0 s1 s2
+r0 r1 r2
+P(s ,a ,r ;π) = P(s )
+(cid:81)T

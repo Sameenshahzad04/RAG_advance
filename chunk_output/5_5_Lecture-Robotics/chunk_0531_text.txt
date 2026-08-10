@@ -1,0 +1,10 @@
+– Definition of problem (esp. assumptions made)
+– Be able to express system dynamics in (locally linearized) standard form
+x˙ = Ax + Bu
+– Fact that the value function is quadratic V (x,t) = x(cid:62)P(t)x
+– Riccati differential equation
+– How P gives the optimal Linear-Quadratic Regulator
+– Algebraic (infinite horizon) Riccati equation
+• Controllability
+– Definition and understanding/interpretation of the controllability matrix C
+– Definition of controllability

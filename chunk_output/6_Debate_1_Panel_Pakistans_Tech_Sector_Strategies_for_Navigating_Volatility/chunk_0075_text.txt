@@ -1,0 +1,4 @@
+• Multi-factor authentication on email, code repositories, cloud consoles, and finance tools.
+• Password manager for all staff.
+• Device policy for company and contractor machines.
+• Access control review every month.

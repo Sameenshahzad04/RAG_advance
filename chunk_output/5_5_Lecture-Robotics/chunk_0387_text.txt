@@ -1,0 +1,14 @@
+other candidates
+max ξ
+w,ξ
+s.t. ∀ : w(cid:62)(cid:104)φ(cid:105) ≥ w(cid:62)(cid:104)φ(cid:105) +ξ
+πi D πi
+(cid:124) (cid:123)(cid:122) (cid:125) (cid:124) (cid:123)(cid:122) (cid:125)
+valueofdemonstrations valueofπi
+||w||2 ≤ 1
+3. Compute a new candidate policy π that optimizes R(x) = w(cid:62)φ(x) and
+i
+add to candidate list.
+(Abbeel&Ng,ICML2004)
+9:13
+9:14

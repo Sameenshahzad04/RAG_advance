@@ -1,0 +1,21 @@
+0:s
+(cid:0)(cid:1)(cid:0)(cid:1)
+(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)(cid:0)(cid:1)
+7:13
+Bayes Filter
+p (x ) := P(x |y ,u )
+t t t 0:t 0:t-1
+= c P(y |x ,y ,u ) P(x |y ,u )
+t t t 0:t-1 0:t-1 t 0:t-1 0:t-1
+= c P(y |x ) P(x |y ,u )
+t t t t 0:t-1 0:t-1
+(cid:90)
+= c P(y |x ) P(x ,x |y ,u ) dx
+t t t t t-1 0:t-1 0:t-1 t-1
+xt-1
+(cid:90)
+= c P(y |x ) P(x |x ,y ,u ) P(x |y ,u ) dx
+t t t t t-1 0:t-1 0:t-1 t-1 0:t-1 0:t-1 t-1
+xt-1
+(cid:90)
+= c P(y |x ) P(x |x ,u ) P(x |y ,u ) dx

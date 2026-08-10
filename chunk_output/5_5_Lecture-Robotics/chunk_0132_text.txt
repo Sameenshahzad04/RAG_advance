@@ -1,0 +1,17 @@
+[Page 42]
+42 Introduction to Robotics, Marc Toussaint
+u ∝ K (q∗ − q)
+p
+– Derivative Control (“Damping”)
+u ∝ K (q˙∗ − q˙) (x˙∗ = 0 → damping)
+d
+– Integral Control (“Steady State Error”)
+u ∝ K (cid:82)t (q∗(s) − q(s)) ds
+i s=0
+3:16
+Controlling a 1D point mass – lessons learnt
+• Proportional and derivative feedback (PD control) are like adding a spring and
+damper to the point mass
+• PD control is a linear control law
+(q,q˙) (cid:55)→ u = K (q∗ − q) + K (q˙∗ − q˙)
+p d

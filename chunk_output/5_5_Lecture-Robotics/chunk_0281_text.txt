@@ -1,0 +1,16 @@
+t-1 t t-1
+• A Bayes filter updates the posterior belief p (x ) in each time step using the:
+t t
+observation model P(y |x )
+t t
+transition model P(x |u ,x )
+t t-1 t-1
+7:14
+Bayes Filter
+(cid:90)
+p (x ) ∝ P(y |x ) P(x |u ,x ) p (x ) dx
+t t t t t t-1 t-1 t-1 t-1 t-1
+(cid:124) (cid:123)(cid:122) (cid:125) xt-1 (cid:124) (cid:123)(cid:122) (cid:125)
+newinformation oldestimate
+(cid:124) (cid:123)(cid:122) (cid:125)
+predictiveestimatepˆt(xt)

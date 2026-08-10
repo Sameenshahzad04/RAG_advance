@@ -1,0 +1,8 @@
+robot is to reward itself it needs to rely on sensor signals only.) I tried
+costs += .1*MT::sqr(y(3)) + 1.*MT::sqr(y(2));
+which combines the wheel encoder y(3) and the gyroscope reading y(2).
+That worked mediocre. For a start, cheat and directly use the state of the
+simulator to compute costs:
+costs += 1.*MT::sqr(R.q(0)) + 10.*MT::sqr(R.q(1));
+• Episodes and duration costs: To compute the cost for a given w you need
+to simulate the racer for a couple of time steps. For the optimization it is

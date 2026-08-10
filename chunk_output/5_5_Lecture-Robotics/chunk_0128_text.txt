@@ -1,0 +1,13 @@
+oscillating with frequency K /m − K2/4m2
+√ p d
+q(t) = q∗ + be−Kd/2m t ei Kp/m−K d 2/4m2 t
+K2 > 4mK ⇒ ω real
+d p
+strongly damped
+K2 = 4mK ⇒ second term zero
+d p
+only exponential decay
+3:12
+1D point mass – derivative feedback
+illustrationfromO.Brock’slecture
+3:13

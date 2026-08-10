@@ -1,0 +1,14 @@
+Jπ = ||θ||2 + (cid:15)||x||2 + ρ||u||2
+0
+• Reference following:
+– You always want to stay close to a reference trajectory r(t)
+Define x˜(t) = x(t) − r(t) with dynamics x˜˙(t) = f(x˜(t) + r(t),u) − r˙(t)
+Define a cost
+(cid:90) ∞
+Jπ = ||x˜||2 + ρ||u||2
+0
+• Many many problems in control can be framed this way
+8:13
+Comments
+• The Bellman equation is fundamental in optimal control theory, but also Rein-
+forcement Learning

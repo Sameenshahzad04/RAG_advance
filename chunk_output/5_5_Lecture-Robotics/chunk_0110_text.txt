@@ -1,0 +1,8 @@
+dimension d = 3
+parameters (none)
+kin. map φcog(q) = (cid:80) mass φpos
+Jacobian Jcog(q) = (cid:80) i mass i J i p c ois
+i i ici
+ci denotesthecenter-of-massoflinki(initsownframe)
+2:61
+Homing

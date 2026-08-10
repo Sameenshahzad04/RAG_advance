@@ -1,0 +1,5 @@
+UNRESOLVED - Optimal balance between 120-day offshore cash shift and maintaining 120-150 day
+PKR OpEx buffer for payroll continuity; requires case-by-case runway modeling per company.
+Business-Only Execution Rules (No Policy Dependency) Dollarize 100% of contracts and move >65%
+cash offshore within 120 days; internal models confirm 28-32% margin preservation. Target LTV/CAC
+>4.5x and CAC payback <8 months pre-Series A or trigger automatic pivot. Reject any plan with >35%

@@ -1,0 +1,15 @@
+[Page 122]
+122 Introduction to Robotics, Marc Toussaint
+• In SLAM the map is uncertain → each particle is weighted with the expected
+likelihood:
+wi = (cid:82) P(y |xi,m) p (m) dm
+t t t t−1
+• In case of landmarks (FastSLAM):
+wi = (cid:82) P(y |xi,θ ,n ) p (θ ) dθ
+t t t nt t t−1 nt nt
+• Data association problem (actually we don’t know n ):
+t
+For each particle separately choose ni = argmax wi(n )
+t nt t t
+7:41
+Particle-based SLAM summary

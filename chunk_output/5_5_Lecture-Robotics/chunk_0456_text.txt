@@ -1,0 +1,7 @@
+tially B and W are identical. Now you move the book 1 unit to the right, then rotate
+it by 45◦ counter-clock-wise around its origin. Given a dot p marked on the book at
+position pB = (1,1) in the book coordinate frame, what are the coordinates pW of
+that dot with respect to the world frame?
+c) Given a point x with coordinates xW = (0,1) in world frame, what are its coor-
+dinates xB in the book frame?
+d) What is the coordinate transformation from world frame to book frame, and from

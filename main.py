@@ -9,6 +9,8 @@ import logging
 from fastapi import FastAPI  # type: ignore
 from fastapi.middleware.cors import CORSMiddleware  # type: ignore
 from backend.router.doc_router import router as doc_router
+from backend.router.chat_router import router as chat_router
+# from backend.router.search_chunk import router as search_router
 from backend.database import engine
 from backend.models.documents import Document
 from backend.database import Base
@@ -37,7 +39,8 @@ app.add_middleware(
 
 # Register all document-related API routes
 app.include_router(doc_router)
-
+app.include_router(chat_router)  
+#app.include_router(search_router)
 
 @app.get("/")
 def root() -> dict[str, str]:

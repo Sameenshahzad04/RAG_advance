@@ -1,0 +1,26 @@
+• One approach is called REINFORCE:
+∂V (β) ∂ (cid:90) (cid:90) ∂
+= P(ξ|β) R(ξ) dξ = P(ξ|β) logP(ξ|β)R(ξ)dξ
+∂β ∂β ∂β
+= E
+ξ|β
+{
+∂
+∂
+β
+logP(ξ|β)R(ξ)} = E
+ξ|β
+{ (cid:88) H γt ∂ log
+∂
+π
+β
+(a t |s t ) (cid:88) H γt(cid:48)−tr t(cid:48)}
+t=0 t(cid:48)=t
+(cid:124) (cid:123)(cid:122) (cid:125)
+Qπ(st,at,t)
+• Another is Natural Policy Gradient
+– Estimate the Q-function as linear in the basis functions ∂ logπ(a|s):
+∂β
+(cid:104)∂ logπ(a|s)(cid:105)(cid:62)
+Q(s,a) ≈ w
+∂β

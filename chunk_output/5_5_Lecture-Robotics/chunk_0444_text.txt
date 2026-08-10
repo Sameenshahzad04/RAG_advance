@@ -1,0 +1,14 @@
+[Page 174]
+174 Introduction to Robotics, Marc Toussaint
+11:20
+Passive walker examples
+compass gait simulation
+controlled on a circle
+passive walker
+• Minimally actuated: Minimal Control on rough terrain
+11:21
+Impact Models in the Compass Gait
+• Switch between two consecutive swing phases: depends on slope!
+• Typical assumptions made in simulation models:
+– The contact of the swing leg with the ground results in no rebound and no slipping of
+the swing leg.

@@ -1,0 +1,8 @@
+10:1
+Pick-and-place in industry
+(This type of kinematics is called “Delta Robot”, which is a “parallel robot” just
+as the Stewart platform.)
+10:2
+Research
+• Using ultra high speed and precise cameras and localization: High speed robot
+hand from the Ishikawa Komuro’s “Sensor Fusion” Lab

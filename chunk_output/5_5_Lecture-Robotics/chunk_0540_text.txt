@@ -1,0 +1,14 @@
+ues (8:36), PolicySearchwithPolicyGradients(9:16),
+Linear-QuadraticOptimalControl(8:15),
+Potential fields (4:13),
+Lyapunovandexponentialstability(8:35), ProbabilisticcompletenessofPRMs(4:34),
+ProbabilisticRoadMaps(PRMs)(4:28),
+Marginal (6:8),
+Markov Decision Process (9:4),
+Probabilitiesas(subjective)information
+Mobile robotics vs. Manipulation vs.
+calculus (6:1),
+Kinematic/Dynamicmotioncon-
+Probability distribution (6:7),
+trol (2:1),
+Motion rate control (2:37), Random variables (6:6),

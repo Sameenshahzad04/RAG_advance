@@ -1,0 +1,11 @@
+[Page 178]
+178 Introduction to Robotics, Marc Toussaint
+12 Exercises
+12.1 Exercise 1
+No need to prepare for this first tutorial. We’ll do the exercises together on the fly.
+12.1.1 Prerequisites: Matrix equations
+a) Let X,A be arbitrary matrices, A invertible. Solve for X:
+XA + A(cid:62)= I
+b) Let X,A,B be arbitrary matrices, (C − 2A(cid:62)) invertible. Solve for X:
+X(cid:62)C = [2A(X + B)](cid:62)
+c) Let x ∈ Rn,y ∈ Rd,A ∈ Rd×n. A obviously not invertible, but let A(cid:62)A be invert-

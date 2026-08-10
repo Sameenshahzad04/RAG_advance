@@ -1,0 +1,18 @@
+[Page 15]
+Introduction to Robotics, Marc Toussaint 15
+p = coordinates of o(cid:48) in world frame (o,e )
+1:3
+x = p + Rx(cid:48)
+2:6
+Briefly: Alternative Rotation Representations
+(See the “geometry notes” for more details!)
+2:7
+Euler angles
+• Describe rotation by consecutive rotation about different axis:
+– 3-1-3 or 3-1-2 conventions, yaw-pitch-roll (3-2-1) in air flight
+– first rotate φ about e 3, then θ about the new e(cid:48)
+1
+, then ψ about the new e(cid:48)
+3
+(cid:48)
+• Gimbal Lock

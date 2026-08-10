@@ -1,0 +1,13 @@
+p d
+q˙∗ is a desired goal velocity
+For simplicity we set q˙∗ = 0 in the following.
+3:10
+1D point mass – derivative feedback
+• What’s the effect of this control law?
+mq¨= u = K (q∗ − q) + K (0 − q˙)
+p d
+• Solution: again assume q(t) = a + beωt
+m b ω2 eωt = K q∗ − K a − K b eωt − K b ωeωt
+p p p d
+(m b ω2 + K b ω + K b) eωt = K (q∗ − a)
+d p p

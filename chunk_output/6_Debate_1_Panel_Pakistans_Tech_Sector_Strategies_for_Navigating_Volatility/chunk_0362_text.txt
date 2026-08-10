@@ -1,0 +1,7 @@
+The first phase should include:
+• Standard export coding for IT and IT-enabled services receipts.
+• A single reconciliation certificate accepted by SBP, FBR, PSEB, and authorised dealer banks.
+• Standard documentation requirements for invoices, contracts, platform receipts, and payment
+gateway receipts.
+• A dispute-escalation channel for exporters facing inconsistent bank or field-formation
+interpretation.

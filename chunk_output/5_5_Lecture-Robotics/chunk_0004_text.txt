@@ -1,0 +1,7 @@
+Euler-Lagrange equation (3:20) Pendulum example for Euler-Lagrange (3:21) Gen-
+eral structure of Euler-Lagrange (3:22) Newton-Euler recursion (3:23)
+3.3 Controlling a dynamic robot . . . . . . . . . . . . . . . . . . . . . . . . 45
+General structure of robot dynamics (3:28) Inverse and forward dynamics (3:29) Fol-
+lowing a reference trajectory in joint space (3:30) Following a reference trajectory in
+task space (3:31) Operational space control (3:32) Multiple tasks (3:35)
+4 Path Planning 50

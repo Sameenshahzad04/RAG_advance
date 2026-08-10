@@ -1,0 +1,11 @@
+[Page 201]
+Introduction to Robotics, Marc Toussaint 201
+Sine motion profile (2:39),
+Singularity (2:35),
+Statically stable walk (11:7),
+Taskspacetrajectoryinterpolation(2:42),
+The ’big’ task vector (2:47),
+The“mittenthoughtexperiment”(10:10),
+Topics in control theory (8:3),
+Value as Lyapunov function (8:43),
+Zero moment point (ZMP) (11:8),

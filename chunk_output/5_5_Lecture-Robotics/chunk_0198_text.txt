@@ -1,0 +1,17 @@
+[Page 72]
+72 Introduction to Robotics, Marc Toussaint
+Then the probability that PRM found the path after n samples is
+2|γ|
+P(PRM-success|n) ≥ 1 −
+e−σ(cid:37)dn
+(cid:37)
+σ = |B1|
+2d|Q |
+free
+(cid:37) = clearance of γ (distance to obstacles)
+(roughly: the exponential term are “volume ratios”)
+• This result is called probabilistic complete (one can achieve any probability with
+high enough n)
+• For a given success probability, n needs to be exponential in d
+4:34
+Other PRM sampling strategies

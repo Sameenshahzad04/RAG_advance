@@ -1,0 +1,5 @@
+government must notify the mechanism, issue bank-facing SOPs, and launch a pilot single
+reconciliation certificate for PSEB-registered exporters through selected authorised dealer banks. What
+remains outstanding is full national API-level integration across SBP reporting, FBR tax systems, PSEB
+registration, and all authorised dealer banks.
+I accept that full end-to-end digital integration within 90 days is not realistic because the VC

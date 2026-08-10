@@ -1,0 +1,12 @@
+[Page 27]
+Introduction to Robotics, Marc Toussaint 27
+Heuristic motion profiles
+• Assume initially x = 0,x˙ = 0. After 1 second you want x = 1,x˙ = 0.
+How do you move from x = 0 to x = 1 in one second?
+The sine profile x = x + 1[1 − cos(πt/T)](x − x ) is a compromise for low
+t 0 2 T 0
+max-acceleration and max-velocity
+Takenfromhttp://www.20sim.com/webhelp/toolboxes/mechatronics_toolbox/motion_
+profile_wizard/motionprofiles.htm
+2:39
+Motion profiles

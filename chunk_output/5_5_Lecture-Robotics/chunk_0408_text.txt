@@ -1,0 +1,14 @@
+9:32
+CMA conclusions
+• It is a good starting point for an off-the-shelf black-box algorithm
+• It includes components like estimating the local gradient (p ,p ), the local
+σ C
+“Hessian” (Var(D(cid:48))), smoothing out local minima (large populations)
+9:33
+Stochastic search conclusions
+Input: initialparameterθ,functionf(x),distributionmodelp θ (x),updateheuristic
+h(θ,D)
+Output: final θ and best point x
+1: repeat
+2: Sample {xi}n i=1 ∼ p θ (x)
+3: Evaluate samples, D = {(xi,f(xi))}n i=1

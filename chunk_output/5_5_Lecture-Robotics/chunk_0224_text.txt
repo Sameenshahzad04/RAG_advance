@@ -1,0 +1,13 @@
+d(r ,d ) = min{|r − r |,|r + r |}
+1 2 1 2 1 2
+where | · | is the Euclidean metric.
+(Recall that r 1 and −r 1 represent exactly the same rotation.)
+• Ideal metric:
+Optimal cost-to-go between two states x and x :
+1 2
+• Use optimal trajectory cost as metric
+• This is as hard to compute as the original problem, of course!!
+→ Approximate, e.g., by neglecting obstacles.
+4:59
+Side story: Dubins curves
+• Dubins car: constant velocity, and steer ϕ ∈ [−Φ,Φ]

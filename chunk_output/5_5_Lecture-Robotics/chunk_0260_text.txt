@@ -1,0 +1,8 @@
+−∞
+[0,1] is the cumulative integral with lim F(y) = 1
+y→∞
+(In discrete domain: probability distribution and probability mass function P(x) ∈ [0,1] are
+used synonymously.)
+• Two basic examples:
+Gaussian: N(x|µ,Σ) = 1 e−1 2 (x−µ)(cid:62)Σ-1 (x−µ)
+|2πΣ|1/2

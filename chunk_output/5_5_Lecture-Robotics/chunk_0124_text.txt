@@ -1,0 +1,21 @@
+m q¨= u = K (q∗ − q)
+p
+q = q(t) is a function of time, this is a second order differential equation
+• Solution: assume q(t) = a + beωt
+(a “non-imaginary” alternative would be q(t) = a + b (cid:15)−λt cos(ωt))
+m b ω2 eωt = K q∗ − K a − K b eωt
+p p p
+(m b ω2 + K b) eωt = K (q∗ − a)
+p p
+⇒ (m b ω2 + K b) = 0 ∧ (q∗ − a) = 0
+p
+(cid:113)
+⇒ ω = i K /m
+p
+√
+q(t) = q∗ + b ei Kp/m t
+This is an oscillation around q∗ with amplitude b = q(0) − q∗ and frequency
+(cid:112)
+K /m!
+p
+3:8

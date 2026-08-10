@@ -1,0 +1,11 @@
+s(cid:48)
+– Having a separate Dirichlet distribution for each (s,a) is a way to represent our
+belief about the world, that is, our belief about P(s(cid:48) |s,a)
+– We can in principle do belief planning using this → Bayesian Reinforcement Learning
+• Dirichlet distributions are also used to model texts (word distributions in text),
+images, or mixture distributions in general
+6:22
+Conjugate priors
+• Assume you have data D = {x ,..,x } with likelihood
+1 n
+P(D|θ)

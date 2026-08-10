@@ -1,0 +1,8 @@
+eff
+Can you define a 1-dimensional task map φ : Rn → R to achieve this? What is its
+Jacobian?
+12.3.2 IK in the simulator
+Downloadthesimulatorcodefromhttp://ipvs.informatik.uni-stuttgart.de/mlr/
+marc/source-code/libRoboticsCourse.14.tgz. (Seelastexerciseforinstructions. The
+libRoboticsCourse.13.msvc.tgz might include a project file for MSVC.) The
+header <src/Ors/roboticsCourse.h> provides a very simple interface to the

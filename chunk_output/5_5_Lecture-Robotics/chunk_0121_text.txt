@@ -1,0 +1,13 @@
+– We can introduce and understand PID control
+– ThebehaviorofapointmassunderPIDcontrolisareferencethatwecanalsofollow
+with arbitrary dynamic robots (if the dynamics are known)
+• We discuss computing the dynamics of general robotic systems
+– Euler-Lagrange equations
+– Euler-Newton method
+• We derive the dynamic equivalent of inverse kinematics:
+– operational space control
+3:4
+3.1 PID and a 1D point mass
+3:5
+The dynamics of a 1D point mass
+• Start with simplest possible example: 1D point mass

@@ -1,0 +1,13 @@
+[Page 45]
+Introduction to Robotics, Marc Toussaint 45
+Numeric algorithms for forward and inverse dynamics
+• Newton-Euler recursion: very fast (O(n)) method to compute inverse dynam-
+ics
+u = NE(q,q˙,q¨∗)
+Notethatwecanusethisalgorithmtoalsocompute
+– gravity terms: u = NE(q,0,0) = G(q)
+– Coriolis terms: u = NE(q,q˙,0) = C(q,q˙) q˙ + G(q)
+– column of Intertia matrix: u = NE(q,0,e i ) = M(q) e i
+• Articulated-Body-Dynamics: fast method (O(n)) to compute forward dynam-
+ics q¨= f(q,q˙,u)
+3:24

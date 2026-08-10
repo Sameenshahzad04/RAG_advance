@@ -1,0 +1,9 @@
+[Page 2]
+2 Introduction to Robotics, Marc Toussaint
+3 Dynamics 36
+Dynamic vs. non-dynamic robots (3:1) Definition of a dynamics equation (3:3)
+3.1 PID and a 1D point mass . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+1D point mass (3:6) P gain (3:7) D gain (3:10) oscillatory-damped, critically damped,
+over-damped (3:13) Damping ration, wave length (3:14) I gain (3:15) PID control
+(3:16)
+3.2 Dynamics of mechanical systems . . . . . . . . . . . . . . . . . . . . . 42

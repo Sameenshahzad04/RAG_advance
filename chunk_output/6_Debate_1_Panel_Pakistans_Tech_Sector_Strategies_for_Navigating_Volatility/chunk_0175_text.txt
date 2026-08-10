@@ -1,0 +1,5 @@
+Justification: The reconciliation certificate is a valuable tool for formalization, but making it a
+sequential gatekeeper would delay the highest-impact reform—payment gateway access—by
+an unacceptable 18-24 months, as argued by both the Founder (Round 3) and the VC (Round
+2). By mandating parallel implementation, we achieve the DG's goal of improved
+documentation without sacrificing the industry's immediate need for transactional efficiency.

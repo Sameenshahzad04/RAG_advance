@@ -1,0 +1,2 @@
+per using our arr), which you may use. In that case, add cmaes.o and
+search_CMA.o in the Makefile. The typical loop for optimization is

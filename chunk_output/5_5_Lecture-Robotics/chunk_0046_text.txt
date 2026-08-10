@@ -1,0 +1,13 @@
+2:10
+Homogeneous transformations
+• xA = coordinates of a point in frame A
+xB = coordinates of a point in frame B
+• Translation and rotation: xA = t + RxB
+• Homogeneous transform T ∈ R4×4:
+R t
+T =
+A→B  0 1 
+xA = T xB = R t xB = RxB + t
+A→B  0 1    1     1  
+in homogeneous coordinates, we append a 1 to all coordinate vectors
+2:11

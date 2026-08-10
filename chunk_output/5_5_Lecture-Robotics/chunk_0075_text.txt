@@ -1,0 +1,5 @@
+effectively controls the endeffector velocity—this is why it is called motion rate
+control.
+2:37
+Heuristic motion profiles
+2:38

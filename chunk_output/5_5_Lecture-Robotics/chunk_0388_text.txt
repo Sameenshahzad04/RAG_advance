@@ -1,0 +1,22 @@
+[Page 149]
+Introduction to Robotics, Marc Toussaint 149
+Policy Search with Policy Gradients
+9:15
+Policy gradients
+• In continuous state/action case, represent the policy as linear in arbitrary state
+features:
+k
+(cid:88)
+π(s) = φ (s)β = φ(s)(cid:62)β (deterministic)
+j j
+j=1
+π(a|s) = N(a|φ(s)(cid:62)β,φ(s)(cid:62)Σφ(s)) (stochastic)
+with k features φ .
+j
+• Given an episode ξ = (s ,a ,r )H , we want to estimate
+t t t t=0
+∂V (β)
+∂β
+9:16
+Policy Gradients
+• One approach is called REINFORCE:

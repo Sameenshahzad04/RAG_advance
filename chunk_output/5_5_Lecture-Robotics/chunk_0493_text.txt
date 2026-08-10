@@ -1,0 +1,11 @@
+(cid:90)
+N(x|a + Fy,A) N(y |b,B) dy = N(x|a + Fb,A + FBF(cid:62)) (6)
+y
+Prove the equation.
+12.9 Exercise 9
+12.9.1 Particle Filtering the location of a car
+Start from the code in RoboticsCourse/05-car.
+The CarSimulator simulates a car exactly as described on slide 04:48 (using Eu-
+ler integration with step size 1sec). At each time step a control signal u = (v,φ)
+moves the car a bit and Gaussian noise with standard deviation σ = .03 is
+dynamics

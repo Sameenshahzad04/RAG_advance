@@ -1,0 +1,7 @@
+[Table - Page 32]
+| Positionofsomepointattachedtolinki |  |
+| --- | --- |
+| dimension | d=3 |
+| parameters | linkindexi,pointoffsetv |
+| kin.map | φpos(q)=T v iv W→i |
+| Jacobian | Jpos(q) =[k ≺i]a ×(φpos(q)−p ) iv ·k k iv k |

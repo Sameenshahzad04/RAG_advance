@@ -1,0 +1,6 @@
+that ignores the observations. For this you need to use the cars system dynamics
+(described on 04:48) to propagate each particle, and add some noise σ to
+dynamics
+each particle (step 3 on slide 07:22). Draw the particles (their x,y component) into
+the display. Expected is that the particle cloud becomes larger and larger.
+b)Nextimplementthelikelihoodweightsw i ∝ P(y t |xi t ) = N(y t |y(xi t ),σ) ∝ e− 2 1(yt−y(xi t ))2/σ2

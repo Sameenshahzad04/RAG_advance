@@ -1,0 +1,13 @@
+2:30
+Example: Iterating IK to follow a trajectory
+• Assume initial posture q . We want to reach a desired endeff position y∗ in T
+0
+steps:
+Input: initial state q0, desired y∗, methods φpos and Jpos
+Output: trajectory q0:T
+1: Set y0 = φpos(q0) // starting endeff position
+2: for t = 1 : T do
+3: y ← φpos(qt-1) // current endeff position
+4: J ← Jpos(qt-1) // current endeff Jacobian
+5: yˆ ← y0 +(t/T)(y∗ −y0) // interpolated endeff target
+6: qt = qt-1 +J(cid:93)(yˆ−y) // new joint positions

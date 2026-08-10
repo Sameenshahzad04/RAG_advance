@@ -1,0 +1,7 @@
+Rapidly Exploring Random Trees (RRTs) (4:39) Goal-oriented RRT (4:40) Bi-
+directional RRT (4:42)
+4.3 Non-holonomic systems . . . . . . . . . . . . . . . . . . . . . . . . . . 81
+Definition of non-holonomic (4:47) Path finding for a non-holonomic system (4:50)
+Control-based sampling (4:52) RRTs with differential constraints (4:58) Configura-
+tion state metrics (4:59) Side story: Dubins curves (4:60)
+5 Path Optimization – briefly 90

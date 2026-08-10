@@ -1,0 +1,11 @@
+[Page 47]
+Introduction to Robotics, Marc Toussaint 47
+However, tiny errors in acceleration will accumulate greatly over time! This is
+Instable!!
+• Choose a desired acceleration q¨∗ that implies a PD-like behavior around the refer-
+t
+ence trajectory!
+q¨∗ = q¨ref + K (qref − q ) + K (q˙ref − q˙ )
+t t p t t d t t
+This is a standard and very convenient heuristic to track a reference trajectory when the
+robot dynamics are known: All joints will exactly behave like a 1D point particle around the

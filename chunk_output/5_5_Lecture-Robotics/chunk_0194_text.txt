@@ -1,0 +1,10 @@
+[Page 69]
+Introduction to Robotics, Marc Toussaint 69
+Probabilistic Road Maps
+[Kavraki, Svetska, Latombe,Overmars, 95]
+q ∈ Rn describes configuration
+Q is the set of configurations without collision
+free
+4:28
+Probabilistic Road Maps
+[Kavraki, Svetska, Latombe,Overmars, 95]

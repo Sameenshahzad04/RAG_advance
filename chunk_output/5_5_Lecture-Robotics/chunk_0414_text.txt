@@ -1,0 +1,6 @@
+Daniela Rus and Seth Teller’s lecture: Grasping and Manipulation
+courses.csail.mit.edu/6.141/spring2011/pub/lectures/Lec13-Manipulation-I.
+pdf
+10:4
+Force Closure
+• Which of these objects is in “tight grip”?

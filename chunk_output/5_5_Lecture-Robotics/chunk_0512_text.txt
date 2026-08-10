@@ -1,0 +1,9 @@
+email.
+Simulate the optimal LQR and test it for various noise levels.
+12.12 Exercise 13
+On Wed. 29th we meet as usual for the exercise.
+On Tue. 28th, 14:00 my office, interested students are invited to try whatever they
+like on the racer hardware, play around, etc.
+12.12.1 Policy Search for the Racer
+We consider again the simulation of the racer as given in 09-racer in your code
+repo.

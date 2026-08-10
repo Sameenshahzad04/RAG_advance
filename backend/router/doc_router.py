@@ -9,7 +9,7 @@
 #   DELETE /api/documents/{id}       → Delete a document
 # =============================================================
 
-from fastapi import APIRouter, Depends, UploadFile, File, HTTPException  # type: ignore
+from fastapi import APIRouter, Depends, UploadFile, File, HTTPException, BackgroundTasks  # type: ignore
 from sqlalchemy.orm import Session  # type: ignore
 from typing import List, Any, Dict
 
@@ -35,9 +35,9 @@ router = APIRouter(prefix="/api/documents", tags=["Documents"])
 # ----- UPLOAD -----
 @router.post("/upload", response_model=UploadResult)
 async def upload_document(
+    background_tasks: BackgroundTasks,
     file: UploadFile = File(...),
     db: Session = Depends(get_db),
-    background_tasks: BackgroundTasks = None
 ) -> UploadResult:
     """
     Upload a PDF, DOCX, or TXT file.

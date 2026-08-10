@@ -1,0 +1,8 @@
+[Page 169]
+Introduction to Robotics, Marc Toussaint 169
+Walking research from Marey 1874:
+11:15
+Six determinants of gait
+following Saunders, Inman & Eberhart (1953)
+1. Compass Gait:
+2. Pelvic Rotation:

@@ -1,0 +1,9 @@
+x˙ = Ax + Bu
+How can we tell from the matrices A and B whether we can control x to eventually
+reach any desired state?
+• Example: x is 2-dim, u is 1-dim:
+x˙  0 0x  1
+1 = 1 + u
+ x˙    0 0   x    0 
+2 2
+Is x “controllable”?

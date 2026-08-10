@@ -1,0 +1,14 @@
+[Page 102]
+102 Introduction to Robotics, Marc Toussaint
+MoreGaussianidentities: seehttp://ipvs.informatik.uni-stuttgart.de/mlr/marc/
+notes/gaussians.pdf
+6:28
+Motivation for Gaussian distributions
+• Gaussian Bandits
+• Control theory, Stochastic Optimal Control
+• State estimation, sensor processing, Gaussian filtering (Kalman filtering)
+• Machine Learning
+• etc
+6:29
+Particle Approximation of a Distribution
+• We approximate a distribution p(x) over a continuous domain Rn

@@ -1,0 +1,8 @@
+oscillatory behavior for high K and damped behavior for high K . Slide 03:15
+p d
+replaces the parameters K ,K by two other, more intuitive parameters, λ and ξ:
+p d
+λ roughly denotes the time (or time steps) until the goal is reached, and ξ whether
+it is reached agressively (ξ > 1, which overshoots a bit) or by exponential decay
+(ξ ≤ 1). Use this to solve the following exercise.
+12.5.1 PD force control on a 1D mass point

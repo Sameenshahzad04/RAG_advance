@@ -1,0 +1,8 @@
+• Target CAC payback under 9 months and LTV/CAC >4x before Series A; anything below triggers
+automatic pivot review.
+Capital Efficiency Rules
+Anchor all projections to 2023 benchmark where 60% of Pakistani SaaS firms saw 40%+ ARR erosion
+from FX (P@SHA survey, self-reported). Diversify to two verticals minimum; single-client concentration
+above 35% voids our follow-on checks.
+Exit Path Realism
+Focus on US/EU acquirers only. Local M&A market cleared under $50M total in 2023 (unverified

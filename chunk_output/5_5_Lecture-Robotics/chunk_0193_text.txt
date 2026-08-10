@@ -1,0 +1,7 @@
+• Produces optimal (shortest) paths
+• Applying this to continuous domains requires discretization
+– Grid-like discretization in high-dimensions is daunting! (curse of dimensionality)
+– What are other ways to “discretize” space more efficiently?
+4:26
+4.2 Sample-based Path Finding
+4:27

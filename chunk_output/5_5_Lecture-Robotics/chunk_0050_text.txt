@@ -1,0 +1,45 @@
+1 0 0 0
+T
+A→A(cid:48)
+(q) =
+
+0
+0 c
+s
+o
+in
+s
+(
+(
+q
+q
+)
+) −
+co
+si
+s
+n
+(q
+(q
+)
+) 0
+0
+
+0 0 0 1
+prismatic joint: offset q ∈ R determines translation along x-axis:
+1 0 0 q
+T
+A→A(cid:48)
+(q) =
+ 0
+0
+1
+0
+0
+1
+0
+0
+
+0 0 0 1
+others: screw (1dof), cylindrical (2dof), spherical (3dof), universal (2dof)
+2:16

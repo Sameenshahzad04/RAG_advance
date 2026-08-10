@@ -1,0 +1,5 @@
+activations, torque/voltage/current send to a robot’s motors)
+– But these controls only indirectly influence the dynamics of state
+x = f(x , u )
+t+1 t t
+3:2

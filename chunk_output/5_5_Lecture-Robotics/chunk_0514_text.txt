@@ -1,0 +1,10 @@
+(cid:16) (cid:17)
+y ,y˙ ,(cid:104)y(cid:105) ,(cid:104)y˙(cid:105) ,(cid:104)y(cid:105) ,(cid:104)y˙(cid:105) ,u ,u
+t t 0.5 0.5 0.9 0.9 t t−1
+However, I noticed that a balancing policy can also be found for the direct
+sensor signals only, that is:
+φ(y) = (1,y) ∈ R5
+(the augmentation by 1 is definitly necessary).
+• Cost function: Realistically, the running costs c would have to be defined on
+t
+the sensor signals only. (On the real robot we don’t know the real state – if the

@@ -1,0 +1,5 @@
+demonstrated in Round 2 that SBP circular issuance alone can take 120-180 days and inter-agency
+digital reconciliation can require 18-24 months, while the SaaS founder demonstrated in Round 2 that
+government procurement and legacy systems make a fully integrated three-agency platform within 90
+days implausible. This moves me from a 90-day full-mechanism expectation to a 90-day notified pilot
+with manual/digital hybrid issuance, followed by 18-24 month national integration.

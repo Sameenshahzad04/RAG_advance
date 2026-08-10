@@ -1,0 +1,9 @@
+Theorem (Mishra, Schwartz, and Sharir, 1987):
+For any surface not a surface of revolution, [the above method] yields a grasp with at
+most 6 fingers in the plane, at most 12 fingers in three space.
+10:8
+Traditional research into force closure
+• Force closure turn into a continuous optimization criterion:
+– Constrain the absolute forces each finger can apply
+(cut the friction cones)
+– The friction cones define a finite convex polygon in 6D wrench space

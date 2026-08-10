@@ -1,0 +1,24 @@
+[Page 145]
+Introduction to Robotics, Marc Toussaint 145
+• We have costs (neg-rewards), e.g. in the finite horizon case:
+(cid:90) T
+Jπ = c(x(t),u(t)) dt + φ(x(T))
+0
+• We want a policy (“controller”)
+π : (x,t) (cid:55)→ u
+9:5
+Reinforcement Learning = the dynamics f and costs c are unknown
+• All the agent can do is collect data
+D = {(x ,u ,c )}T
+t t t t=0
+What can we do with this data?
+9:6
+Five approaches to RL
+desab−ledoM
+eerf−ledoM
+hcraeS
+yciloP
+gninraeL
+noitatimI
+CO
+esrevnI

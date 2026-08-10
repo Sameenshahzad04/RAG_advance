@@ -1,0 +1,7 @@
+and client data segregation.
+• Prepare business continuity plans covering connectivity, electricity, staffing, and data recovery.
+• Pursue international certifications where commercially justified, but avoid certification without
+operational substance.
+• Treat data protection as a market access requirement, not only a legal obligation.
+Policy recommendations:
+• Pakistan should finalise and implement a balanced data protection framework after consultation

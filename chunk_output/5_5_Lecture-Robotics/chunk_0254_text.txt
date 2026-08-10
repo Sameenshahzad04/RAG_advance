@@ -1,0 +1,14 @@
+[Page 99]
+Introduction to Robotics, Marc Toussaint 99
+– With the Dirichlet distribution we can represent beliefs (state of knowledge) about
+uncertainµofanintegerrandomvariableandknowhowtoupdatethisbeliefgiven
+data
+6:20
+Dirichlet
+Illustrations for α = (0.1,0.1,0.1), α = (1,1,1) and α = (10,10,10):
+fromBishop
+6:21
+Motivation for Beta & Dirichlet distributions
+• Bandits:
+– If we have binary [integer] bandits, the Beta [Dirichlet] distribution is a way to
+represent and update beliefs
