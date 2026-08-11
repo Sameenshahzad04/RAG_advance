@@ -2,7 +2,8 @@
 # backend/router/chat_router.py — FastAPI Chat Endpoints
 # ============================================================
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException,Request, Response
+from fastapi.responses import JSONResponse
 import logging
 from typing import List, Dict, Any, Optional
 
@@ -14,6 +15,47 @@ logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/chat", tags=["Chat"])
 
 
+
+# Register route supporting both QUERY (RFC 10008) and POST fallback
+@router.api_route("/", methods=["QUERY", "POST"])
+async def chat_endpoint(request: Request) -> JSONResponse:
+    """
+    Chat endpoint using RFC 10008 HTTP QUERY method with request body support.
+    """
+    try:
+        body = await request.json()
+        
+        # Parse fields matching your ChatRequest schema logic
+        message = body.get("message")
+        top_k = body.get("top_k", 20)
+        doc_id = body.get("doc_id")
+        conversation_history = body.get("conversation_history", [])
+
+        if not message:
+            raise HTTPException(status_code=400, detail="Message field is required.")
+
+        logger.info(f"💬 Chat request received via method: {request.method}")
+        logger.info(f"   Query: {message[:50]}...")
+        
+        result = rag_retrieval(
+            query=message,
+            top_k=top_k,
+            doc_id=doc_id,
+            conversation_history=conversation_history
+        )
+        
+        logger.info(f"✅ Chat response generated. Chunks used: {result['count']}")
+        
+        return JSONResponse({
+            "answer": result["answer"],
+            "query": result["query"],
+            "count": result["count"],
+            "saved_file": result.get("saved_file")
+        })
+        
+    except Exception as e:
+        logger.error(f"❌ Chat error: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=str(e))
 @router.post("/", response_model=ChatResponse)
 def chat(request: ChatRequest) -> ChatResponse:
     """

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAG Knowledge Base</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h2>⚡ RAG Knowledge Base</h2>
+            <div class="nav-buttons">
+                <button id="navDashboard" class="primary" type="button">🗂️ Data Ingestion Dashboard</button>
+                <button id="navChat" type="button">💬 Knowledge Base Chatbot</button>
+            </div>
+        </header>
+
+        <!-- ================= DASHBOARD VIEW ================= -->
+        <section id="dashboardView" class="view active">
+
+            <div class="card">
+                <h3 style="margin-bottom:12px;">📤 Upload New Document</h3>
+                <div class="upload-row">
+                    <label class="file-picker" for="fileInput">
+                        <span id="fileNameLabel">Choose a document (PDF, DOCX, TXT)</span>
+                    </label>
+                    <input id="fileInput" type="file" accept=".pdf,.docx,.txt" hidden />
+                    <button id="uploadBtn" class="primary" type="button">Upload File</button>
+                </div>
+                <p id="uploadStatus" class="context-info" style="margin-top:8px;"></p>
+            </div>
+
+            <h3 style="margin:20px 0 12px;">🗂️ Managed Documents</h3>
+            <div id="documentGrid" class="document-grid"></div>
+            <p id="dashboardEmpty" class="context-info" style="display:none;">
+                No documents uploaded yet. Upload a file above to get started.
+            </p>
+
+        </section>
+
+        <!-- ================= DETAIL VIEW ================= -->
+        <section id="detailView" class="view">
+            <button id="backToDashboard" type="button">⬅️ Back to Dashboard</button>
+
+            <div class="card" style="margin-top:16px;">
+                <h3 id="detailFilename">📄 Detail View</h3>
+
+                <div class="chat-controls-card" style="margin-top:16px;">
+                    <div class="control-group flex-2">
+                        <span class="control-label">Document Status</span>
+                        <div id="detailStatusBox" class="status-box ready">—</div>
+                    </div>
+                    <div class="control-group flex-1">
+                        <span class="control-label">Actions</span>
+                        <button id="embedBtn" class="primary" type="button">🚀 Extract &amp; Embed in ChromaDB</button>
+                        <p id="embedStatus" class="context-info" style="margin-top:6px;"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CHAT VIEW ================= -->
+        <section id="chatView" class="view">
+
+            <div class="card chat-controls-card">
+                <div class="control-group flex-2">
+                    <span class="control-label">Document Context</span>
+                    <select id="docSelect"></select>
+                </div>
+                <div class="control-group flex-1">
+                    <span class="control-label">Top-K Chunks: <span id="topKValue">20</span></span>
+                    <input id="topKSlider" type="range" min="1" max="30" value="20" />
+                </div>
+                <div class="control-group">
+                    <span class="control-label">&nbsp;</span>
+                    <button id="clearChatBtn" type="button">🧹 Clear Chat</button>
+                </div>
+            </div>
+
+            <div class="card chat-main-card" style="margin-top:16px;">
+                <div id="chatMessages" class="chat-messages-box"></div>
+
+                <!-- No <form> wrapper — nothing here can trigger a native page
+             navigation/reload. Send is handled entirely by JS. -->
+                <div class="chat-input-row">
+                    <input id="chatInput" type="text" placeholder="Ask about your documents..." autocomplete="off" />
+                    <button id="sendBtn" class="primary" type="button">Send</button>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+
+</html>

@@ -239,6 +239,8 @@ def call_llm(
                 answer = str(res_data)
                 
             logger.info("✅ Got answer")
+
+            logger.info(answer)
             return answer
         else:
             logger.error(f"❌ API error: {response.text}")
